@@ -15,7 +15,7 @@
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- swiper css -->
-    <link rel="stylesheet" href="assets/plugins/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/plugins/swiper/css/swiper.min.css" />
 
     <!-- style css -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
@@ -27,12 +27,18 @@
 <body id="admin">
     <!-- start header -->
     <nav class="navbar fmb-navbar fixed-top">
-        <a class="fmb-navbar-brand" href="index.html"><img src="assets/imgs/logo-twm.png" class="img-fluid" /></a> <a href="#" class="fmb-sidebar-toggle" id=""><i class="fas fa-bars"></i></a>
+        <a class="fmb-navbar-brand" href="index.html"><img src="assets/imgs/logo-twm.png" class="img-fluid" /></a>
+        <a href="#" class="fmb-sidebar-toggle" id=""><i class="fas fa-bars"></i
+      ></a>
         <!-- start profile -->
         <div class="profile">
             <div class="d-none d-md-block">
-                <h6 class="text-secondary text-uppercase font-bold text-right">Mathew Borris</h6>
-                <div class="d-block text-xs text-grey-light font-regular">Last login: 2 hours ago</div>
+                <h6 class="text-secondary text-uppercase font-bold text-right">
+                    Mathew Borris
+                </h6>
+                <div class="d-block text-xs text-grey-light font-regular">
+                    Last login: 2 hours ago
+                </div>
             </div>
             <div>
                 <a href="#" class="ml-0 ml-sm-3"><img src="assets/imgs/img-volunteer1.jpg" class="img-profile" /></a>
@@ -51,741 +57,537 @@
                     <nav class="navbar fmb-side-navbar mb60">
                         <ul class="navbar-nav fmb-navbar-nav">
                             <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link active" href="index.html"><img src="assets/imgs/icon-donors.svg" / class="svg icon">Dashboard</a>
+                                <a class="nav-link fmb-nav-link active" href="index.html"><img src="assets/imgs/icon-donors.svg" / class="svg
+                    icon">Dashboard</a>
                             </li>
                             <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="donors.html"><img src="assets/imgs/icon-users.svg" / class="svg icon">Users</a>
+                                <a class="nav-link fmb-nav-link" href="#"><img src="assets/imgs/icon-users.svg" / class="svg
+                    icon">Users</a>
                             </li>
                             <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="blood-drives.html"><img src="assets/imgs/icon-blood-drives.svg" / class="svg icon">Bookings</a>
+                                <a class="nav-link fmb-nav-link" href="#"><img src="assets/imgs/icon-bookings.svg" / class="svg
+                    icon">Bookings</a>
                             </li>
                             <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="blood-drives.html"><img src="assets/imgs/icon-email.svg" / class="svg icon">Messages</a>
+                                <a class="nav-link fmb-nav-link" href="#"><img src="assets/imgs/icon-email.svg" / class="svg
+                    icon">Messages</a>
                             </li>
 
-
-                            <li class="nav-item fmb-nav-item"> <a class="nav-link fmb-nav-link" href="login.html"><i class="fas fa-sign-out-alt icon"></i>Logout</a> </li>
-                        </ul>
-                    </nav>
-                    <!-- end sidebar nav -->
-
+                            <li class="nav-item fmb-nav-item">
+                                <a class="nav-link fmb-nav-link" href="login.html"><i class="fas fa-sign-out-alt icon"></i>Logout</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <!-- end sidebar nav -->
+          </div>
+        </div>
+      </div>
+      <!-- end sidebar -->
+      <!-- start main -->
+      <div id="main">
+        <!-- start breadcrumb -->
+        <ul class="breadcrumb fmb-breadcrumb">
+          <li class="breadcrumb-item fmb-breadcrumb-item">You Are Here</li>
+          <li class="breadcrumb-item fmb-breadcrumb-item active">Dashboard</li>
+        </ul>
+        <!-- end breadcrumb -->
+        <!-- start main content -->
+        <div class="main-content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-8 col-xl-9">
+                <h6 class="fmb-h6 font-medium mb10 d-none d-md-block">Users</h6>
+                <div class="row mb40">
+                  <div class="col-xl-8 mb30-lg">
+                    <h6 class="fmb-h6 font-medium mb10 d-block d-md-none">
+                      Users
+                    </h6>
+                    <!-- start widget users  -->
+                    <div class="row">
+                      <div class="col-md-6 mb30-sm">
+                        <div class="card fmb-card w-users text-center">
+                          <a href="#">
+                            <div class="card-body fmb-card-body">
+                              <div class="mb10">
+                                <img
+                                  src="assets/imgs/icon-bookings-big.svg"
+                                  class="svg icon"
+                                />
+                              </div>
+                              <h6 class="fmb-h6 font-medium text-center">
+                                New Bookings
+                              </h6>
+                            </div>
+                            <div class="card-footer fmb-card-footer">
+                              <div>Current Bookings: 35</div>
+                              <div>New: 10</div>
+                            </div>
+                          </a>
+                </div>
+            </div>
+            <div class="col-md-6 mb30-sm">
+                <div class="card fmb-card w-users text-center">
+                    <a href="#">
+                        <div class="card-body fmb-card-body">
+                            <div class="mb10">
+                                <img src="assets/imgs/icon-user-big.svg" class="svg icon" />
+                            </div>
+                            <h6 class="fmb-h6 font-medium text-center">
+                                SignUps
+                            </h6>
+                        </div>
+                        <div class="card-footer fmb-card-footer">
+                            <div>Total Users: 35</div>
+                            <div>New: 8</div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-        <!-- end sidebar -->
-        <!-- start main -->
-        <div id="main">
-            <!-- start breadcrumb -->
-            <ul class="breadcrumb fmb-breadcrumb">
-                <li class="breadcrumb-item fmb-breadcrumb-item">You Are Here</li>
-                <li class="breadcrumb-item fmb-breadcrumb-item active">Dashboard</li>
-            </ul>
-            <!-- end breadcrumb -->
-            <!-- start main content -->
-            <div class="main-content">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8 col-xl-9">
-                            <h6 class="fmb-h6 font-medium mb10 d-none d-md-block">Users</h6>
-                            <div class="row mb40">
-                                <div class="col-xl-8 mb30-lg">
-                                    <h6 class="fmb-h6 font-medium mb10 d-block d-md-none">Users</h6>
-                                    <!-- start widget users  -->
-                                    <div class="row">
-                                        <div class="col-md-4 mb30-sm">
-                                            <div class="card fmb-card w-users text-center">
-                                                <a href="hospitals.html">
-                                                    <div class="card-body fmb-card-body">
-                                                        <div class="mb10"><img src="assets/imgs/icon-hospital.svg" class="svg icon" /></div>
-                                                        <h6 class="fmb-h6 font-medium text-center">Hospitals</h6>
-                                                    </div>
-                                                    <div class="card-footer fmb-card-footer">
-                                                        <div>Total Users: 35</div>
-                                                        <div>New: 8</div>
-                                                    </div>
-                                                </a>
-                                            </div>
+        <!-- end widget users  -->
+    </div>
+    <div class="col-xl-4 order-first order-md-last mb30-sm">
+        <!-- start widget welcome  -->
+        <div class="card fmb-card w-welcome">
+            <div class="fmb-card-body fmb-card-body text-white">
+                <h4 class="fmb-h4 font-medium text-white mb20">
+                    Welcome Admin!
+                </h4>
+                <div class="font-medium">
+                    New since your last login.
+                </div>
+                <hr />
+                <div class="row text-center">
+                    <div class="col-4">
+                        <a href="#">
+                            <div class="text-xs">SignUps</div>
+                            <h4 class="fmb-h4 text-white">12</h4>
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="#">
+                            <div class="text-xs">Bookings</div>
+                            <h4 class="fmb-h4 text-white">10</h4>
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="#">
+                            <div class="text-xs">Messages</div>
+                            <h4 class="fmb-h4 text-white">29</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end widget welcome  -->
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-auto mb30-lg">
+            <!-- start registrations -->
+            <div class="w-registrations">
+                <!-- start swiper -->
+                <div class="swiper-container swiper-registrations">
+                    <h6 class="fmb-h6 font-medium mb10">
+                        New SignUps<span class="badge fmb-badge ml-1">8</span>
+                    </h6>
+                    <!-- swiper controls -->
+                    <div class="swiper-controls">
+                        <div class="swiper-button-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-wrapper">
+                        <!-- start slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="card fmb-card mb10">
+                                <div class="card-header fmb-card-header d-block d-sm-flex">
+                                    <div class="mb10-sm">
+                                        <img src="assets/imgs/icon-user-big.svg" class="svg icon-sm mr-3" />
+                                    </div>
+                                    <div class="mb10-sm">
+                                        <div class="font-medium text-uppercase">
+                                            <a href="#" class="text-grey">John Doe</a>
                                         </div>
-                                        <div class="col-md-4 mb30-sm">
-                                            <div class="card fmb-card w-users text-center">
-                                                <a href="ngos.html">
-                                                    <div class="card-body fmb-card-body">
-                                                        <div class="mb10"><img src="assets/imgs/icon-ngo.svg" class="svg icon" /></div>
-                                                        <h6 class="fmb-h6 font-medium text-center">NGOs</h6>
-                                                    </div>
-                                                    <div class="card-footer fmb-card-footer">
-                                                        <div>Total Users: 35</div>
-                                                        <div>New: 8</div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <a href="#">
-                                                <div class="card fmb-card w-users text-center">
-                                                    <a href="volunteers.html">
-                                                        <div class="card-body fmb-card-body">
-                                                            <div class="mb10"><img src="assets/imgs/icon-volunteer.svg" class="svg icon" /></div>
-                                                            <h6 class="fmb-h6 font-medium text-center">Volunteers</h6>
-                                                        </div>
-                                                        <div class="card-footer fmb-card-footer">
-                                                            <div>Total Users: 35</div>
-                                                            <div>New: 8</div>
-                                                        </div>
-                                                    </a>
-                                                </div>
+                                        <div class="text-grey-light">
+                                            Registered on: 18-2-2021
                                         </div>
                                     </div>
-                                    <!-- end widget users  -->
+                                    <div class="custom-control custom-switch fmb-custom-control fmb-custom-switch ml-auto">
+                                        <input type="checkbox" class="custom-control-input fmb-custom-control-input" id="customSwitch1" />
+                                        <label class="custom-control-label fmb-custom-control-label" for="customSwitch1"></label>
+                                    </div>
                                 </div>
-                                <div class="col-xl-4 order-first order-md-last mb30-sm">
-                                    <!-- start widget welcome  -->
-                                    <div class="card fmb-card w-welcome">
-                                        <div class="fmb-card-body fmb-card-body text-white">
-                                            <h4 class="fmb-h4 font-medium text-white mb20">Welcome Admin!</h4>
-                                            <div class="font-medium">New since your last login.</div>
-                                            <hr>
-                                            <div class="row text-center">
-                                                <div class="col-4">
-                                                    <a href="notifications.html">
-                                                        <div class="text-xs">Notifications</div>
-                                                        <h4 class="fmb-h4 text-white">12</h4>
-                                                    </a>
+                                <div class="card-body fmb-card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
+                                            <div class="mb20">
+                                                <h6 class="fmb-h6 text-secondary font-medium mb20">
+                                                    User Details
+                                                </h6>
+                                                <div class="font-medium text-uppercase">
+                                                    Name
                                                 </div>
-                                                <div class="col-4">
-                                                    <a href="blood-drives.html">
-                                                        <div class="text-xs">Blood Drives</div>
-                                                        <h4 class="fmb-h4 text-white">10</h4>
-                                                    </a>
+                                                <div class="mb20">John Doe</div>
+
+                                                <div class="font-medium text-uppercase">
+                                                    Username
                                                 </div>
-                                                <div class="col-4">
-                                                    <a href="blood-alerts.html">
-                                                        <div class="text-xs">Blood Alerts</div>
-                                                        <h4 class="fmb-h4 text-white">29</h4>
-                                                    </a>
+                                                <div class="mb20">johndoe</div>
+
+                                                <div class="font-medium text-uppercase">
+                                                    Phone Number
+                                                </div>
+                                                <div class="mb20">+44 88 468 9900</div>
+
+                                                <div class="font-medium text-uppercase">
+                                                    Email
+                                                </div>
+                                                <div>johndoe@gmail.com</div>
+                                            </div>
+                                            <div></div>
+                                        </div>
+                                        <div class="col-md-6 col-xl-8">
+                                            <div class="mb20">
+                                                <h6 class="fmb-h6 text-secondary font-medium mb20">
+                                                    Message
+                                                </h6>
+                                                <div class="mb-5">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- end widget welcome  -->
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-xl-8 mb30-lg">
-                                    <!-- start registrations -->
-                                    <div class="w-registrations">
+                        </div>
+                        <!-- end slide 1 -->
 
-                                        <!-- start swiper -->
-                                        <div class="swiper-container swiper-registrations">
-                                            <h6 class="fmb-h6 font-medium mb10">New Registrations<span class="badge fmb-badge ml-1">8</span></h6>
-                                            <!-- swiper controls -->
-                                            <div class="swiper-controls">
-                                                <div class="swiper-button-prev"><i class="fas fa-angle-left"></i></div>
-                                                <div class="swiper-pagination"></div>
-                                                <div class="swiper-button-next"><i class="fas fa-angle-right"></i></div>
-                                            </div>
-                                            <div class="swiper-wrapper">
-                                                <!-- start slide 1 -->
-                                                <div class="swiper-slide">
-                                                    <div class="card fmb-card mb10">
-                                                        <div class="card-header fmb-card-header d-block d-sm-flex">
-                                                            <div class="mb10-sm"><img src="assets/imgs/icon-hospital2.svg" class="svg icon icon-sm mr-3"></div>
-                                                            <div class="mb10-sm">
-                                                                <div class="font-medium text-uppercase"><a href="registration-details.html" class="text-grey">Dayanand Hospital</a></div>
-                                                                <div class="text-grey-light">Type: Hospital<span class="ml-2 mr-2">|</span>Registered on: 18-2-2021</div>
-                                                            </div>
-                                                            <div class="custom-control custom-switch fmb-custom-control fmb-custom-switch ml-auto">
-                                                                <input type="checkbox" class="custom-control-input fmb-custom-control-input" id="customSwitch1">
-                                                                <label class="custom-control-label fmb-custom-control-label" for="customSwitch1"></label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body fmb-card-body">
-                                                            <div class="row">
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Hospital Details</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital Name</div>
-                                                                        <div class="mb20">Dayanand Hospital</div>
-                                                                        <div class="font-medium text-uppercase">Username</div>
-                                                                        <div>dmcludhiana</div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Info</h6>
-                                                                        <div class="font-medium text-uppercase">Address</div>
-                                                                        <div class="mb20">234, Civil Lines, Tagore Nagar, Ludhiana, Punjab 141001, India</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Person</h6>
-                                                                        <div class="font-medium text-uppercase">Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Registration Info</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital GDT Number</div>
-                                                                        <div class="text-uppercase mb20">XXX098765XXX</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Hospital License Doc.</a></div>
-                                                                        <div class="text-uppercase"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Letterhead Photo</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Blood Bank Details</h6>
-                                                                        <div class="font-medium text-uppercase">License Date</div>
-                                                                        <div class="mb20">10-03-1998 TO 10-03-2028</div>
-                                                                        <div class="font-medium text-uppercase">Registration No.</div>
-                                                                        <div class="text-uppercase mb20">XXXX545454XXXX</div>
-                                                                        <div class="font-medium text-uppercase">Incharge Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Blood Bag Price</div>
-                                                                        <div class="text-uppercase mb20">INR 2000</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Registration Doc.</a></div>
-                                                                        <div><a href="registration-details.html" class="btn-more text-secondary">View Details<i class="fa fa-arrow-right right"></i></a></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- end slide 1 -->
-                                                <!-- start slide 2 -->
-                                                <div class="swiper-slide">
-                                                    <div class="card fmb-card mb10">
-                                                        <div class="card-header fmb-card-header d-block d-sm-flex">
-                                                            <div class="mb10-sm"><img src="assets/imgs/icon-hospital2.svg" class="svg icon icon-sm mr-3"></div>
-                                                            <div class="mb10-sm">
-                                                                <div class="font-medium text-uppercase"><a href="registration-details.html" class="text-grey">Dayanand Hospital</a></div>
-                                                                <div class="text-grey-light">Type: Hospital<span class="ml-2 mr-2">|</span>Registered on: 18-2-2021</div>
-                                                            </div>
-                                                            <div class="custom-control custom-switch fmb-custom-control fmb-custom-switch ml-auto">
-                                                                <input type="checkbox" class="custom-control-input fmb-custom-control-input" id="customSwitch2">
-                                                                <label class="custom-control-label fmb-custom-control-label" for="customSwitch2"></label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body fmb-card-body">
-                                                            <div class="row">
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Hospital Details</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital Name</div>
-                                                                        <div class="mb20">Dayanand Hospital</div>
-                                                                        <div class="font-medium text-uppercase">Username</div>
-                                                                        <div>dmcludhiana</div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Info</h6>
-                                                                        <div class="font-medium text-uppercase">Address</div>
-                                                                        <div class="mb20">234, Civil Lines, Tagore Nagar, Ludhiana, Punjab 141001, India</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Person</h6>
-                                                                        <div class="font-medium text-uppercase">Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Registration Info</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital GDT Number</div>
-                                                                        <div class="text-uppercase mb20">XXX098765XXX</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Hospital License Doc.</a></div>
-                                                                        <div class="text-uppercase"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Letterhead Photo</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Blood Bank Details</h6>
-                                                                        <div class="font-medium text-uppercase">License Date</div>
-                                                                        <div class="mb20">10-03-1998 TO 10-03-2028</div>
-                                                                        <div class="font-medium text-uppercase">Registration No.</div>
-                                                                        <div class="text-uppercase mb20">XXXX545454XXXX</div>
-                                                                        <div class="font-medium text-uppercase">Incharge Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Blood Bag Price</div>
-                                                                        <div class="text-uppercase mb20">INR 2000</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Registration Doc.</a></div>
-                                                                        <div><a href="registration-details.html" class="btn-more text-secondary">View Details<i class="fa fa-arrow-right right"></i></a></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- end slide 2 -->
-                                                <!-- start slide 3 -->
-                                                <div class="swiper-slide">
-                                                    <div class="card fmb-card mb10">
-                                                        <div class="card-header fmb-card-header d-block d-sm-flex">
-                                                            <div class="mb10-sm"><img src="assets/imgs/icon-hospital2.svg" class="svg icon icon-sm mr-3"></div>
-                                                            <div class="mb10-sm">
-                                                                <div class="font-medium text-uppercase"><a href="registration-details.html" class="text-grey">Dayanand Hospital</a></div>
-                                                                <div class="text-grey-light">Type: Hospital<span class="ml-2 mr-2">|</span>Registered on: 18-2-2021</div>
-                                                            </div>
-                                                            <div class="custom-control custom-switch fmb-custom-control fmb-custom-switch ml-auto">
-                                                                <input type="checkbox" class="custom-control-input fmb-custom-control-input" id="customSwitch3">
-                                                                <label class="custom-control-label fmb-custom-control-label" for="customSwitch3"></label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body fmb-card-body">
-                                                            <div class="row">
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Hospital Details</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital Name</div>
-                                                                        <div class="mb20">Dayanand Hospital</div>
-                                                                        <div class="font-medium text-uppercase">Username</div>
-                                                                        <div>dmcludhiana</div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Info</h6>
-                                                                        <div class="font-medium text-uppercase">Address</div>
-                                                                        <div class="mb20">234, Civil Lines, Tagore Nagar, Ludhiana, Punjab 141001, India</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Person</h6>
-                                                                        <div class="font-medium text-uppercase">Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Registration Info</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital GDT Number</div>
-                                                                        <div class="text-uppercase mb20">XXX098765XXX</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Hospital License Doc.</a></div>
-                                                                        <div class="text-uppercase"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Letterhead Photo</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Blood Bank Details</h6>
-                                                                        <div class="font-medium text-uppercase">License Date</div>
-                                                                        <div class="mb20">10-03-1998 TO 10-03-2028</div>
-                                                                        <div class="font-medium text-uppercase">Registration No.</div>
-                                                                        <div class="text-uppercase mb20">XXXX545454XXXX</div>
-                                                                        <div class="font-medium text-uppercase">Incharge Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Blood Bag Price</div>
-                                                                        <div class="text-uppercase mb20">INR 2000</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Registration Doc.</a></div>
-                                                                        <div><a href="registration-details.html" class="btn-more text-secondary">View Details<i class="fa fa-arrow-right right"></i></a></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- end slide 3 -->
-                                                <!-- start slide 4 -->
-                                                <div class="swiper-slide">
-                                                    <div class="card fmb-card mb10">
-                                                        <div class="card-header fmb-card-header d-block d-sm-flex">
-                                                            <div class="mb10-sm"><img src="assets/imgs/icon-hospital2.svg" class="svg icon icon-sm mr-3"></div>
-                                                            <div class="mb10-sm">
-                                                                <div class="font-medium text-uppercase"><a href="registration-details.html" class="text-grey">Dayanand Hospital</a></div>
-                                                                <div class="text-grey-light">Type: Hospital<span class="ml-2 mr-2">|</span>Registered on: 18-2-2021</div>
-                                                            </div>
-                                                            <div class="custom-control custom-switch fmb-custom-control fmb-custom-switch ml-auto">
-                                                                <input type="checkbox" class="custom-control-input fmb-custom-control-input" id="customSwitch4">
-                                                                <label class="custom-control-label fmb-custom-control-label" for="customSwitch4"></label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body fmb-card-body">
-                                                            <div class="row">
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Hospital Details</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital Name</div>
-                                                                        <div class="mb20">Dayanand Hospital</div>
-                                                                        <div class="font-medium text-uppercase">Username</div>
-                                                                        <div>dmcludhiana</div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Info</h6>
-                                                                        <div class="font-medium text-uppercase">Address</div>
-                                                                        <div class="mb20">234, Civil Lines, Tagore Nagar, Ludhiana, Punjab 141001, India</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Person</h6>
-                                                                        <div class="font-medium text-uppercase">Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Registration Info</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital GDT Number</div>
-                                                                        <div class="text-uppercase mb20">XXX098765XXX</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Hospital License Doc.</a></div>
-                                                                        <div class="text-uppercase"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Letterhead Photo</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Blood Bank Details</h6>
-                                                                        <div class="font-medium text-uppercase">License Date</div>
-                                                                        <div class="mb20">10-03-1998 TO 10-03-2028</div>
-                                                                        <div class="font-medium text-uppercase">Registration No.</div>
-                                                                        <div class="text-uppercase mb20">XXXX545454XXXX</div>
-                                                                        <div class="font-medium text-uppercase">Incharge Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Blood Bag Price</div>
-                                                                        <div class="text-uppercase mb20">INR 2000</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Registration Doc.</a></div>
-                                                                        <div><a href="registration-details.html" class="btn-more text-secondary">View Details<i class="fa fa-arrow-right right"></i></a></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- end slide 4 -->
-                                                <!-- start slide 5 -->
-                                                <div class="swiper-slide">
-                                                    <div class="card fmb-card mb10">
-                                                        <div class="card-header fmb-card-header d-block d-sm-flex">
-                                                            <div class="mb10-sm"><img src="assets/imgs/icon-hospital2.svg" class="svg icon icon-sm mr-3"></div>
-                                                            <div class="mb10-sm">
-                                                                <div class="font-medium text-uppercase"><a href="registration-details.html" class="text-grey">Dayanand Hospital</a></div>
-                                                                <div class="text-grey-light">Type: Hospital<span class="ml-2 mr-2">|</span>Registered on: 18-2-2021</div>
-                                                            </div>
-                                                            <div class="custom-control custom-switch fmb-custom-control fmb-custom-switch ml-auto">
-                                                                <input type="checkbox" class="custom-control-input fmb-custom-control-input" id="customSwitch5">
-                                                                <label class="custom-control-label fmb-custom-control-label" for="customSwitch5"></label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body fmb-card-body">
-                                                            <div class="row">
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Hospital Details</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital Name</div>
-                                                                        <div class="mb20">Dayanand Hospital</div>
-                                                                        <div class="font-medium text-uppercase">Username</div>
-                                                                        <div>dmcludhiana</div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Info</h6>
-                                                                        <div class="font-medium text-uppercase">Address</div>
-                                                                        <div class="mb20">234, Civil Lines, Tagore Nagar, Ludhiana, Punjab 141001, India</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Person</h6>
-                                                                        <div class="font-medium text-uppercase">Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Registration Info</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital GDT Number</div>
-                                                                        <div class="text-uppercase mb20">XXX098765XXX</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Hospital License Doc.</a></div>
-                                                                        <div class="text-uppercase"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Letterhead Photo</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Blood Bank Details</h6>
-                                                                        <div class="font-medium text-uppercase">License Date</div>
-                                                                        <div class="mb20">10-03-1998 TO 10-03-2028</div>
-                                                                        <div class="font-medium text-uppercase">Registration No.</div>
-                                                                        <div class="text-uppercase mb20">XXXX545454XXXX</div>
-                                                                        <div class="font-medium text-uppercase">Incharge Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Blood Bag Price</div>
-                                                                        <div class="text-uppercase mb20">INR 2000</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Registration Doc.</a></div>
-                                                                        <div><a href="registration-details.html" class="btn-more text-secondary">View Details<i class="fa fa-arrow-right right"></i></a></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- end slide 5 -->
-                                                <!-- start slide 6 -->
-                                                <div class="swiper-slide">
-                                                    <div class="card fmb-card mb10">
-                                                        <div class="card-header fmb-card-header d-block d-sm-flex">
-                                                            <div class="mb10-sm"><img src="assets/imgs/icon-hospital2.svg" class="svg icon icon-sm mr-3"></div>
-                                                            <div class="mb10-sm">
-                                                                <div class="font-medium text-uppercase"><a href="registration-details.html" class="text-grey">Dayanand Hospital</a></div>
-                                                                <div class="text-grey-light">Type: Hospital<span class="ml-2 mr-2">|</span>Registered on: 18-2-2021</div>
-                                                            </div>
-                                                            <div class="custom-control custom-switch fmb-custom-control fmb-custom-switch ml-auto">
-                                                                <input type="checkbox" class="custom-control-input fmb-custom-control-input" id="customSwitch6">
-                                                                <label class="custom-control-label fmb-custom-control-label" for="customSwitch6"></label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body fmb-card-body">
-                                                            <div class="row">
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Hospital Details</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital Name</div>
-                                                                        <div class="mb20">Dayanand Hospital</div>
-                                                                        <div class="font-medium text-uppercase">Username</div>
-                                                                        <div>dmcludhiana</div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Info</h6>
-                                                                        <div class="font-medium text-uppercase">Address</div>
-                                                                        <div class="mb20">234, Civil Lines, Tagore Nagar, Ludhiana, Punjab 141001, India</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Person</h6>
-                                                                        <div class="font-medium text-uppercase">Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Registration Info</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital GDT Number</div>
-                                                                        <div class="text-uppercase mb20">XXX098765XXX</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Hospital License Doc.</a></div>
-                                                                        <div class="text-uppercase"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Letterhead Photo</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Blood Bank Details</h6>
-                                                                        <div class="font-medium text-uppercase">License Date</div>
-                                                                        <div class="mb20">10-03-1998 TO 10-03-2028</div>
-                                                                        <div class="font-medium text-uppercase">Registration No.</div>
-                                                                        <div class="text-uppercase mb20">XXXX545454XXXX</div>
-                                                                        <div class="font-medium text-uppercase">Incharge Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Blood Bag Price</div>
-                                                                        <div class="text-uppercase mb20">INR 2000</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Registration Doc.</a></div>
-                                                                        <div><a href="registration-details.html" class="btn-more text-secondary">View Details<i class="fa fa-arrow-right right"></i></a></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- end slide 6 -->
-                                                <!-- start slide 7 -->
-                                                <div class="swiper-slide">
-                                                    <div class="card fmb-card mb10">
-                                                        <div class="card-header fmb-card-header d-block d-sm-flex">
-                                                            <div class="mb10-sm"><img src="assets/imgs/icon-hospital2.svg" class="svg icon icon-sm mr-3"></div>
-                                                            <div class="mb10-sm">
-                                                                <div class="font-medium text-uppercase"><a href="registration-details.html" class="text-grey">Dayanand Hospital</a></div>
-                                                                <div class="text-grey-light">Type: Hospital<span class="ml-2 mr-2">|</span>Registered on: 18-2-2021</div>
-                                                            </div>
-                                                            <div class="custom-control custom-switch fmb-custom-control fmb-custom-switch ml-auto">
-                                                                <input type="checkbox" class="custom-control-input fmb-custom-control-input" id="customSwitch7">
-                                                                <label class="custom-control-label fmb-custom-control-label" for="customSwitch7"></label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body fmb-card-body">
-                                                            <div class="row">
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Hospital Details</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital Name</div>
-                                                                        <div class="mb20">Dayanand Hospital</div>
-                                                                        <div class="font-medium text-uppercase">Username</div>
-                                                                        <div>dmcludhiana</div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Info</h6>
-                                                                        <div class="font-medium text-uppercase">Address</div>
-                                                                        <div class="mb20">234, Civil Lines, Tagore Nagar, Ludhiana, Punjab 141001, India</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Person</h6>
-                                                                        <div class="font-medium text-uppercase">Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Registration Info</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital GDT Number</div>
-                                                                        <div class="text-uppercase mb20">XXX098765XXX</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Hospital License Doc.</a></div>
-                                                                        <div class="text-uppercase"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Letterhead Photo</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Blood Bank Details</h6>
-                                                                        <div class="font-medium text-uppercase">License Date</div>
-                                                                        <div class="mb20">10-03-1998 TO 10-03-2028</div>
-                                                                        <div class="font-medium text-uppercase">Registration No.</div>
-                                                                        <div class="text-uppercase mb20">XXXX545454XXXX</div>
-                                                                        <div class="font-medium text-uppercase">Incharge Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Blood Bag Price</div>
-                                                                        <div class="text-uppercase mb20">INR 2000</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Registration Doc.</a></div>
-                                                                        <div><a href="registration-details.html" class="btn-more text-secondary">View Details<i class="fa fa-arrow-right right"></i></a></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- end slide 7 -->
-                                                <!-- start slide 8 -->
-                                                <div class="swiper-slide">
-                                                    <div class="card fmb-card mb10">
-                                                        <div class="card-header fmb-card-header d-block d-sm-flex">
-                                                            <div class="mb10-sm"><img src="assets/imgs/icon-hospital2.svg" class="svg icon icon-sm mr-3"></div>
-                                                            <div class="mb10-sm">
-                                                                <div class="font-medium text-uppercase"><a href="registration-details.html" class="text-grey">Dayanand Hospital</a></div>
-                                                                <div class="text-grey-light">Type: Hospital<span class="ml-2 mr-2">|</span>Registered on: 18-2-2021</div>
-                                                            </div>
-                                                            <div class="custom-control custom-switch fmb-custom-control fmb-custom-switch ml-auto">
-                                                                <input type="checkbox" class="custom-control-input fmb-custom-control-input" id="customSwitch8">
-                                                                <label class="custom-control-label fmb-custom-control-label" for="customSwitch8"></label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body fmb-card-body">
-                                                            <div class="row">
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Hospital Details</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital Name</div>
-                                                                        <div class="mb20">Dayanand Hospital</div>
-                                                                        <div class="font-medium text-uppercase">Username</div>
-                                                                        <div>dmcludhiana</div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Info</h6>
-                                                                        <div class="font-medium text-uppercase">Address</div>
-                                                                        <div class="mb20">234, Civil Lines, Tagore Nagar, Ludhiana, Punjab 141001, India</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4 mb60-lg mb40-md">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Contact Person</h6>
-                                                                        <div class="font-medium text-uppercase">Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Phone Numbers</div>
-                                                                        <div class="mb20">+91 161 468 8800<br> +91 161 468 9900</div>
-                                                                        <div class="font-medium text-uppercase">Email</div>
-                                                                        <div><a href="#">dmcldh@gmail.com</a></div>
-                                                                    </div>
-                                                                    <div>
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Registration Info</h6>
-                                                                        <div class="font-medium text-uppercase">Hospital GDT Number</div>
-                                                                        <div class="text-uppercase mb20">XXX098765XXX</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Hospital License Doc.</a></div>
-                                                                        <div class="text-uppercase"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Letterhead Photo</a></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6 col-xl-4">
-                                                                    <div class="mb40 mb40">
-                                                                        <h6 class="fmb-h6 text-secondary font-medium mb20">Blood Bank Details</h6>
-                                                                        <div class="font-medium text-uppercase">License Date</div>
-                                                                        <div class="mb20">10-03-1998 TO 10-03-2028</div>
-                                                                        <div class="font-medium text-uppercase">Registration No.</div>
-                                                                        <div class="text-uppercase mb20">XXXX545454XXXX</div>
-                                                                        <div class="font-medium text-uppercase">Incharge Name</div>
-                                                                        <div class="mb20">John Doe</div>
-                                                                        <div class="font-medium text-uppercase">Blood Bag Price</div>
-                                                                        <div class="text-uppercase mb20">INR 2000</div>
-                                                                        <div class="text-uppercase mb20"><a href="#" class="text-underline"><i class="fas fa-paperclip mr-2"></i>Registration Doc.</a></div>
-                                                                        <div><a href="registration-details.html" class="btn-more text-secondary">View Details<i class="fa fa-arrow-right right"></i></a></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- end slide 8 -->
-                                            </div>
+                        <!-- start slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="card fmb-card mb10">
+                                <div class="card-header fmb-card-header d-block d-sm-flex">
+                                    <div class="mb10-sm">
+                                        <img src="assets/imgs/icon-user-big.svg" class="svg icon-sm mr-3" />
+                                    </div>
+                                    <div class="mb10-sm">
+                                        <div class="font-medium text-uppercase">
+                                            <a href="#" class="text-grey">George Smith</a
+                                    >
+                                  </div>
+                                  <div class="text-grey-light">
+                                    Registered on: 18-2-2021
+                                  </div>
+                                </div>
+                                <div
+                                  class="custom-control custom-switch fmb-custom-control fmb-custom-switch ml-auto"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    class="custom-control-input fmb-custom-control-input"
+                                    id="customSwitch1"
+                                  />
+                                  <label
+                                    class="custom-control-label fmb-custom-control-label"
+                                    for="customSwitch1"
+                                  ></label>
+                                </div>
+                              </div>
+                              <div class="card-body fmb-card-body">
+                                <div class="row">
+                                  <div
+                                    class="col-md-6 col-xl-4 mb60-lg mb40-md"
+                                  >
+                                    <div class="mb20">
+                                      <h6
+                                        class="fmb-h6 text-secondary font-medium mb20"
+                                      >
+                                        User Details
+                                      </h6>
+                                      <div class="font-medium text-uppercase">
+                                        Name
+                                      </div>
+                                      <div class="mb20">George Smith</div>
+
+                                      <div class="font-medium text-uppercase">
+                                        Username
+                                      </div>
+                                      <div class="mb20">georgesmith</div>
+
+                                      <div class="font-medium text-uppercase">
+                                        Phone Number
+                                      </div>
+                                      <div class="mb20">+44 88 468 9900</div>
+
+                                      <div class="font-medium text-uppercase">
+                                        Email
+                                      </div>
+                                      <div>georgesmith@gmail.com</div>
+                                    </div>
+                                    <div></div>
+                                  </div>
+                                  <div class="col-md-6 col-xl-8">
+                                    <div class="mb20">
+                                      <h6
+                                        class="fmb-h6 text-secondary font-medium mb20"
+                                      >
+                                        Message
+                                      </h6>
+                                      <div class="mb-5">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris
+                                        nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit
+                                        in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint
+                                        occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim
+                                        id est laborum.
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- end slide 2 -->
+
+                          <!-- start slide 3 -->
+                          <div class="swiper-slide">
+                            <div class="card fmb-card mb10">
+                              <div
+                                class="card-header fmb-card-header d-block d-sm-flex"
+                              >
+                                <div class="mb10-sm">
+                                  <img
+                                    src="assets/imgs/icon-user-big.svg"
+                                    class="svg icon-sm mr-3"
+                                  />
+                                </div>
+                                <div class="mb10-sm">
+                                  <div class="font-medium text-uppercase">
+                                    <a href="#" class="text-grey"
+                                      >Elina Prince</a
+                                    >
+                                  </div>
+                                  <div class="text-grey-light">
+                                    Registered on: 18-2-2021
+                                  </div>
+                                </div>
+                                <div
+                                  class="custom-control custom-switch fmb-custom-control fmb-custom-switch ml-auto"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    class="custom-control-input fmb-custom-control-input"
+                                    id="customSwitch1"
+                                  />
+                                  <label
+                                    class="custom-control-label fmb-custom-control-label"
+                                    for="customSwitch1"
+                                  ></label>
+                                </div>
+                              </div>
+                              <div class="card-body fmb-card-body">
+                                <div class="row">
+                                  <div
+                                    class="col-md-6 col-xl-4 mb60-lg mb40-md"
+                                  >
+                                    <div class="mb20">
+                                      <h6
+                                        class="fmb-h6 text-secondary font-medium mb20"
+                                      >
+                                        User Details
+                                      </h6>
+                                      <div class="font-medium text-uppercase">
+                                        Name
+                                      </div>
+                                      <div class="mb20">Elina Prince</div>
+
+                                      <div class="font-medium text-uppercase">
+                                        Username
+                                      </div>
+                                      <div class="mb20">elinaprince</div>
+
+                                      <div class="font-medium text-uppercase">
+                                        Phone Number
+                                      </div>
+                                      <div class="mb20">+44 88 468 9900</div>
+
+                                      <div class="font-medium text-uppercase">
+                                        Email
+                                      </div>
+                                      <div>elinaprince@gmail.com</div>
+                                    </div>
+                                    <div></div>
+                                  </div>
+                                  <div class="col-md-6 col-xl-8">
+                                    <div class="mb20">
+                                      <h6
+                                        class="fmb-h6 text-secondary font-medium mb20"
+                                      >
+                                        Message
+                                      </h6>
+                                      <div class="mb-5">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris
+                                        nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit
+                                        in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint
+                                        occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim
+                                        id est laborum.
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- end slide 3 -->
+
+                          <!-- start slide 4 -->
+                          <div class="swiper-slide">
+                            <div class="card fmb-card mb10">
+                              <div
+                                class="card-header fmb-card-header d-block d-sm-flex"
+                              >
+                                <div class="mb10-sm">
+                                  <img
+                                    src="assets/imgs/icon-user-big.svg"
+                                    class="svg icon-sm mr-3"
+                                  />
+                                </div>
+                                <div class="mb10-sm">
+                                  <div class="font-medium text-uppercase">
+                                    <a href="#" class="text-grey"
+                                      >Simon Baker</a
+                                    >
+                                  </div>
+                                  <div class="text-grey-light">
+                                    Registered on: 18-2-2021
+                                  </div>
+                                </div>
+                                <div
+                                  class="custom-control custom-switch fmb-custom-control fmb-custom-switch ml-auto"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    class="custom-control-input fmb-custom-control-input"
+                                    id="customSwitch1"
+                                  />
+                                  <label
+                                    class="custom-control-label fmb-custom-control-label"
+                                    for="customSwitch1"
+                                  ></label>
+                                </div>
+                              </div>
+                              <div class="card-body fmb-card-body">
+                                <div class="row">
+                                  <div
+                                    class="col-md-6 col-xl-4 mb60-lg mb40-md"
+                                  >
+                                    <div class="mb20">
+                                      <h6
+                                        class="fmb-h6 text-secondary font-medium mb20"
+                                      >
+                                        User Details
+                                      </h6>
+                                      <div class="font-medium text-uppercase">
+                                        Name
+                                      </div>
+                                      <div class="mb20">Simon Baker</div>
+
+                                      <div class="font-medium text-uppercase">
+                                        Username
+                                      </div>
+                                      <div class="mb20">simonbaker</div>
+
+                                      <div class="font-medium text-uppercase">
+                                        Phone Number
+                                      </div>
+                                      <div class="mb20">+44 88 468 9900</div>
+
+                                      <div class="font-medium text-uppercase">
+                                        Email
+                                      </div>
+                                      <div>simonbaker@gmail.com</div>
+                                    </div>
+                                    <div></div>
+                                  </div>
+                                  <div class="col-md-6 col-xl-8">
+                                    <div class="mb20">
+                                      <h6
+                                        class="fmb-h6 text-secondary font-medium mb20"
+                                      >
+                                        Message
+                                      </h6>
+                                      <div class="mb-5">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris
+                                        nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit
+                                        in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint
+                                        occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim
+                                        id est laborum.
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- end slide 4 -->
+                        </div>
+                      </div>
+                      <!-- end swiper -->
+
+                      <div class="text-right">
+                        <a href="#" class="text-secondary">View All SignUps</a>
                                         </div>
-                                        <!-- end swiper -->
-
-                                        <div class="text-right"><a href="registrations.html" class="text-secondary">View All Registrations</a></div>
                                     </div>
                                     <!-- end registrations -->
                                 </div>
-                                <div class="col-xl-4 mb30-lg">
-
-                                </div>
+                                <div class="col-xl-4 mb30-lg"></div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-xl-3">
                             <!-- start messages -->
                             <div class="w-messages mb40">
-                                <h6 class="fmb-h6 font-medium mb10">Website Messages<span class="badge fmb-badge ml-1">4</span></h6>
+                                <h6 class="fmb-h6 font-medium mb10">
+                                    Website Messages<span class="badge fmb-badge ml-1">4</span>
+                                </h6>
                                 <ul class="messages-list mb10">
                                     <li>
                                         <div class="icon"><i class="fas fa-envelope"></i></div>
                                         <div class="card fmb-card">
-                                            <a href="messages.html">
+                                            <a href="#">
                                                 <div class="card-body fmb-card-body">
-                                                    <div class="font-medium text-uppercase">John Doe</div>
-                                                    <div class="mb10">Ut enim ad minim veniam nostr exercitation ullamco <span class="text-secondary">Read More</span></div>
+                                                    <div class="font-medium text-uppercase">
+                                                        John Doe
+                                                    </div>
+                                                    <div class="mb10">
+                                                        Ut enim ad minim veniam nostr exercitation ullamco
+                                                        <span class="text-secondary">Read More</span>
+                                                    </div>
                                                     <div class="text-grey-light">johndoe@gmail.com</div>
                                                 </div>
                                             </a>
@@ -794,107 +596,143 @@
                                     <li>
                                         <div class="icon"><i class="fas fa-envelope"></i></div>
                                         <div class="card fmb-card">
-                                            <a href="messages.html">
+                                            <a href="#">
                                                 <div class="card-body fmb-card-body">
-                                                    <div class="font-medium text-uppercase">John Doe</div>
-                                                    <div class="mb10">Ut enim ad minim veniam nostr exercitation ullamco <span class="text-secondary">Read More</span></div>
+                                                    <div class="font-medium text-uppercase">
+                                                        John Doe
+                                                    </div>
+                                                    <div class="mb10">
+                                                        Ut enim ad minim veniam nostr exercitation ullamco
+                                                        <span class="text-secondary">Read More</span>
+                                                    </div>
                                                     <div class="text-grey-light">johndoe@gmail.com</div>
                                                 </div>
                                             </a>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                        <div class="icon"><i class="fas fa-envelope"></i></div>
                                         <div class="card fmb-card">
-                                            <a href="messages.html">
+                                            <a href="#">
                                                 <div class="card-body fmb-card-body">
-                                                    <div class="font-medium text-uppercase">John Doe</div>
-                                                    <div class="mb10">Reported the donor Rob Shaw</div>
-                                                    <div class="text-grey-light">Issue details go here. Some text</div>
+                                                    <div class="font-medium text-uppercase">
+                                                        John Doe
+                                                    </div>
+                                                    <div class="mb10">
+                                                        Ut enim ad minim veniam nostr exercitation ullamco
+                                                        <span class="text-secondary">Read More</span>
+                                                    </div>
+                                                    <div class="text-grey-light">johndoe@gmail.com</div>
                                                 </div>
                                             </a>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                        <div class="icon"><i class="fas fa-envelope"></i></div>
                                         <div class="card fmb-card">
-                                            <a href="messages.html">
+                                            <a href="#">
                                                 <div class="card-body fmb-card-body">
-                                                    <div class="font-medium text-uppercase">John Doe</div>
-                                                    <div class="mb10">Reported the donor Rob Shaw</div>
-                                                    <div class="text-grey-light">Issue details go here. Some text</div>
+                                                    <div class="font-medium text-uppercase">
+                                                        John Doe
+                                                    </div>
+                                                    <div class="mb10">
+                                                        Ut enim ad minim veniam nostr exercitation ullamco
+                                                        <span class="text-secondary">Read More</span>
+                                                    </div>
+                                                    <div class="text-grey-light">johndoe@gmail.com</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                                        <div class="card fmb-card">
+                                            <a href="#">
+                                                <div class="card-body fmb-card-body">
+                                                    <div class="font-medium text-uppercase">
+                                                        John Doe
+                                                    </div>
+                                                    <div class="mb10">
+                                                        Ut enim ad minim veniam nostr exercitation ullamco
+                                                        <span class="text-secondary">Read More</span>
+                                                    </div>
+                                                    <div class="text-grey-light">johndoe@gmail.com</div>
                                                 </div>
                                             </a>
                                         </div>
                                     </li>
                                 </ul>
-                                <div class="text-right"><a href="messages.html" class="text-secondary text-sm">View All Messages</a></div>
-                            </div>
-                            <!-- start messages -->
-
-
-                        </div>
-                    </div>
+                                <div class="text-right">
+                                    <a href="#" class="text-secondary text-sm">View All Messages</a
+                    >
+                  </div>
                 </div>
+                <!-- start messages -->
+              </div>
             </div>
-            <!-- end main content -->
-            <!-- start footer -->
-            <footer>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 d-block d-md-flex align-items-center text-center">
-                            <div class="mb10-sm">&copy; Copyright TW Media 2021. All Rights Reserved.</div>
-                            <ul class="footer-links ml-auto">
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms of Usage</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <!-- end footer -->
+          </div>
         </div>
-        <!-- end main -->
-    </div>
-    <!-- end wrapper -->
+        <!-- end main content -->
+        <!-- start footer -->
+        <footer>
+          <div class="container-fluid">
+            <div class="row">
+              <div
+                class="col-12 d-block d-md-flex align-items-center text-center"
+              >
+                <div class="mb10-sm">
+                  &copy; Copyright TW Media 2021. All Rights Reserved.
+                </div>
+                <ul class="footer-links ml-auto">
+                  <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms of Usage</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        </footer>
+                        <!-- end footer -->
+                    </div>
+                    <!-- end main -->
+                </div>
+                <!-- end wrapper -->
 
-    <!-- jquery js -->
-    <script type="text/javascript" src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+                <!-- jquery js -->
+                <script type="text/javascript" src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
 
-    <!-- bootstrap js -->
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+                <!-- bootstrap js -->
+                <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- svg js -->
-    <script type="text/javascript" src="assets/plugins/svg/svg.js"></script>
+                <!-- svg js -->
+                <script type="text/javascript" src="assets/plugins/svg/svg.js"></script>
 
-    <!-- sidebar js -->
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $("#sidebar")
-            $('.fmb-sidebar-toggle').on('click', function() {
-                $('#sidebar, #main').toggleClass('active');
-                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-            });
-        });
-    </script>
+                <!-- sidebar js -->
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $('#sidebar');
+                        $('.fmb-sidebar-toggle').on('click', function() {
+                            $('#sidebar, #main').toggleClass('active');
+                            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                        });
+                    });
+                </script>
 
-    <!-- swiper js -->
-    <script type="text/javascript" src="assets/plugins/swiper/js/swiper.min.js"></script>
-    <script type="text/javascript">
-        var swiper = new Swiper('.swiper-registrations', {
-            spaceBetween: 30,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'fraction',
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            updateOnWindowResize: true,
-        });
-    </script>
-
+                <!-- swiper js -->
+                <script type="text/javascript" src="assets/plugins/swiper/js/swiper.min.js"></script>
+                <script type="text/javascript">
+                    var swiper = new Swiper('.swiper-registrations', {
+                        spaceBetween: 30,
+                        pagination: {
+                            el: '.swiper-pagination',
+                            type: 'fraction',
+                        },
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        updateOnWindowResize: true,
+                    });
+                </script>
 </body>
 
 </html>
