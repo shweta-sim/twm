@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <meta name="format-detection" content="telephone=no" />
-    <title>Find Me Blood | Dashboard</title>
+    <title>TWM | Dashboard</title>
     <link rel="icon" href="assets/imgs/favicon-32x32.png" sizes="32x32" type="image/png" />
     <link rel="icon" href="assets/imgs/favicon-16x16.png" sizes="16x16" type="image/png" />
 
@@ -24,66 +24,11 @@
     <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body id="admin">
-    <!-- start header -->
-    <nav class="navbar fmb-navbar fixed-top">
-        <a class="fmb-navbar-brand" href="index.html"><img src="assets/imgs/logo-twm.png" class="img-fluid" /></a>
-        <a href="#" class="fmb-sidebar-toggle" id=""><i class="fas fa-bars"></i
-      ></a>
-        <!-- start profile -->
-        <div class="profile">
-            <div class="d-none d-md-block">
-                <h6 class="text-secondary text-uppercase font-bold text-right">
-                    Mathew Borris
-                </h6>
-                <div class="d-block text-xs text-grey-light font-regular">
-                    Last login: 2 hours ago
-                </div>
-            </div>
-            <div>
-                <a href="#" class="ml-0 ml-sm-3"><img src="assets/imgs/img-volunteer1.jpg" class="img-profile" /></a>
-            </div>
-        </div>
-        <!-- end profile -->
-    </nav>
-    <!-- end header -->
+<body id="dashboard">
+    <?php include("header.php"); ?>
     <!-- start wrapper -->
     <div id="wrapper">
-        <!-- start sidebar -->
-        <div id="sidebar">
-            <div class="fmb-scrollbar">
-                <div class="sidebar-content">
-                    <!-- start sidebar nav -->
-                    <nav class="navbar fmb-side-navbar mb60">
-                        <ul class="navbar-nav fmb-navbar-nav">
-                            <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link active" href="index.html"><img src="assets/imgs/icon-donors.svg" / class="svg
-                    icon">Dashboard</a>
-                            </li>
-                            <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="#"><img src="assets/imgs/icon-users.svg" / class="svg
-                    icon">Users</a>
-                            </li>
-                            <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="#"><img src="assets/imgs/icon-bookings.svg" / class="svg
-                    icon">Bookings</a>
-                            </li>
-                            <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="#"><img src="assets/imgs/icon-email.svg" / class="svg
-                    icon">Messages</a>
-                            </li>
-
-                            <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="login.html"><i class="fas fa-sign-out-alt icon"></i>Logout</a
-                  >
-                </li>
-              </ul>
-            </nav>
-            <!-- end sidebar nav -->
-          </div>
-        </div>
-      </div>
-      <!-- end sidebar -->
+    <?php include("sidebar.php"); ?>
       <!-- start main -->
       <div id="main">
         <!-- start breadcrumb -->
@@ -211,7 +156,7 @@
                                         <img src="assets/imgs/icon-user-big.svg" class="svg icon-sm mr-3" />
                                     </div>
                                     <div class="mb10-sm">
-                                        <div class="font-medium text-uppercase">
+                                        <div class="font-medium">
                                             <a href="#" class="text-grey">John Doe</a>
                                         </div>
                                         <div class="text-grey-light">
@@ -230,24 +175,18 @@
                                                 <h6 class="fmb-h6 text-secondary font-medium mb20">
                                                     User Details
                                                 </h6>
-                                                <div class="font-medium text-uppercase">
-                                                    Name
-                                                </div>
+                                                <div class="font-medium">Name</div>
                                                 <div class="mb20">John Doe</div>
 
-                                                <div class="font-medium text-uppercase">
-                                                    Username
-                                                </div>
+                                                <div class="font-medium">Username</div>
                                                 <div class="mb20">johndoe</div>
 
-                                                <div class="font-medium text-uppercase">
+                                                <div class="font-medium">
                                                     Phone Number
                                                 </div>
                                                 <div class="mb20">+44 88 468 9900</div>
 
-                                                <div class="font-medium text-uppercase">
-                                                    Email
-                                                </div>
+                                                <div class="font-medium">Email</div>
                                                 <div>johndoe@gmail.com</div>
                                             </div>
                                             <div></div>
@@ -277,7 +216,7 @@
                                         <img src="assets/imgs/icon-user-big.svg" class="svg icon-sm mr-3" />
                                     </div>
                                     <div class="mb10-sm">
-                                        <div class="font-medium text-uppercase">
+                                        <div class="font-medium">
                                             <a href="#" class="text-grey">George Smith</a
                                     >
                                   </div>
@@ -310,24 +249,18 @@
                                       >
                                         User Details
                                       </h6>
-                                      <div class="font-medium text-uppercase">
-                                        Name
-                                      </div>
+                                      <div class="font-medium">Name</div>
                                       <div class="mb20">George Smith</div>
 
-                                      <div class="font-medium text-uppercase">
-                                        Username
-                                      </div>
+                                      <div class="font-medium">Username</div>
                                       <div class="mb20">georgesmith</div>
 
-                                      <div class="font-medium text-uppercase">
+                                      <div class="font-medium">
                                         Phone Number
                                       </div>
                                       <div class="mb20">+44 88 468 9900</div>
 
-                                      <div class="font-medium text-uppercase">
-                                        Email
-                                      </div>
+                                      <div class="font-medium">Email</div>
                                       <div>georgesmith@gmail.com</div>
                                     </div>
                                     <div></div>
@@ -374,7 +307,7 @@
                                   />
                                 </div>
                                 <div class="mb10-sm">
-                                  <div class="font-medium text-uppercase">
+                                  <div class="font-medium">
                                     <a href="#" class="text-grey"
                                       >Elina Prince</a
                                     >
@@ -408,24 +341,18 @@
                                       >
                                         User Details
                                       </h6>
-                                      <div class="font-medium text-uppercase">
-                                        Name
-                                      </div>
+                                      <div class="font-medium">Name</div>
                                       <div class="mb20">Elina Prince</div>
 
-                                      <div class="font-medium text-uppercase">
-                                        Username
-                                      </div>
+                                      <div class="font-medium">Username</div>
                                       <div class="mb20">elinaprince</div>
 
-                                      <div class="font-medium text-uppercase">
+                                      <div class="font-medium">
                                         Phone Number
                                       </div>
                                       <div class="mb20">+44 88 468 9900</div>
 
-                                      <div class="font-medium text-uppercase">
-                                        Email
-                                      </div>
+                                      <div class="font-medium">Email</div>
                                       <div>elinaprince@gmail.com</div>
                                     </div>
                                     <div></div>
@@ -472,7 +399,7 @@
                                   />
                                 </div>
                                 <div class="mb10-sm">
-                                  <div class="font-medium text-uppercase">
+                                  <div class="font-medium">
                                     <a href="#" class="text-grey"
                                       >Simon Baker</a
                                     >
@@ -506,24 +433,18 @@
                                       >
                                         User Details
                                       </h6>
-                                      <div class="font-medium text-uppercase">
-                                        Name
-                                      </div>
+                                      <div class="font-medium">Name</div>
                                       <div class="mb20">Simon Baker</div>
 
-                                      <div class="font-medium text-uppercase">
-                                        Username
-                                      </div>
+                                      <div class="font-medium">Username</div>
                                       <div class="mb20">simonbaker</div>
 
-                                      <div class="font-medium text-uppercase">
+                                      <div class="font-medium">
                                         Phone Number
                                       </div>
                                       <div class="mb20">+44 88 468 9900</div>
 
-                                      <div class="font-medium text-uppercase">
-                                        Email
-                                      </div>
+                                      <div class="font-medium">Email</div>
                                       <div>simonbaker@gmail.com</div>
                                     </div>
                                     <div></div>
@@ -581,9 +502,7 @@
                                         <div class="card fmb-card">
                                             <a href="#">
                                                 <div class="card-body fmb-card-body">
-                                                    <div class="font-medium text-uppercase">
-                                                        John Doe
-                                                    </div>
+                                                    <div class="font-medium">John Doe</div>
                                                     <div class="mb10">
                                                         Ut enim ad minim veniam nostr exercitation ullamco
                                                         <span class="text-secondary">Read More</span>
@@ -598,9 +517,7 @@
                                         <div class="card fmb-card">
                                             <a href="#">
                                                 <div class="card-body fmb-card-body">
-                                                    <div class="font-medium text-uppercase">
-                                                        John Doe
-                                                    </div>
+                                                    <div class="font-medium">John Doe</div>
                                                     <div class="mb10">
                                                         Ut enim ad minim veniam nostr exercitation ullamco
                                                         <span class="text-secondary">Read More</span>
@@ -615,9 +532,7 @@
                                         <div class="card fmb-card">
                                             <a href="#">
                                                 <div class="card-body fmb-card-body">
-                                                    <div class="font-medium text-uppercase">
-                                                        John Doe
-                                                    </div>
+                                                    <div class="font-medium">John Doe</div>
                                                     <div class="mb10">
                                                         Ut enim ad minim veniam nostr exercitation ullamco
                                                         <span class="text-secondary">Read More</span>
@@ -632,9 +547,7 @@
                                         <div class="card fmb-card">
                                             <a href="#">
                                                 <div class="card-body fmb-card-body">
-                                                    <div class="font-medium text-uppercase">
-                                                        John Doe
-                                                    </div>
+                                                    <div class="font-medium">John Doe</div>
                                                     <div class="mb10">
                                                         Ut enim ad minim veniam nostr exercitation ullamco
                                                         <span class="text-secondary">Read More</span>
@@ -649,9 +562,7 @@
                                         <div class="card fmb-card">
                                             <a href="#">
                                                 <div class="card-body fmb-card-body">
-                                                    <div class="font-medium text-uppercase">
-                                                        John Doe
-                                                    </div>
+                                                    <div class="font-medium">John Doe</div>
                                                     <div class="mb10">
                                                         Ut enim ad minim veniam nostr exercitation ullamco
                                                         <span class="text-secondary">Read More</span>
@@ -673,25 +584,7 @@
           </div>
         </div>
         <!-- end main content -->
-        <!-- start footer -->
-        <footer>
-          <div class="container-fluid">
-            <div class="row">
-              <div
-                class="col-12 d-block d-md-flex align-items-center text-center"
-              >
-                <div class="mb10-sm">
-                  &copy; Copyright TW Media 2021. All Rights Reserved.
-                </div>
-                <ul class="footer-links ml-auto">
-                  <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Terms of Usage</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        </footer>
-                        <!-- end footer -->
+        <?php include("footer.php"); ?>
                     </div>
                     <!-- end main -->
                 </div>

@@ -5,7 +5,24 @@ FONTS
 ############################## */
 
 @import url('../plugins/fontawesome/css/all.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Cooper Hewitt Book';
+    src: url('http://purplecherrytechnologies.com/demos/twm/Admin/assets/fonts/CooperHewitt-Book.eot');
+    src: url('http://purplecherrytechnologies.com/demos/twm/Admin/assets/fonts/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'), url('http://purplecherrytechnologies.com/demos/twm/Admin/assets/fonts/CooperHewitt-Book.woff2') format('woff2'), url('http://purplecherrytechnologies.com/demos/twm/Admin/assets/fonts/CooperHewitt-Book.woff') format('woff'), url('http://purplecherrytechnologies.com/demos/twm/Admin/assets/fonts/CooperHewitt-Book.ttf') format('truetype'), url('http://purplecherrytechnologies.com/demos/twm/Admin/assets/fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('http://purplecherrytechnologies.com/demos/twm/Admin/assets/fonts/Lato-Regular.eot');
+    src: url('http://purplecherrytechnologies.com/demos/twm/Admin/assets/fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), url('http://purplecherrytechnologies.com/demos/twm/Admin/assets/fonts/Lato-Regular.woff2') format('woff2'), url('http://purplecherrytechnologies.com/demos/twm/Admin/assets/fonts/Lato-Regular.woff') format('woff'), url('http://purplecherrytechnologies.com/demos/twm/Admin/assets/fonts/Lato-Regular.ttf') format('truetype'), url('http://purplecherrytechnologies.com/demos/twm/Admin/assets/fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 /* ##############################
 ---------------------------------
@@ -47,7 +64,7 @@ html {
 
 body {
     width: 100%;
-    font-family: 'Poppins', 'Open Sans', Arial, Helvetica, sans-serif !important;
+    font-family: 'Lato', 'Open Sans', Arial, Helvetica, sans-serif !important;
     font-size: 15px;
     line-height: 22px;
     color: var(--grey);
@@ -244,9 +261,8 @@ hr {
     margin: 0;
     padding: 0;
     color: var(--grey);
-    font-family: 'Poppins', 'Open Sans', Arial, Helvetica, sans-serif !important;
+    font-family: 'Cooper Hewitt Book', 'Open Sans', Arial, Helvetica, sans-serif !important;
     font-weight: 400;
-    text-transform: uppercase;
     background: none;
     border: none;
     font-smooth: always;
@@ -348,7 +364,7 @@ hr {
     font-size: 16px !important;
     line-height: 16px !important;
     color: var(--grey) !important;
-    font-family: 'Poppins', 'Open Sans', Arial, Helvetica, sans-serif !important;
+    font-family: 'Lato', 'Open Sans', Arial, Helvetica, sans-serif !important;
     background-color: var(--white) !important;
     border: 1px solid var(--grey-light) !important;
     border-radius: 10px;
@@ -393,8 +409,6 @@ textarea.fmb-form-control {
     padding: 20px;
     border-radius: 10px;
 }
-
-.fmb-custom-control {}
 
 .fmb-custom-control-label {
     padding-left: 10px !important;
@@ -549,7 +563,7 @@ textarea.fmb-form-control {
     min-height: 50px;
     margin: 0;
     padding: 0 30px;
-    font-family: 'Poppins', 'Open Sans', Arial, Helvetica, sans-serif !important;
+    font-family: 'Lato', 'Open Sans', Arial, Helvetica, sans-serif !important;
     font-size: 18px;
     line-height: 18px;
     font-weight: 500;
@@ -746,21 +760,21 @@ textarea.fmb-form-control {
 /* --- footer --- */
 
 footer {
-    padding: 15px 0;
-    position: relative;
-    color: var(--white);
-    background: var(--grey) !important;
+    padding: 20px 15px !important;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--grey-light);
+    background: var(--white) !important;
+    border-top: 1px solid var(--grey-lighter);
 }
 
 footer a {
-    color: var(--white);
+    color: var(--grey-light);
 }
 
 footer a:hover {
     color: var(--primary);
 }
-
-ul.footer-links {}
 
 ul.footer-links li {
     display: inline-block;
@@ -779,7 +793,7 @@ LOGIN
 ############################## */
 
 .login-admin {
-    padding-bottom: 300px !important;
+    padding-bottom: 50px !important;
 }
 
 .login-admin .img {
@@ -915,7 +929,8 @@ DASHBOARD PAGE
     box-shadow: 0 5px 5px var(--black-alpha10);
 }
 
-#sidebar.active {
+#dashboard #sidebar.dashboard,
+#users #sidebar.users {
     margin-left: -350px;
 }
 
@@ -963,14 +978,13 @@ a[data-toggle="collapse"] {
     color: var(--white);
     font-size: 18px;
     line-height: 24px;
-    font-weight: 500;
     border-radius: 10px;
     transition: all 0.3s ease-in;
-    text-transform: uppercase;
 }
 
 .fmb-side-navbar .fmb-navbar-nav .fmb-nav-item:hover .fmb-nav-link,
-.fmb-side-navbar .fmb-navbar-nav .fmb-nav-item .fmb-nav-link.active {
+#dashboard .fmb-side-navbar .fmb-navbar-nav .fmb-nav-item .fmb-nav-link.dashboard,
+#users .fmb-side-navbar .fmb-navbar-nav .fmb-nav-item .fmb-nav-link.users {
     color: var(--secondary);
     background: var(--white);
     box-shadow: 0 5px 5px var(--black-alpha10);
@@ -996,7 +1010,8 @@ a[data-toggle="collapse"] {
 }
 
 .fmb-side-navbar .fmb-navbar-nav .fmb-nav-item:hover .fmb-nav-link .icon path,
-.fmb-side-navbar .fmb-navbar-nav .fmb-nav-item .fmb-nav-link.active .icon path {
+#dashboard .fmb-side-navbar .fmb-navbar-nav .fmb-nav-item .fmb-nav-link.dashboard .icon path,
+#users .fmb-side-navbar .fmb-navbar-nav .fmb-nav-item .fmb-nav-link.users .icon path {
     fill: var(--secondary);
 }
 
@@ -1019,7 +1034,6 @@ a[data-toggle="collapse"] {
     line-height: 24px;
     font-weight: 500;
     text-align: inherit;
-    text-transform: uppercase;
     white-space: inherit;
     border-bottom: none;
     background: none !important;
@@ -1028,7 +1042,8 @@ a[data-toggle="collapse"] {
 }
 
 .fmb-side-navbar .fmb-dropdown-item:hover,
-.fmb-side-navbar .fmb-dropdown-item.active {
+#dashboard .fmb-side-navbar .fmb-dropdown-item.dashboard,
+#users .fmb-side-navbar .fmb-dropdown-item.users {
     color: var(--white);
     opacity: 1;
 }
@@ -1098,7 +1113,6 @@ a[data-toggle="collapse"] {
 .fmb-breadcrumb {
     margin: 0;
     padding: 20px;
-    text-transform: uppercase;
     background: var(--grey-lighter);
     border-radius: 0 !important;
 }
@@ -1182,8 +1196,6 @@ a[data-toggle="collapse"] {
     border: none;
     transition: all 0.3s ease-in;
 }
-
-.fmb-accordion {}
 
 .fmb-accordion .fmb-card {
     background: none !important;
@@ -1404,26 +1416,6 @@ ul.messages-list>li .icon {
     background: var(--primary);
     border-radius: 50%;
     z-index: 2;
-}
-
-
-/* footer css*/
-
-#admin footer {
-    padding: 20px 15px !important;
-    font-size: 14px;
-    line-height: 20px;
-    color: var(--grey-light);
-    background: var(--white) !important;
-    border-top: 1px solid var(--grey-lighter);
-}
-
-#admin footer a {
-    color: var(--grey-light);
-}
-
-#admin footer a:hover {
-    color: var(--primary);
 }
 
 
@@ -1650,7 +1642,6 @@ CREATE EVENT PAGE
     font-weight: 500;
     padding: 15px 30px;
     color: var(--grey);
-    text-transform: uppercase;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom: none;

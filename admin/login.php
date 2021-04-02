@@ -69,7 +69,7 @@
     <!-- end login admin -->
 
     <!-- start footer -->
-    <footer>
+    <!-- <footer>
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 d-block d-md-flex align-items-center text-center">
@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- end footer -->
 
     <!-- jquery js -->

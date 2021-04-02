@@ -24,162 +24,11 @@
     <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body id="admin">
-    <!-- start header -->
-    <nav class="navbar fmb-navbar fixed-top">
-        <a class="fmb-navbar-brand" href="index.html"><img src="assets/imgs/logo-twm.png" class="img-fluid" /></a>
-        <a href="#" class="fmb-sidebar-toggle" id=""><i class="fas fa-bars"></i
-      ></a>
-        <!-- start notifications -->
-        <div class="notifications ml-auto">
-            <div class="dropdown no-arrow fmb-dropdown">
-                <a class="dropdown-toggle fmb-dropdown-toggle" href="#" id="notificationsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-bell text-green"></i>
-                    <span class="badge fmb-badge">6</span></a>
-                <div class="dropdown-menu dropdown-menu-right fmb-dropdown-menu fmb-dropdown-menu-right" aria-labelledby="notificationsDropdown">
-                    <h6 class="dropdown-header fmb-dropdown-header">
-                        6 New Notifications
-                    </h6>
-                    <div class="fmb-scrollbar">
-                        <a href="#" class="dropdown-item fmb-dropdown-item">
-                            <div class="mr-3">
-                                <img src="assets/imgs/icon-donors.svg" / class="svg icon">
-                            </div>
-                            <div>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                <span>10 minutes ago</span>
-                            </div>
-                        </a>
-                        <a href="#" class="dropdown-item fmb-dropdown-item">
-                            <div class="mr-3">
-                                <img src="assets/imgs/icon-blood.svg" / class="svg icon">
-                            </div>
-                            <div>
-                                Duis aute irure dolor in reprehenderit<span>12 minutes ago</span
-                  >
-                </div>
-              </a>
-              <a href="#" class="dropdown-item fmb-dropdown-item">
-                <div class="mr-3">
-                  <img src="assets/imgs/icon-users.svg"/ class="svg icon">
-                </div>
-                <div>
-                  Excepteur sint occaecat cupidatat non proident<span
-                    >20 minutes ago</span
-                  >
-                </div>
-              </a>
-              <a href="#" class="dropdown-item fmb-dropdown-item">
-                <div class="mr-3">
-                  <img src="assets/imgs/icon-transactions.svg"/ class="svg
-                  icon">
-                </div>
-                <div>
-                  Sed ut perspiciatis unde omnis iste natus<span
-                    >1 hour ago</span
-                  >
-                </div>
-              </a>
-              <a href="#" class="dropdown-item fmb-dropdown-item">
-                <div class="mr-3">
-                  <img src="assets/imgs/icon-donors.svg"/ class="svg icon">
-                </div>
-                <div>
-                  Nemo enim ipsam voluptatem quia voluptas<span
-                    >1 hour ago</span
-                  >
-                </div>
-              </a>
-              <a href="#" class="dropdown-item fmb-dropdown-item">
-                <div class="mr-3">
-                  <img src="assets/imgs/icon-blood.svg"/ class="svg icon">
-                </div>
-                <div>
-                  Ut enim ad minima veniam quis nostrum<span>2 hours ago</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="text-center">
-                        <a href="#" class="fmb-dropdown-footer">All Notifications</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end notifications -->
-        <!-- start profile -->
-        <div class="profile">
-            <div class="d-none d-md-block">
-                <h6 class="text-secondary text-uppercase font-bold text-right">
-                    Mathew Borris
-                </h6>
-                <div class="d-block text-xs text-grey-light font-regular">
-                    Last login: 2 hours ago
-                </div>
-            </div>
-            <div>
-                <a href="#" class="ml-0 ml-sm-3"><img src="assets/imgs/img-volunteer1.jpg" class="img-profile" /></a>
-            </div>
-        </div>
-        <!-- end profile -->
-    </nav>
-    <!-- end header -->
+<body id="users">
+<?php include("header.php"); ?>
     <!-- start wrapper -->
     <div id="wrapper">
-        <!-- start sidebar -->
-        <div id="sidebar">
-            <div class="fmb-scrollbar">
-                <div class="sidebar-content">
-                    <!-- start sidebar nav -->
-                    <nav class="navbar fmb-side-navbar mb60">
-                        <ul class="navbar-nav fmb-navbar-nav">
-                            <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="index.html"><img src="assets/imgs/icon-fmb.svg" / class="svg
-                    icon">Dashboard</a>
-                            </li>
-                            <li class="nav-item fmb-nav-item dropdown fmb-dropdown">
-                                <a class="nav-link fmb-nav-link dropdown-toggle fmb-dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img src="assets/imgs/icon-users.svg" / class="svg
-                    icon">Users</a>
-                                <div class="dropdown-menu fmb-dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item fmb-dropdown-item" href="hospitals.html"><img src="assets/imgs/icon-hospital2.svg" / class="svg
-                      icon">Hospitals</a>
-                                    <a class="dropdown-item fmb-dropdown-item" href="ngos.html"><img src="assets/imgs/icon-ngo2.svg" / class="svg
-                      icon">NGOs</a>
-                                    <a class="dropdown-item fmb-dropdown-item" href="volunteers.html"><img src="assets/imgs/icon-volunteer2.svg" / class="svg
-                      icon">Volunteers</a>
-                                </div>
-                            </li>
-                            <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link active" href="donors.html"><img src="assets/imgs/icon-donors.svg" / class="svg
-                    icon">Donors</a>
-                            </li>
-                            <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="blood-drives.html"><img src="assets/imgs/icon-blood-drives.svg" / class="svg
-                    icon">Blood Drives</a>
-                            </li>
-                            <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="blood-alerts.html"><img src="assets/imgs/icon-blood.svg" / class="svg
-                    icon">Blood Alerts</a>
-                            </li>
-                            <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="transactions.html"><img src="assets/imgs/icon-transactions.svg" / class="svg
-                    icon">Transactions</a>
-                            </li>
-                            <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="website.html"><img src="assets/imgs/icon-website-pages.svg" / class="svg
-                    icon">Website Pages</a>
-                            </li>
-                            <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="analytics.html"><img src="assets/imgs/icon-analytics.svg" / class="svg
-                    icon">Analytics</a>
-                            </li>
-                            <li class="nav-item fmb-nav-item">
-                                <a class="nav-link fmb-nav-link" href="login.html"><i class="fas fa-sign-out-alt icon"></i>Logout</a
-                  >
-                </li>
-              </ul>
-            </nav>
-            <!-- end sidebar nav -->
+    <?php include("sidebar.php"); ?>
             <!-- start blood alerts -->
             <div class="blood-alerts">
               <h6 class="fmb-h6 text-white font-medium mb20">
@@ -623,25 +472,7 @@
           </div>
         </div>
         <!-- end main content -->
-        <!-- start footer -->
-        <footer>
-          <div class="container-fluid">
-            <div class="row">
-              <div
-                class="col-12 d-block d-md-flex align-items-center text-center"
-              >
-                <div class="mb10-sm">
-                  &copy; Copyright Find Me Blood 2021. All Rights Reserved.
-                </div>
-                <ul class="footer-links ml-auto">
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms of Usage</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </footer>
-        <!-- end footer -->
+        <?php include("footer.php"); ?>
       </div>
       <!-- end main -->
     </div>
