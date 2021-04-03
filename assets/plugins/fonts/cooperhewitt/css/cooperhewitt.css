@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Cooper Hewitt Thin';
+    src: url('../webfonts/CooperHewittThin.eot');
+    src: url('../webfonts/CooperHewittThin.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittThin.woff2') format('woff2'),
+        url('../webfonts/CooperHewittThin.woff') format('woff'),
+        url('../webfonts/CooperHewittThin.ttf') format('truetype'),
+        url('../webfonts/CooperHewittThin.svg#CooperHewitt-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper Hewitt Thin Italic';
+    src: url('../webfonts/CooperHewittThinItalic.eot');
+    src: url('../webfonts/CooperHewittThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittThinItalic.woff2') format('woff2'),
+        url('../webfonts/CooperHewittThinItalic.woff') format('woff'),
+        url('../webfonts/CooperHewittThinItalic.ttf') format('truetype'),
+        url('../webfonts/CooperHewittThinItalic.svg#CooperHewitt-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper Hewitt Light';
+    src: url('../webfonts/CooperHewittLight.eot');
+    src: url('../webfonts/CooperHewittLight.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittLight.woff2') format('woff2'),
+        url('../webfonts/CooperHewittLight.woff') format('woff'),
+        url('../webfonts/CooperHewittLight.ttf') format('truetype'),
+        url('../webfonts/CooperHewittLight.svg#CooperHewitt-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper Hewitt Light Italic';
+    src: url('../webfonts/CooperHewittLightItalic.eot');
+    src: url('../webfonts/CooperHewittLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittLightItalic.woff2') format('woff2'),
+        url('../webfonts/CooperHewittLightItalic.woff') format('woff'),
+        url('../webfonts/CooperHewittLightItalic.ttf') format('truetype'),
+        url('../webfonts/CooperHewitt-LightItalic.svg#CooperHewitt-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CooperHewittBook';
+    src: url('../webfonts/CooperHewittBook.eot');
+    src: url('../webfonts/CooperHewittBook.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittBook.woff2') format('woff2'),
+        url('../webfonts/CooperHewittBook.woff') format('woff'),
+        url('../webfonts/CooperHewittBook.ttf') format('truetype'),
+        url('../webfonts/CooperHewittBook.svg#CooperHewittBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper Hewitt Book Italic';
+    src: url('../webfonts/CooperHewittBookItalic.eot');
+    src: url('../webfonts/CooperHewittBookItalic.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittBookItalic.woff2') format('woff2'),
+        url('../webfonts/CooperHewittBookItalic.woff') format('woff'),
+        url('../webfonts/CooperHewittBookItalic.ttf') format('truetype'),
+        url('../webfonts/CooperHewittBookItalic.svg#CooperHewitt-BookItalic') format('svg');    
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper Hewitt Medium';
+    src: url('../webfonts/CooperHewittMedium.eot');
+    src: url('../webfonts/CooperHewittMedium.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittMedium.woff2') format('woff2'),
+        url('../webfonts/CooperHewittMedium.woff') format('woff'),
+        url('../webfonts/CooperHewittMedium.ttf') format('truetype'),
+        url('../webfonts/CooperHewittMedium.svg#CooperHewitt-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper Hewitt Medium Italic';
+    src: url('../webfonts/CooperHewittMediumItalic.eot');
+    src: url('../webfonts/CooperHewittMediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittMediumItalic.woff2') format('woff2'),
+        url('../webfonts/CooperHewittMediumItalic.woff') format('woff'),
+        url('../webfonts/CooperHewittMediumItalic.ttf') format('truetype'),
+        url('../webfonts/CooperHewittMediumItalic.svg#CooperHewitt-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper Hewitt Semibold';
+    src: url('../webfonts/CooperHewittSemibold.eot');
+    src: url('../webfonts/CooperHewittSemibold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittSemibold.woff2') format('woff2'),
+        url('../webfonts/CooperHewittSemibold.woff') format('woff'),
+        url('../webfonts/CooperHewittSemibold.ttf') format('truetype'),
+        url('../webfonts/CooperHewittSemibold.svg#CooperHewitt-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper Hewitt Semibold Italic';
+    src: url('../webfonts/CooperHewittSemiboldItalic.eot');
+    src: url('../webfonts/CooperHewittSemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittSemiboldItalic.woff2') format('woff2'),
+        url('../webfonts/CooperHewittSemiboldItalic.woff') format('woff'),
+        url('../webfonts/CooperHewittSemiboldItalic.ttf') format('truetype'),
+        url('../webfonts/CooperHewittSemiboldItalic.svg#CooperHewitt-SemiboldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper Hewitt Bold';
+    src: url('../webfonts/CooperHewittBold.eot');
+    src: url('../webfonts/CooperHewittBold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittBold.woff2') format('woff2'),
+        url('../webfonts/CooperHewittBold.woff') format('woff'),
+        url('../webfonts/CooperHewittBold.ttf') format('truetype'),
+        url('../webfonts/CooperHewittBold.svg#CooperHewitt-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper Hewitt Bold Italic';    
+    src: url('../webfonts/CooperHewittBoldItalic.eot');
+    src: url('../webfonts/CooperHewittBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittBoldItalic.woff2') format('woff2'),
+        url('../webfonts/CooperHewittBoldItalic.woff') format('woff'),
+        url('../webfonts/CooperHewittBoldItalic.ttf') format('truetype'),
+        url('../webfonts/CooperHewittBoldItalic.svg#CooperHewitt-BoldItalic') format('svg');    
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper Hewitt Heavy';
+    src: url('../webfonts/CooperHewittHeavy.eot');
+    src: url('../webfonts/CooperHewittHeavy.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittHeavy.woff2') format('woff2'),
+        url('../webfonts/CooperHewittHeavy.woff') format('woff'),
+        url('../webfonts/CooperHewittHeavy.ttf') format('truetype'),
+        url('../webfonts/CooperHewittHeavy.svg#CooperHewitt-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cooper Hewitt Heavy Italic';
+    src: url('../webfonts/CooperHewittHeavyItalic.eot');
+    src: url('../webfonts/CooperHewittHeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/CooperHewittHeavyItalic.woff2') format('woff2'),
+        url('../webfonts/CooperHewittHeavyItalic.woff') format('woff'),
+        url('../webfonts/CooperHewittHeavyItalic.ttf') format('truetype'),
+        url('../webfonts/CooperHewittHeavyItalic.svg#CooperHewitt-HeavyItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
