@@ -4,8 +4,8 @@
       <div class="col-lg-10 offset-lg-1">
         <div class="row mb30 mb20-sm">
           <div class="col-md-4">
-            <div class="mb20"><img src="assets/imgs/logo.png" class="img-fluid" alt="TW Media" /></div>
-            <div><a href="mailto:info.twmedia@gmail.com">info.twmedia@gmail.com</a></div>
+            <div class="mb20 logo"><img src="assets/imgs/logo.png" class="img-fluid" alt="TW Media" /></div>
+            <div><a href="mailto:info.twmedia@gmail.com"><i class="fas fa-envelope mr-2"></i>info.twmedia@gmail.com</a></div>
           </div>
           <div class="col-md-3 d-none d-md-block">
             <h6>Get a design</h6>

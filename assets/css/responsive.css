@@ -39,6 +39,11 @@
 .mb100-lg {
 	margin-bottom: 100px;
 }
+.featured-brands img, .membership-benefits .benefit-bl img {
+	 filter: none;
+  	-webkit-filter: none;
+  	opacity: 1;
+} 
 }
  @media screen and (max-width: 991.98px) {
 /* margins/paddings */
@@ -81,18 +86,11 @@
 .mb100-md {
 	margin-bottom: 100px;
 }
-header .navbar-nav {
-	padding: 20px 0 10px 0;
-	border-bottom: 1px solid var(--black);
-}
-header .navbar-nav .nav-item {
-	margin: 0 0 20px 0;
-}
-header .navbar-nav .nav-item:last-child {
-	margin: 0;
-}
 .benefit-bl {
 	padding: 0;
+}
+.testimonials .swiper-button-prev, .testimonials .swiper-button-next {
+	display: none;
 }
 }
  @media screen and (max-width: 767.98px) {
@@ -136,6 +134,55 @@ header .navbar-nav .nav-item:last-child {
 .mb100-sm {
 	margin-bottom: 100px;
 }
+header .navbar-nav {
+	padding: 20px 0 10px 0;
+	/*border-bottom: 1px solid var(--grey);*/
+}
+header .navbar-nav .nav-item {
+	margin: 0;
+	width: 100%;
+	height: 35px;
+}
+header .navbar-nav hr {
+  	width: 60px;
+  	top: 40px;
+  	display: none;
+}
+header .navbar-nav .nav-item:nth-child(1):hover ~ hr, header .navbar-nav .nav-item:nth-child(1).active ~ hr {	
+    width: 60px;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: 0;
+    display: block;
+  }
+header .navbar-nav .nav-item:nth-child(2):hover ~ hr, header .navbar-nav .nav-item:nth-child(2).active ~ hr {	
+    width: 60px;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: 35px;
+    display: block;
+  }
+header .navbar-nav .nav-item:nth-child(3):hover ~ hr, header .navbar-nav .nav-item:nth-child(3).active ~ hr {	
+    width: 60px;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: 70px;
+    display: block;
+  }
+header .navbar-nav .nav-item:nth-child(4):hover ~ hr, header .navbar-nav .nav-item:nth-child(4).active ~ hr {	
+    width: 60px;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: 105px;
+    display: block;
+} 
+header .navbar-nav .nav-item:nth-child(5):hover ~ hr, header .navbar-nav .nav-item:nth-child(5).active ~ hr {	
+    width: 60px;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: 140px;
+    display: block;
+} 
 }
 @media screen and (max-width: 575.98px) {
 h1 {
@@ -162,6 +209,11 @@ h6 {
 	font-size: 14px;
 	line-height: 20px;
 }
+.featured-brands img {
+	width: auto;
+	height: 35px;
+  	opacity: 1;
+} 
 .membership-benefits .benefit-bl img {
 	width: auto;
 	height: 128px;
@@ -169,13 +221,15 @@ h6 {
 .swiper-text, .benefit-bl {
 	padding: 0 15px !important;
 }
-.testimonials .swiper-button-prev, .testimonials .swiper-button-next {
-	display: none;
-}
 .pricing-bl {	
 	width: auto;
+	padding: 20px 30px 0 30px;
+}
+.pricing-bl img {
+	top: 0;
+	margin-top: 0;
 }
 .pricing-plans .swiper-slide {
-	width: 224px !important;
+	width: auto !important;
 }
 }
