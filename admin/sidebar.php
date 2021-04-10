@@ -3,6 +3,7 @@
             <div class="fmb-scrollbar">
                 <div class="sidebar-content">
                     <!-- start sidebar nav -->
+                    <h3>Welcome Admin</h3><br><br>
                     <nav class="navbar fmb-side-navbar mb60">
                         <ul class="navbar-nav fmb-navbar-nav">
                             <li class="nav-item fmb-nav-item">

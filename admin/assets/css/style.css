@@ -922,7 +922,7 @@ DASHBOARD PAGE
     width: 350px;
     height: 100%;
     padding-top: 80px;
-    background: var(--primary);
+    background: var(--white);
     overflow-y: auto !important;
     z-index: 1000;
     transition: all 0.3s ease-in;
@@ -975,7 +975,7 @@ a[data-toggle="collapse"] {
     display: flex !important;
     align-items: center !important;
     padding: 10px 20px;
-    color: var(--white);
+    color: var(--black);
     font-size: 18px;
     line-height: 24px;
     border-radius: 10px;
@@ -985,8 +985,8 @@ a[data-toggle="collapse"] {
 .fmb-side-navbar .fmb-navbar-nav .fmb-nav-item:hover .fmb-nav-link,
 #dashboard .fmb-side-navbar .fmb-navbar-nav .fmb-nav-item .fmb-nav-link.dashboard,
 #users .fmb-side-navbar .fmb-navbar-nav .fmb-nav-item .fmb-nav-link.users {
-    color: var(--secondary);
-    background: var(--white);
+    color: var(--white);
+    background: var(--primary);
     box-shadow: 0 5px 5px var(--black-alpha10);
 }
 
@@ -1005,14 +1005,14 @@ a[data-toggle="collapse"] {
 
 .fmb-side-navbar .fmb-navbar-nav .fmb-nav-item .fmb-nav-link .icon path,
 .fmb-side-navbar .fmb-dropdown-item .icon path {
-    fill: var(--white);
+    fill: var(--black);
     transition: all 0.3s ease-in;
 }
 
 .fmb-side-navbar .fmb-navbar-nav .fmb-nav-item:hover .fmb-nav-link .icon path,
 #dashboard .fmb-side-navbar .fmb-navbar-nav .fmb-nav-item .fmb-nav-link.dashboard .icon path,
 #users .fmb-side-navbar .fmb-navbar-nav .fmb-nav-item .fmb-nav-link.users .icon path {
-    fill: var(--secondary);
+    fill: var(--white);
 }
 
 .fmb-side-navbar .fmb-dropdown-menu {

@@ -31,12 +31,6 @@
     <?php include("sidebar.php"); ?>
       <!-- start main -->
       <div id="main">
-        <!-- start breadcrumb -->
-        <ul class="breadcrumb fmb-breadcrumb">
-          <li class="breadcrumb-item fmb-breadcrumb-item">You Are Here</li>
-          <li class="breadcrumb-item fmb-breadcrumb-item active">Dashboard</li>
-        </ul>
-        <!-- end breadcrumb -->
         <!-- start main content -->
         <div class="main-content">
           <div class="container-fluid">
@@ -498,7 +492,7 @@
                                 </h6>
                                 <ul class="messages-list mb10">
                                     <li>
-                                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                                        <div class="icon"><i class="far fa-paper-plane"></i></div>
                                         <div class="card fmb-card">
                                             <a href="#">
                                                 <div class="card-body fmb-card-body">
@@ -513,7 +507,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                                        <div class="icon"><i class="far fa-paper-plane"></i></div>
                                         <div class="card fmb-card">
                                             <a href="#">
                                                 <div class="card-body fmb-card-body">
@@ -528,7 +522,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                                        <div class="icon"><i class="far fa-paper-plane"></i></div>
                                         <div class="card fmb-card">
                                             <a href="#">
                                                 <div class="card-body fmb-card-body">
@@ -543,7 +537,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                                        <div class="icon"><i class="far fa-paper-plane"></i></div>
                                         <div class="card fmb-card">
                                             <a href="#">
                                                 <div class="card-body fmb-card-body">
@@ -558,7 +552,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                                        <div class="icon"><i class="far fa-paper-plane"></i></div>
                                         <div class="card fmb-card">
                                             <a href="#">
                                                 <div class="card-body fmb-card-body">

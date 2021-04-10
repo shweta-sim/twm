@@ -23,7 +23,7 @@
               <li><a href="#">Professional</a></li>
               <li><a href="#">Team</a></li>
               <li><a href="#">Agency</a></li>
-              <li><a href="#">All plans</a></li>
+              <li><a href="plans.php">All plans</a></li>
             </ul>
           </div>
           <div class="col-md-2 d-none d-md-block">
