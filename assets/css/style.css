@@ -723,11 +723,11 @@ HOMEPAGE
     right: 0;
 }
 
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
+
+/*.swiper-button-prev:hover, .swiper-button-next:hover {
     color: #fff;
     background: var(--primary-dark);
-}
+}*/
 
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
@@ -749,9 +749,17 @@ HOMEPAGE
 
 /* classes for arrows of each project */
 
+.testimonial-pHenchTalk .swiper-text h5 {
+    color: #123b63;
+}
+
 .pHenchTalk {
     color: var(--white);
     background: #123b63;
+}
+
+.testimonial-pSummitTea .swiper-text h5 {
+    color: #9b8f56;
 }
 
 .pSummitTea {
@@ -762,10 +770,8 @@ HOMEPAGE
 
 /* --- pricing plans --- */
 
-.pricing-plans {}
-
 .pricing-bl {
-    width: 220px;
+    width: 230px;
     margin: 0 auto 20px auto;
     padding: 20px 20px 0 20px;
     background: var(--grey-light1);
@@ -780,8 +786,16 @@ HOMEPAGE
     margin-top: -10px;
 }
 
-.pricing-bl ul {
-    min-height: 90px;
+.pricing-bl ul li {
+    margin-bottom: 5px;
+}
+
+.pricing-bl ul li h6 {
+    font-weight: 400;
+}
+
+.pricing-bl ul li:last-child {
+    margin-bottom: 0;
 }
 
 .pricing-bl .heading hr {
@@ -798,6 +812,11 @@ HOMEPAGE
     position: relative;
     bottom: 0;
     margin-top: 20px;
+}
+
+.planBox {
+    height: 140px;
+    margin-bottom: 20px;
 }
 
 

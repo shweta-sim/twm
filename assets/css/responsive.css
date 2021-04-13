@@ -40,10 +40,10 @@
 	margin-bottom: 100px;
 }
 .featured-brands img, .membership-benefits .benefit-bl img {
-	 filter: none;
-  	-webkit-filter: none;
-  	opacity: 1;
-} 
+	filter: none;
+	-webkit-filter: none;
+	opacity: 1;
+}
 }
  @media screen and (max-width: 991.98px) {
 /* margins/paddings */
@@ -94,10 +94,10 @@
 }
 .nav-pills {
 	display: inline-flex;
-  	width: 100%;
-  	overflow-x: auto;
-  	-ms-overflow-style: none;
-  	overflow: -moz-scrollbars-none;
+	width: 100%;
+	overflow-x: auto;
+	-ms-overflow-style: none;
+	overflow: -moz-scrollbars-none;
 }
 .nav-pills .nav-link {
 	display: inline-block !important;
@@ -105,7 +105,7 @@
 	float: left;
 	margin: 0 10px 0 0;
 }
-.pricing-bl {	
+.pricing-bl {
 	width: 200px;
 }
 }
@@ -151,8 +151,7 @@
 	margin-bottom: 100px;
 }
 header .navbar-nav {
-	padding: 20px 0 10px 0;
-	/*border-bottom: 1px solid var(--grey);*/
+	padding: 20px 0 10px 0;/*border-bottom: 1px solid var(--grey);*/
 }
 header .navbar-nav .nav-item {
 	margin: 0;
@@ -165,51 +164,51 @@ header .navbar-nav .nav-item .nav-link, header .navbar-nav li.active .nav-link {
 	display: block;
 }
 header .navbar-nav hr {
-  	width: 60px;
-  	top: 55px;
-  	display: none;
+	width: 60px;
+	top: 55px;
+	display: none;
 }
-header .navbar-nav .nav-item:nth-child(1):hover ~ hr, header .navbar-nav li:nth-child(1).active ~ hr {	
-    width: 60px;
-    left: 50%;
-    margin-left: -30px;
-    margin-top: 0;
-    display: block;
-  }
-header .navbar-nav .nav-item:nth-child(2):hover ~ hr, header .navbar-nav li:nth-child(2).active ~ hr {	
-    width: 60px;
-    left: 50%;
-    margin-left: -30px;
-    margin-top: 40px;
-    display: block;
-  }
-header .navbar-nav .nav-item:nth-child(3):hover ~ hr, header .navbar-nav li:nth-child(3).active ~ hr {	
-    width: 60px;
-    left: 50%;
-    margin-left: -30px;
-    margin-top: 80px;
-    display: block;
-  }
-header .navbar-nav .nav-item:nth-child(4):hover ~ hr, header .navbar-nav li:nth-child(4).active ~ hr {	
-    width: 60px;
-    left: 50%;
-    margin-left: -30px;
-    margin-top: 120px;
-    display: block;
-} 
-header .navbar-nav .nav-item:nth-child(5):hover ~ hr, header .navbar-nav li:nth-child(5).active ~ hr {	
-    width: 60px;
-    left: 50%;
-    margin-left: -30px;
-    margin-top: 160px;
-    display: block;
-} 
-header .navbar-nav .nav-item:nth-child(6):hover ~ hr, header .navbar-nav li:nth-child(6).active ~ hr {	
-    width: 60px;
-    left: 50%;
-    margin-left: -30px;
-    margin-top: 200px;
-    display: block;
+header .navbar-nav .nav-item:nth-child(1):hover ~ hr, header .navbar-nav li:nth-child(1).active ~ hr {
+	width: 60px;
+	left: 50%;
+	margin-left: -30px;
+	margin-top: 0;
+	display: block;
+}
+header .navbar-nav .nav-item:nth-child(2):hover ~ hr, header .navbar-nav li:nth-child(2).active ~ hr {
+	width: 60px;
+	left: 50%;
+	margin-left: -30px;
+	margin-top: 40px;
+	display: block;
+}
+header .navbar-nav .nav-item:nth-child(3):hover ~ hr, header .navbar-nav li:nth-child(3).active ~ hr {
+	width: 60px;
+	left: 50%;
+	margin-left: -30px;
+	margin-top: 80px;
+	display: block;
+}
+header .navbar-nav .nav-item:nth-child(4):hover ~ hr, header .navbar-nav li:nth-child(4).active ~ hr {
+	width: 60px;
+	left: 50%;
+	margin-left: -30px;
+	margin-top: 120px;
+	display: block;
+}
+header .navbar-nav .nav-item:nth-child(5):hover ~ hr, header .navbar-nav li:nth-child(5).active ~ hr {
+	width: 60px;
+	left: 50%;
+	margin-left: -30px;
+	margin-top: 160px;
+	display: block;
+}
+header .navbar-nav .nav-item:nth-child(6):hover ~ hr, header .navbar-nav li:nth-child(6).active ~ hr {
+	width: 60px;
+	left: 50%;
+	margin-left: -30px;
+	margin-top: 200px;
+	display: block;
 }
 }
 @media screen and (max-width: 575.98px) {
@@ -281,8 +280,8 @@ h6 {
 .featured-brands img {
 	width: auto;
 	height: 35px;
-  	opacity: 1;
-} 
+	opacity: 1;
+}
 .membership-benefits .benefit-bl img {
 	width: auto;
 	height: 128px;
@@ -290,11 +289,14 @@ h6 {
 .swiper-text, .benefit-bl {
 	padding: 0 15px !important;
 }
-.pricing-bl {	
-	width: 224px;
+.swiper-pricing .swiper-slide {
+	width: 220px;
+}
+.pricing-bl {
+	width: auto;
 	padding: 20px 30px 0 30px;
 }
 .featured-brands {
 	margin: 0 !important;
-} 
+}
 }

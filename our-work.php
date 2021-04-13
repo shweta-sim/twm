@@ -140,7 +140,7 @@
 <script type="text/javascript">
   new WOW().init();
   if ($(window).width() <= 767){ 
-    $(".wow").removeClass("wow");
+    $(".wow2").removeClass("wow");
   }
 </script>
 </body>
