@@ -921,12 +921,17 @@ DASHBOARD PAGE
     left: 0;
     width: 350px;
     height: 100%;
-    padding-top: 80px;
+    /*padding-top: 80px;*/    
     background: var(--white);
     overflow-y: auto !important;
     z-index: 1000;
     transition: all 0.3s ease-in;
     box-shadow: 0 5px 5px var(--black-alpha10);
+}
+#sidebar .fmb-sidebar-toggle {
+    position: absolute;
+    right: 15px;
+    top: 15px;
 }
 
 #dashboard #sidebar.dashboard,
@@ -953,6 +958,13 @@ DASHBOARD PAGE
 
 a[data-toggle="collapse"] {
     position: relative;
+}
+
+.w-admin {}
+
+.w-admin .img-profile {
+    width: auto;
+    height: 150px !important;
 }
 
 .fmb-side-navbar {
@@ -1092,7 +1104,7 @@ a[data-toggle="collapse"] {
     position: relative;
     top: 0;
     right: 0;
-    padding-top: 80px;
+    /*padding-top: 80px;*/
     transition: all 0.3s ease-in;
     z-index: 0;
 }
@@ -1276,6 +1288,10 @@ a[data-toggle="collapse"] {
 
 .w-users.fmb-card:hover .fmb-card-body .fmb-h6 {
     color: var(--primary);
+}
+
+.w-users .fmb-card-header .fmb-h6 {
+    text-align: center !important;
 }
 
 .w-users.fmb-card .fmb-card-footer {

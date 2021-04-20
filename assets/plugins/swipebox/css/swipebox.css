@@ -1,0 +1,257 @@
+
+html.swipebox-html.swipebox-touch {
+  overflow: hidden !important;
+}
+#swipebox-overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(10,10,10,0.9);
+  z-index: 99999 !important;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#swipebox-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+@media (min-width:576px) {
+#swipebox-container {
+  max-width: 540px
+}
+}
+@media (min-width:768px) {
+#swipebox-container {
+  max-width: 720px
+}
+}
+@media (min-width:992px) {
+#swipebox-container {
+  max-width: 960px
+}
+}
+@media (min-width:1200px) {
+#swipebox-container {
+  max-width: 1140px
+}
+}
+
+#swipebox-slider {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  position: absolute;
+  display: none;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.4s ease;
+          transition: transform 0.4s ease;
+}
+#swipebox-slider .slide {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  padding: 60px 30px;
+  text-align: center;
+}
+#swipebox-slider .slide:before {
+  content: "";
+  display: inline-block;
+  height: 50%;
+  width: 1px;
+  margin-right: -1px;
+}
+#swipebox-slider .slide img {
+  display: inline-block;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  box-shadow: 0 0 10px rgba(31, 29, 29, .4);
+  -moz-box-shadow: 0 0 10px rgba(31, 29, 29, .4);
+  -webkit-box-shadow: 0 0 10px rgba(31, 29, 29, .4);
+}
+#swipebox-slider .slide-loading {
+  background: url(../img/loader.gif) no-repeat center center;
+}
+#swipebox-bottom-bar {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -25px;
+  width: 100%;
+  z-index: 999;
+}
+#swipebox-prev,
+#swipebox-next {
+  position: absolute;
+  top: 0;
+  width: 41px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: 'Cooper Hewitt Medium', 'Open Sans', Arial, Helvetica, sans-serif !important;
+  background: #123b63 !important;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+#swipebox-prev {
+  left: 0;
+}
+#swipebox-next {
+  right: 0;
+  transform: rotateY(180deg) !important;
+}
+#swipebox-prev:before, #swipebox-next:before {
+  content: "<";
+}
+#swipebox-close {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 60px;
+  right: 0;  
+  z-index: 9999;
+  cursor: pointer;
+}
+#swipebox-close:before {
+  content: "\f00d";
+  left: 0;
+  top: 0;
+  position: absolute;
+  font-size: 30px;
+  color: var(--white);
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url(../../fonts/fontawesome/webfonts/fa-solid-900.eot);
+  src: url(../../fonts/fontawesome/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), 
+  url(../../fonts/fontawesome/webfonts/fa-solid-900.woff2) format("woff2"), 
+  url(../../fonts/fontawesome/webfonts/fa-solid-900.woff) format("woff"), 
+  url(../../fonts/fontawesome//fa-solid-900.ttf) format("truetype"), 
+  url(../../fonts/fontawesome/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+}
+.swipebox-no-close-button #swipebox-close {
+  display: none;
+}
+#swipebox-prev.disabled,
+#swipebox-next.disabled {
+  opacity: 0.3;
+}
+.swipebox-no-touch #swipebox-overlay.rightSpring #swipebox-slider {
+  -webkit-animation: rightSpring 0.3s;
+          animation: rightSpring 0.3s;
+}
+.swipebox-no-touch #swipebox-overlay.leftSpring #swipebox-slider {
+  -webkit-animation: leftSpring 0.3s;
+          animation: leftSpring 0.3s;
+}
+.swipebox-touch #swipebox-container:before, .swipebox-touch #swipebox-container:after {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: all .3s ease;
+          transition: all .3s ease;
+  content: ' ';
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  height: 100%;
+  width: 20px;
+  opacity: 0;
+}
+.swipebox-touch #swipebox-container:before {
+  left: 0;
+  -webkit-box-shadow: inset 10px 0px 10px -8px #656565;
+          box-shadow: inset 10px 0px 10px -8px #656565;
+}
+.swipebox-touch #swipebox-container:after {
+  right: 0;
+  -webkit-box-shadow: inset -10px 0px 10px -8px #656565;
+          box-shadow: inset -10px 0px 10px -8px #656565;
+}
+.swipebox-touch #swipebox-overlay.leftSpringTouch #swipebox-container:before {
+  opacity: 1;
+}
+.swipebox-touch #swipebox-overlay.rightSpringTouch #swipebox-container:after {
+  opacity: 1;
+}
+
+@-webkit-keyframes rightSpring {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: -30px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes rightSpring {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: -30px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+@-webkit-keyframes leftSpring {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: 30px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+@keyframes leftSpring {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: 30px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+@media screen and (max-width: 575.98px) {
+#swipebox-close {
+  top: 20px;
+  right: 10px;
+}
+}

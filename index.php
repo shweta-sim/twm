@@ -51,8 +51,8 @@
                       <hr />
                     </h2>
                     <p class="mb40"> Whether you're a start up or an established business, we know making an impact online can be challenging. TW provides excellent design, digital strategy to support your vision at every step of your journey. </p>
-                    <div class="mb30 mb0-sm"> <a href="#" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a
-                          ><a href="#" class="btn btn-primary-bordered mb10-sm"
+                    <div class="mb30 mb0-sm"> <a href="our-work.php" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a
+                          ><a href="plans.php" class="btn btn-primary-bordered mb10-sm"
                             >View plans<span>></span></a
                           > </div>
                   </div>
@@ -84,10 +84,10 @@
                       provides excellent design, digital strategy to support
                       your vision at every step of your journey. </p>
                     <div class="mb30 mb0-sm"> <a
-                            href="#"
+                            href="our-work.php"
                             class="btn btn-primary-bordered mr-4 mb10-sm"
                             >View our work<span>></span></a
-                          ><a href="#" class="btn btn-primary-bordered mb10-sm"
+                          ><a href="plans.php" class="btn btn-primary-bordered mb10-sm"
                             >View plans<span>></span></a
                           > </div>
                   </div>
@@ -119,10 +119,10 @@
                       provides excellent design, digital strategy to support
                       your vision at every step of your journey. </p>
                     <div class="mb30 mb0-sm"> <a
-                            href="#"
+                            href="our-work.php"
                             class="btn btn-primary-bordered mr-4 mb10-sm"
                             >View our work<span>></span></a
-                          ><a href="#" class="btn btn-primary-bordered mb10-sm"
+                          ><a href="plans.php" class="btn btn-primary-bordered mb10-sm"
                             >View plans<span>></span></a
                           > </div>
                   </div>
@@ -154,10 +154,10 @@
                       provides excellent design, digital strategy to support
                       your vision at every step of your journey. </p>
                     <div class="mb30 mb0-sm"> <a
-                            href="#"
+                            href="our-work.php"
                             class="btn btn-primary-bordered mr-4 mb10-sm"
                             >View our work<span>></span></a
-                          ><a href="#" class="btn btn-primary-bordered mb10-sm"
+                          ><a href="plans.php" class="btn btn-primary-bordered mb10-sm"
                             >View plans<span>></span></a
                           > </div>
                   </div>
@@ -311,7 +311,7 @@
             > What are clients saying?
           <hr />
         </h2>
-        <div class="text-center wow wow2 fadeInUp" data-wow-delay="300ms"> <a href="#" class="btn btn-primary-bordered"
+        <div class="text-center wow wow2 fadeInUp" data-wow-delay="300ms"> <a href="our-work.php" class="btn btn-primary-bordered"
                 >View our work<span>></span></a
               > </div>
       </div>
@@ -424,7 +424,7 @@
           <hr />
         </h2>
         <a
-              href="#"
+              href="plans.php"
               class="btn btn-primary-bordered wow wow2 fadeInUp"
               data-wow-delay="300ms"
               >View plans<span>></span></a
@@ -438,58 +438,58 @@
             <!-- start slide 1 -->
             <div class="swiper-slide">
               <div
-                    class="pricing-bl text-center wow wow2 fadeInUp"
+                    class="pricing-bl wow wow2 fadeInUp"
                     data-wow-delay="300ms"
                   >
+                  <div class="pricing-bl-inner">
                 <h4 class="text-center text-uppercase text-primary mb10"> Professional </h4>
-
-                    <div class="text-center planBox">"I need logos, leaflets, posters and social media assets on a regular basis."</div>
-
+                <div class="text-center pricing-text">"I need logos, leaflets, posters and social media assets on a regular basis."</div>
                 <h1 class="heading text-center">
                   <hr />
                   £389 </h1>
-                <div> <img
+                <img
                         src="assets/imgs/img-pricing1.svg"
                         class="img-fluid img"
                         alt="Professional"
-                      /> </div>
+                      />
+                    </div>
               </div>
             </div>
             <!-- end slide 1 --> 
             <!-- start slide 2 -->
             <div class="swiper-slide">
               <div
-                    class="pricing-bl text-center wow wow2 fadeInUp"
+                    class="pricing-bl wow wow2 fadeInUp"
                     data-wow-delay="400ms"
                   >
+                  <div class="pricing-bl-inner">
                 <h4 class="text-center text-uppercase text-primary mb10"> Team </h4>
-  
-                    <div class="text-center planBox">"I need a website or an app. Additional types of output such as wireframes, designs, prototypes and video are essential."</div>
-                 
+                <div class="text-center pricing-text">"I need a website or an app. Additional types of output such as wireframes, designs, prototypes and video are essential."</div>
                 <h1 class="heading text-center">
                   <hr />
                   £689 </h1>
-                <div> <img
+                <img
                         src="assets/imgs/img-pricing2.svg"
                         class="img-fluid img"
                         alt="Team"
-                      /> </div>
+                      />
+                    </div>
               </div>
             </div>
             <!-- start slide 2 --> 
             <!-- start slide 3 -->
             <div class="swiper-slide">
               <div
-                    class="pricing-bl text-center wow wow2 fadeInUp"
+                    class="pricing-bl wow wow2 fadeInUp"
                     data-wow-delay="500ms"
                   >
+                  <div class="pricing-bl-inner">
                 <h4 class="text-center text-uppercase text-primary mb10"> Agency </h4>
-                <div class="text-center planBox">"I need strategic thinking, customer research and a better understanding of the competitor landscape."</div>
-                  
+                <div class="text-center pricing-text">"I need strategic thinking, customer research and a better understanding of the competitor landscape."</div>
                 <h1 class="heading text-center">
                   <hr />
                   £989 </h1>
-                <div> <img
+                <img
                         src="assets/imgs/img-pricing3.svg"
                         class="img-fluid img"
                         alt="Agency"
@@ -519,7 +519,7 @@
           <hr />
         </h2>
         <a
-              href="#"
+              href="contact.php"
               class="btn btn-primary-bordered wow wow2 fadeInUp"
               data-wow-delay="300ms"
               >Contact us<span>></span></a

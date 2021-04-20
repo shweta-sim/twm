@@ -1,5 +1,5 @@
 <!-- start header -->
-<nav class="navbar fmb-navbar fixed-top">
+<nav class="navbar fmb-navbar">
     <a class="fmb-navbar-brand" href="index.php"><img src="assets/imgs/logo-twm.png" class="img-fluid" /></a>
     <a href="#" class="fmb-sidebar-toggle" id=""><i class="fas fa-bars"></i
   ></a>

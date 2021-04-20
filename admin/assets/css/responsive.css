@@ -25,6 +25,7 @@
     }
     #sidebar {
         margin-left: -350px;
+        padding-top: 20px;
     }
     #sidebar.active {
         margin-left: 0;
@@ -34,6 +35,9 @@
     }
     .fmb-sidebar-toggle {
         display: block;
+    }
+    .fmb-navbar-brand {
+        margin-left: 0;
     }
 }
 

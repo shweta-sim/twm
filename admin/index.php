@@ -24,13 +24,13 @@
     <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body id="dashboard">
-    <?php include("header.php"); ?>
+<body id="dashboard">    
     <!-- start wrapper -->
     <div id="wrapper">
     <?php include("sidebar.php"); ?>
       <!-- start main -->
       <div id="main">
+        <?php include("header.php"); ?>
         <!-- start main content -->
         <div class="main-content">
           <div class="container-fluid">
@@ -38,25 +38,22 @@
               <div class="col-lg-8 col-xl-9">
                 <h6 class="fmb-h6 font-medium mb10 d-none d-md-block">Users</h6>
                 <div class="row mb40">
-                  <div class="col-xl-8 mb30-lg">
-                    <h6 class="fmb-h6 font-medium mb10 d-block d-md-none">
-                      Users
-                    </h6>
+                  <div class="col-xl-4 mb30-lg">
+
                     <!-- start widget users  -->
-                    <div class="row">
-                      <div class="col-md-6 mb30-sm">
-                        <div class="card fmb-card w-users text-center">
+                    <div class="card fmb-card w-users text-center">
                           <a href="#">
+                            <div class="card-header fmb-card-header">
+                                    <h5 class="fmb-h6 font-medium text-center m-auto">New Bookings</h5>
+                                </div>
                             <div class="card-body fmb-card-body">
                               <div class="mb10">
                                 <img
-                                  src="assets/imgs/icon-bookings-big.svg"
+                                  src="assets/imgs/icon-new-bookings.svg"
                                   class="svg icon"
                                 />
                               </div>
-                              <h6 class="fmb-h6 font-medium text-center">
-                                New Bookings
-                              </h6>
+                              <h2 class="text-primary font-bold text-center">12</h2>
                             </div>
                             <div class="card-footer fmb-card-footer">
                               <div>Current Bookings: 35</div>
@@ -64,17 +61,21 @@
                             </div>
                           </a>
                 </div>
-            </div>
-            <div class="col-md-6 mb30-sm">
-                <div class="card fmb-card w-users text-center">
+                <!-- end widget users  -->
+                  </div>
+
+                  <div class="col-xl-4 mb30-lg">
+                    <!-- start widget users  -->
+                    <div class="card fmb-card w-users text-center">
                     <a href="#">
+                      <div class="card-header fmb-card-header">
+                                    <h6 class="fmb-h6 font-medium text-center m-auto">SignUps</h6>
+                                </div>
                         <div class="card-body fmb-card-body">
                             <div class="mb10">
-                                <img src="assets/imgs/icon-user-big.svg" class="svg icon" />
-                            </div>
-                            <h6 class="fmb-h6 font-medium text-center">
-                                SignUps
-                            </h6>
+                                <img src="assets/imgs/icon-signups.svg" class="svg icon" />
+                            </div>  
+                             <h2 class="text-primary font-bold text-center">10</h2>                         
                         </div>
                         <div class="card-footer fmb-card-footer">
                             <div>Total Users: 35</div>
@@ -82,45 +83,34 @@
                         </div>
                     </a>
                 </div>
-            </div>
-        </div>
-        <!-- end widget users  -->
-    </div>
-    <div class="col-xl-4 order-first order-md-last mb30-sm">
-        <!-- start widget welcome  -->
-        <div class="card fmb-card w-welcome">
-            <div class="fmb-card-body fmb-card-body text-white">
-                <h4 class="fmb-h4 font-medium text-white mb20">
-                    Welcome Admin!
-                </h4>
-                <div class="font-medium">
-                    New since your last login.
+                <!-- end widget users  -->
+                  </div>
+                  <div class="col-xl-4">
+                    <!-- start widget users  -->
+                    <div class="card fmb-card w-users text-center">
+                    <a href="#">
+                      <div class="card-header fmb-card-header">
+                                    <h6 class="fmb-h6 font-medium text-center m-auto">Messages</h6>
+                                </div>
+                        <div class="card-body fmb-card-body">
+                            <div class="mb10">
+                                <img src="assets/imgs/icon-messages.svg" class="svg icon" />
+                            </div>
+                             <h2 class="text-primary font-bold text-center">29</h2>
+                        </div>
+                        <div class="card-footer fmb-card-footer">
+                            <div>Total Users: 35</div>
+                            <div>New: 8</div>
+                        </div>
+                    </a>
                 </div>
-                <hr />
-                <div class="row text-center">
-                    <div class="col-4">
-                        <a href="#">
-                            <div class="text-xs">SignUps</div>
-                            <h4 class="fmb-h4 text-white">12</h4>
-                        </a>
-                    </div>
-                    <div class="col-4">
-                        <a href="#">
-                            <div class="text-xs">Bookings</div>
-                            <h4 class="fmb-h4 text-white">10</h4>
-                        </a>
-                    </div>
-                    <div class="col-4">
-                        <a href="#">
-                            <div class="text-xs">Messages</div>
-                            <h4 class="fmb-h4 text-white">29</h4>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end widget welcome  -->
-    </div>
+                <!-- end widget users  -->
+                  </div>
+
+
+                    
+        
+
     </div>
     <div class="row">
         <div class="col-xl-auto mb30-lg">

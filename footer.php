@@ -30,7 +30,7 @@
             <h6>Ressources</h6>
             <ul class="footer-links">
               <li><a href="#">About</a></li>
-              <li><a href="#">Contact us</a></li>
+              <li><a href="contact.php">Contact us</a></li>
               <li><a href="#">Testimonials</a></li>
               <li><a href="#">FAQ's</a></li>
             </ul>
