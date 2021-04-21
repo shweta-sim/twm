@@ -10,6 +10,8 @@
 <link rel="icon" href="assets/imgs/favicon-32x32.png" sizes="32x32" type="image/png" />
 <link rel="icon" href="assets/imgs/favicon-16x16.png" sizes="16x16" type="image/png" />
 
+
+
 <!-- Animate CSS -->
 <link href="assets/plugins/animate/animate.min.css" rel="stylesheet" />
 
@@ -24,9 +26,20 @@
 
 <!-- responsive css -->
 <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+
+<link href="assets/plugins/preloader/preloader.css" rel="stylesheet" />
+
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="assets/plugins/preloader/preloader.js"></script>
+
 </head>
 
-<body>
+<body id="home">
+<!-- preloader -->
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+
 <!-- start header -->
 <?php include("header.php"); ?>
 <!-- end header --> 
@@ -47,9 +60,9 @@
                 </div>
                 <div class="col-md-6 col-lg-5 wow fadeInRight" data-wow-delay="400ms">
                   <div class="swiper-text">
-                    <h2 class="heading mb20"> Design without the hassle.
+                    <h3 class="heading mb20"> Unlimited design for a fixed price.
                       <hr />
-                    </h2>
+                    </h3>
                     <p class="mb40"> Whether you're a start up or an established business, we know making an impact online can be challenging. TW provides excellent design, digital strategy to support your vision at every step of your journey. </p>
                     <div class="mb30 mb0-sm"> <a href="our-work.php" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a
                           ><a href="plans.php" class="btn btn-primary-bordered mb10-sm"
@@ -76,9 +89,9 @@
                       class="col-md-6 col-lg-5"
                     >
                   <div class="swiper-text">
-                    <h2 class="heading mb20"> Design without the hassle.
+                    <h3 class="heading mb20"> Unlimited design for a fixed price.
                       <hr />
-                    </h2>
+                    </h3>
                     <p class="mb40"> Whether you're a start up or an established business,
                       we know making an impact online can be challenging. TW
                       provides excellent design, digital strategy to support
@@ -111,9 +124,9 @@
                       class="col-md-6 col-lg-5"
                     >
                   <div class="swiper-text">
-                    <h2 class="heading mb20"> Design without the hassle.
+                    <h3 class="heading mb20"> Unlimited design for a fixed price.
                       <hr />
-                    </h2>
+                    </h3>
                     <p class="mb40"> Whether you're a start up or an established business,
                       we know making an impact online can be challenging. TW
                       provides excellent design, digital strategy to support
@@ -146,9 +159,9 @@
                       class="col-md-6 col-lg-5"
                     >
                   <div class="swiper-text">
-                    <h2 class="heading mb20"> Design without the hassle.
+                    <h3 class="heading mb20"> Unlimited design for a fixed price.
                       <hr />
-                    </h2>
+                    </h3>
                     <p class="mb40"> Whether you're a start up or an established business,
                       we know making an impact online can be challenging. TW
                       provides excellent design, digital strategy to support
@@ -354,7 +367,7 @@
                             /> </div>
                       <i class="text-sm"
                             >Ademola Adeyeba,<br />
-                      Forbes Featured Mindset & Leadership Co </i> </div>
+                      Forbes Featured Mindset & Leadership Coach </i> </div>
                   </div>
                 </div>
               </div>
@@ -533,6 +546,8 @@
 <?php include("footer.php"); ?>
 <!-- end footer --> 
 
+<a href="#home" id="backtotop" class="smoothscroll"><img src="assets/imgs/icon-arrow-up-primary.png"></a> 
+
 <!-- jquery js --> 
 <script
       type="text/javascript"
@@ -546,16 +561,16 @@
     ></script> 
 
 <!-- animate js --> 
-<script
-      type="text/javascript"
-      src="assets/plugins/animate/animate.min.js"
-    ></script> 
+<script type="text/javascript" src="assets/plugins/animate/animate.min.js"></script> 
 <script type="text/javascript">
-      new WOW().init();
+  new WOW().init();
       if ($(window).width() <= 767) {
         $('.wow2').removeClass('wow');
       }
-    </script> 
+</script> 
+
+<!-- svg js --> 
+<script type="text/javascript" src="assets/plugins/svg/svg.js"></script> 
 
 <!-- swiper js --> 
 <script
@@ -637,5 +652,45 @@
         },
       });
     </script>
+
+<!-- preloader js -->
+<script type="text/javascript">
+  $(window).on('load', function() { // makes sure the whole site is loaded 
+  $('#status').fadeOut(); // will first fade out the loading animation 
+  $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+  $('body').delay(350).css({'overflow':'visible'});
+})
+</script>
+
+<!-- smooth scroll js --> 
+<script type="text/javascript">
+$(function() {
+  $('.smoothscroll').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000); // The number here represents the speed of the scroll in milliseconds
+        return false;
+      }
+    }
+  });
+});
+</script> 
+
+<!-- back to top js --> 
+<script type="text/javascript">
+var btn = $('#backtotop');
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+</script>
+
 </body>
 </html>

@@ -323,5 +323,8 @@ h6 {
 .featured-brands {
 	margin: 0 !important;
 }
+select {
+    background-position-x: 95% !important;
+}
 
 }

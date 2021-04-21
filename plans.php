@@ -10,11 +10,11 @@
 <link rel="icon" href="assets/imgs/favicon-32x32.png" sizes="32x32" type="image/png" />
 <link rel="icon" href="assets/imgs/favicon-16x16.png" sizes="16x16" type="image/png" />
 
+<!-- Animate CSS -->
+<link href="assets/plugins/animate/animate.min.css" rel="stylesheet" />
+
 <!-- swiper css -->
 <link rel="stylesheet" href="assets/plugins/swiper/css/swiper.min.css" />
-
-<!-- Animate CSS -->
-<link href="assets/plugins/animate/animate.min.css" rel="stylesheet"/>
 
 <!-- bootstrap css -->
 <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -25,7 +25,12 @@
 <!-- responsive css -->
 <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body class="preload" id="home">
+<!-- preloader -->
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+  
 <!-- start header -->
 <?php include("header.php"); ?>
 <!-- end header --> 
@@ -44,7 +49,7 @@
           <div class="swiper-wrapper"> 
             <!-- start slide 0 -->
             <div class="swiper-slide d-none d-xl-block slide1">
-              <div class="pricing-bl wow wow2 fadeInUp" data-wow-delay="300ms">
+              <div class="pricing-bl wow fadeInUp" data-wow-delay="300ms">
               <ul class="checklist">
                   <li>
                     <p>Designs: Logo, flyer, posters</p>
@@ -94,7 +99,7 @@
             <!-- end slide 0 --> 
             <!-- start slide 1 -->
             <div class="swiper-slide">
-              <div class="pricing-bl wow wow2 fadeInUp" data-wow-delay="300ms">
+              <div class="pricing-bl wow fadeInUp" data-wow-delay="300ms">
                 <img src="assets/imgs/img-pricing1.svg" class="img-fluid img" alt="Professional" />
                 <div class="pricing-bl-inner">
                   
@@ -169,7 +174,7 @@
             <!-- start slide 2 -->
             <div class="swiper-slide">
 
-              <div class="pricing-bl wow wow2 fadeInUp" data-wow-delay="300ms">
+              <div class="pricing-bl wow fadeInUp" data-wow-delay="300ms">
                 <img src="assets/imgs/img-pricing2.svg" class="img-fluid img" alt="Team" />
                 <div class="pricing-bl-inner">
                   
@@ -349,7 +354,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="heading text-center mb10 wow wow2 fadeInUp" data-wow-delay="200ms">Frequently Asks Questions
+        <h2 class="heading text-center mb10 wow wow2 fadeInUp" data-wow-delay="200ms">FAQs
           <hr />
         </h2>
         
@@ -418,6 +423,8 @@
 <?php include("footer.php"); ?>
 <!-- end footer --> 
 
+<a href="#home" id="backtotop" class="smoothscroll"><img src="assets/imgs/icon-arrow-up-primary.png"></a>
+
 <!-- jquery js --> 
 <script type="text/javascript" src="assets/plugins/jquery/jquery-3.5.1.min.js"></script> 
 
@@ -428,10 +435,15 @@
 <script type="text/javascript" src="assets/plugins/animate/animate.min.js"></script> 
 <script type="text/javascript">
   new WOW().init();
-  if ($(window).width() <= 767){ 
-    $(".wow2").removeClass("wow");
-  }
-</script> 
+      if ($(window).width() <= 767) {
+        $('.wow2').removeClass('wow');
+      }
+</script>
+
+<!-- svg js --> 
+<script type="text/javascript" src="assets/plugins/svg/svg.js"></script> 
+
+<!-- swiper js --> 
 <script type="text/javascript" src="assets/plugins/swiper/js/swiper.min.js"></script> 
 <script type="text/javascript">
       // swiper pricing
@@ -461,5 +473,44 @@
         },
       });
     </script>
+
+<!-- preloader js -->
+<script type="text/javascript">
+  $(window).on('load', function() { // makes sure the whole site is loaded 
+  $('#status').fadeOut(); // will first fade out the loading animation 
+  $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+  $('body').delay(350).css({'overflow':'visible'});
+})
+</script>    
+
+<!-- smooth scroll js --> 
+<script type="text/javascript">
+$(function() {
+  $('.smoothscroll').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000); // The number here represents the speed of the scroll in milliseconds
+        return false;
+      }
+    }
+  });
+});
+</script> 
+
+<!-- back to top js --> 
+<script type="text/javascript">
+var btn = $('#backtotop');
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+</script>
 </body>
 </html>

@@ -22,7 +22,12 @@
 <!-- responsive css -->
 <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body class="preload" id="home">
+<!-- preloader -->
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+  
 <!-- start header -->
 <?php include("header.php"); ?>
 <!-- end header --> 
@@ -35,8 +40,8 @@
         <h2 class="heading text-center mb30 wow fadeInUp" data-wow-delay="200ms">Contact
           <hr>
         </h2>
-        <h4 class="text-center wow fadeInUp" data-wow-delay="300ms">Ready to learn more about how TW + RL can help you save time, and money on your designs?</h4>
-        <p class="wow fadeInUp" data-wow-delay="400ms">Book a 1:1 appointment or send an email; you'll be up and running, in no time.</p>
+        <!-- <h4 class="text-center wow fadeInUp" data-wow-delay="300ms">Ready to learn more about how TW + RL can help you save time, and money on your designs?</h4>
+        <p class="wow fadeInUp" data-wow-delay="400ms">Book a 1:1 appointment or send an email; you'll be up and running, in no time.</p> -->
       </div>
     </div>
     <div class="row">
@@ -65,7 +70,7 @@
             </div>
             <div class="col-md-12">
               <div class="form-group">
-                <select type="select" name="interest" id="interest" class="form-control required">
+                <select type="select" name="interest" id="interest" class="required">
                   <option value="" selected="selected">I'm interested in...</option>
                   <option value="Logo Design">Logo Design</option>
                   <option value="Flyer Design">Flyer Design</option>
@@ -93,6 +98,8 @@
 <?php include("footer.php"); ?>
 <!-- end footer --> 
 
+<a href="#home" id="backtotop" class="smoothscroll"><img src="assets/imgs/icon-arrow-up-primary.png"></a>
+
 <!-- jquery js --> 
 <script type="text/javascript" src="assets/plugins/jquery/jquery-3.5.1.min.js"></script> 
 
@@ -103,10 +110,13 @@
 <script type="text/javascript" src="assets/plugins/animate/animate.min.js"></script> 
 <script type="text/javascript">
   new WOW().init();
-  if ($(window).width() <= 767){ 
-    $(".wow2").removeClass("wow");
-  }
-</script> 
+      if ($(window).width() <= 767) {
+        $('.wow2').removeClass('wow');
+      }
+</script>
+
+<!-- svg js --> 
+<script type="text/javascript" src="assets/plugins/svg/svg.js"></script> 
 
 <!-- validation js --> 
 <script type="text/javascript" src="assets/plugins/validate/jquery.validate.min.js"></script> 
@@ -139,6 +149,45 @@ $(document).ready(function() {
       form.submit();
     }
   });
+});
+</script>
+
+<!-- preloader js -->
+<script type="text/javascript">
+  $(window).on('load', function() { // makes sure the whole site is loaded 
+  $('#status').fadeOut(); // will first fade out the loading animation 
+  $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+  $('body').delay(350).css({'overflow':'visible'});
+})
+</script>
+
+<!-- smooth scroll js --> 
+<script type="text/javascript">
+$(function() {
+  $('.smoothscroll').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000); // The number here represents the speed of the scroll in milliseconds
+        return false;
+      }
+    }
+  });
+});
+</script> 
+
+<!-- back to top js --> 
+<script type="text/javascript">
+var btn = $('#backtotop');
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
 });
 </script>
 </body>
