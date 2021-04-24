@@ -104,10 +104,10 @@
                 <div class="pricing-bl-inner">
                   
                   <h4 class="text-center text-uppercase text-primary mb10"> Professional </h4>
-                <div class="text-center pricing-text">"I need logos, leaflets, posters and social media assets on a regular basis."</div>
-                <h1 class="heading text-center">
+                <div class="text-center pricing-text">"I need logos, leaflets, posters and social media assets on a regular basis."<br><br></div>
+                <h2 class="heading text-center">
                   <hr />
-                  £389 </h1>
+                  £389/month </h2>
                 <ul class="checklist">
                   <li>
                     <p>Designs: Logo, flyer, posters</p>
@@ -180,9 +180,9 @@
                   
                   <h4 class="text-center text-uppercase text-primary mb10"> Team </h4>
                 <div class="text-center pricing-text">"I need a website or an app. Additional types of output such as wireframes, designs, prototypes and video are essential."</div>
-                <h1 class="heading text-center">
+                <h2 class="heading text-center">
                   <hr />
-                  £689 </h1>
+                  £689/month </h2>
                 <ul class="checklist">
                   <li>
                     <p>Designs: Logo, flyer, posters</p>
@@ -258,9 +258,9 @@
                   
                   <h4 class="text-center text-uppercase text-primary mb10"> Agency </h4>
                 <div class="text-center pricing-text">"I need strategic thinking, customer research and a better understanding of the competitor landscape."</div>
-                <h1 class="heading text-center">
+                <h2 class="heading text-center">
                   <hr />
-                  £989 </h1>
+                  £989/month </h2>
                 <ul class="checklist">
                   <li>
                     <p>Designs: Logo, flyer, posters</p>
@@ -350,7 +350,7 @@
 <!-- end cta --> 
 
 <!-- start faqs -->
-<section>
+<section id="sectionFAQ">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -439,9 +439,6 @@
         $('.wow2').removeClass('wow');
       }
 </script>
-
-<!-- svg js --> 
-<script type="text/javascript" src="assets/plugins/svg/svg.js"></script> 
 
 <!-- swiper js --> 
 <script type="text/javascript" src="assets/plugins/swiper/js/swiper.min.js"></script> 

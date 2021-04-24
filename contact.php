@@ -72,9 +72,10 @@
               <div class="form-group">
                 <select type="select" name="interest" id="interest" class="required">
                   <option value="" selected="selected">I'm interested in...</option>
-                  <option value="Logo Design">Logo Design</option>
-                  <option value="Flyer Design">Flyer Design</option>
-                  <option value="Websites">Websites</option>
+                  <option value="Raising a general query">Raising a general query</option>
+                  <option value="Booking a 1-2-1 call">Booking a 1-2-1 call</option>
+                  <option value="Creating a bespoke plan">Creating a bespoke plan</option>
+                  <option value="Creating a bespoke plan">Something else</option>
                 </select>
               </div>
             </div>
@@ -114,9 +115,6 @@
         $('.wow2').removeClass('wow');
       }
 </script>
-
-<!-- svg js --> 
-<script type="text/javascript" src="assets/plugins/svg/svg.js"></script> 
 
 <!-- validation js --> 
 <script type="text/javascript" src="assets/plugins/validate/jquery.validate.min.js"></script> 

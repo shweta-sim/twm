@@ -237,6 +237,11 @@ h6 {
     background: var(--primary) !important;
 }
 
+.heading.text-left hr {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
 
 /* --- form control --- */
 
@@ -265,12 +270,14 @@ h6 {
     box-shadow: none !important;
     vertical-align: middle;
 }
+
 .form-control:focus {
     color: var(--black) !important;
     background-color: var(--white) !important;
     border-color: var(--black) !important;
     outline: 0;
 }
+
 .form-control::-webkit-input-placeholder {
     color: var(--black) !important;
 }
@@ -298,6 +305,7 @@ h6 {
 textarea.form-control {
     min-height: 135px;
 }
+
 select {
     display: block;
     width: 100%;
@@ -308,7 +316,7 @@ select {
     line-height: 18px !important;
     font-weight: 400 !important;
     color: var(--black) !important;
-     border: 2px solid var(--grey-light3) !important;
+    border: 2px solid var(--grey-light3) !important;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -316,9 +324,11 @@ select {
     -webkit-appearance: none !important;
     background-position-x: 98% !important;
 }
+
 select:focus {
     border-color: var(--black) !important;
 }
+
 
 /* --- buttons --- */
 
@@ -588,6 +598,76 @@ footer .footer-btm a:hover {
 }
 
 
+/* preloader css */
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--white);
+    z-index: 2000;
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /*background: url("../imgs/preloader.gif");*/
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+}
+
+#backtotop {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary) !important;
+    background: var(--white) !important;
+    border: 2px solid var(--primary) !important;
+    opacity: 1;
+    visibility: hidden;
+    z-index: 8;
+    border-radius: 10px;
+    /*transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;*/
+}
+
+#backtotop:hover,
+#backtotop:active {
+    cursor: pointer;
+    color: var(--white) !important;
+    background: var(--primary) !important;
+}
+
+#backtotop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#backtotop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#backtotop:hover img,
+#backtotop:active img {
+    content: url("../imgs/icon-arrow-up-white.png");
+}
+
+
 /* ##############################
 ---------------------------------
 HOMEPAGE
@@ -694,6 +774,41 @@ HOMEPAGE
     background: #1e6e46 !important;
 }
 
+.design3 .heading hr {
+    background: #d698b4 !important;
+}
+
+.design3 .btn-primary-bordered {
+    color: #c29d63 !important;
+    background: var(--white) !important;
+    border: 2px solid #d698b4 !important;
+}
+
+.design3 .btn-primary-bordered:hover,
+.design3 .btn-primary-bordered:focus,
+.design3 .btn-primary-bordered.focus {
+    color: var(--white) !important;
+    background: #d698b4 !important;
+}
+
+.design4 .heading hr {
+    background: #f8b8b0 !important;
+}
+
+.design4 .btn-primary-bordered {
+    color: #f8b8b0 !important;
+    background: var(--white) !important;
+    border: 2px solid #f8b8b0 !important;
+}
+
+.design4 .btn-primary-bordered:hover,
+.design4 .btn-primary-bordered:focus,
+.design4 .btn-primary-bordered.focus {
+    color: var(--white) !important;
+    border: 2px solid #bdbfc2 !important;
+    background: #bdbfc2 !important;
+}
+
 
 /* --- featured brands --- */
 
@@ -745,7 +860,7 @@ HOMEPAGE
     top: -5px;
 }
 
-.benefit-bl {
+.membership-benefits .benefit-bl {
     padding: 0 20px;
 }
 
@@ -851,6 +966,19 @@ HOMEPAGE
     background: #9b8f56;
 }
 
+.testimonial-Selfridges .swiper-text h5 {
+    color: #4ca836;
+}
+
+.Selfridges {
+    color: var(--white);
+    background: #4ca836;
+}
+
+.testimonial-Selfridges .swiper-text {
+    padding-left: 0 !important;
+}
+
 
 /* --- pricing plans --- */
 
@@ -941,6 +1069,7 @@ PLANS PAGE
 .plans .pricing-text {
     min-height: 120px;
 }
+
 .plans ul.checklist {
     padding: 30px 0;
 }
@@ -1215,6 +1344,10 @@ OUR WORK PAGE
     flex-wrap: inherit;
 }
 
+.work-item {
+    margin-bottom: 30px;
+}
+
 .work-item img {
     width: 100%;
     height: auto;
@@ -1281,6 +1414,7 @@ OUR WORK PAGE
 
 .work-text {
     padding: 20px;
+    padding-top: 0;
 }
 
 .logos .work-text h4 {
@@ -1347,66 +1481,156 @@ CONTACT PAGE
 }
 
 .error {
-    color: var(--black);
+    color: var(--primary);
     font-size: 12px;
 }
 
-/* preloader css */
-#preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--white);
-    z-index: 2000;
-}
-#status {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    /*background: url("../imgs/preloader.gif");*/
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: -100px 0 0 -100px;
-}
-#backtotop {
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
-    width: 40px;
-    height: 40px;
+
+/* ##############################
+---------------------------------
+ABOUT PAGE
+---------------------------------
+############################## */
+
+
+/* --- banner --- */
+
+.banner {
+    position: relative;
+    height: 500px;
+    padding: 0 !important;
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: var(--primary) !important;
-    background: none !important;
-    border: 2px solid var(--primary) !important;
-    opacity: 1;
-    visibility: hidden;
-    z-index: 8;
-    border-radius: 10px;
-    /*transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -webkit-transition: all 0.3s ease-in;
-    -ms-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;*/
+    margin: 30px 0;
 }
-#backtotop:hover, #backtotop:active {
-    cursor: pointer;
+
+.banner-about {
+    background-image: url(../imgs/banner-about.jpg) !important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-about:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #7c100d;
+    content: "";
+    opacity: .5;
+}
+
+.banner-about h3 {
+    color: var(--white);
+    line-height: 30px;
+}
+
+.banner-about hr {
+    margin-top: 20px !important;
+    background: var(--white) !important;
+}
+
+
+/* --- our values --- */
+
+.our-values {}
+
+.our-values .values-bl {
+    padding: 0 30px;
+}
+
+.our-values .values-bl img {
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    position: relative;
+    top: 0;
+}
+
+.our-values .values-bl:hover img {
+    filter: none;
+    /* IE6-9 */
+    -webkit-filter: none;
+    top: -5px;
+}
+
+
+/* --- how we work --- */
+
+.hww-bl {
+    display: flex;
+    align-items: center;
+}
+
+.days {
+    position: relative !important;
+}
+
+.day1 .heading {
+    color: #387d40;
+}
+
+.day1 .heading hr {
+    background: #387d40 !important;
+}
+
+.day2 .heading {
+    color: #9023a6;
+}
+
+.day2 .heading hr {
+    background: #9023a6 !important;
+}
+
+.day3 .heading {
+    color: #d37300;
+}
+
+.day3 .heading hr {
+    background: #d37300 !important;
+}
+
+.day4 .heading {
+    color: #2a8c75;
+}
+
+.day4 .heading hr {
+    background: #2a8c75 !important;
+}
+
+.day5 .heading {
+    color: #fb6255;
+}
+
+.day5 .heading hr {
+    background: #fb6255 !important;
+}
+
+.day3 .arrow img,
+.day5 .arrow img {
+    transform: rotateY(180deg);
+}
+
+.get-started .heading hr {
+    background: var(--black) !important;
+}
+
+.get-started .btn-primary-bordered {
+    color: var(--black) !important;
+    background: var(--white) !important;
+    border: 2px solid var(--black) !important;
+}
+
+.get-started .btn-primary-bordered:hover,
+.get-started .btn-primary-bordered:focus,
+.get-started .btn-primary-bordered.focus {
     color: var(--white) !important;
-    background: var(--primary) !important;
-}
-#backtotop.show {
-    opacity: 1;
-    visibility: visible;
-}
-#backtotop.show {
-    opacity: 1;
-    visibility: visible;
-}
-#backtotop:hover img, #backtotop:active img {
-    content: url("../imgs/icon-arrow-up-white.png");
+    background: var(--black) !important;
 }

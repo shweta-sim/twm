@@ -39,7 +39,7 @@
 .mb100-lg {
 	margin-bottom: 100px;
 }
-.featured-brands img, .membership-benefits .benefit-bl img {
+.featured-brands img, .membership-benefits .benefit-bl img, .our-values .values-bl img {
 	filter: none;
 	-webkit-filter: none;
 	opacity: 1;
@@ -232,6 +232,22 @@ header .navbar-nav .nav-item:nth-child(6):hover ~ hr, header .navbar-nav li:nth-
 .plans ul.checklist li p {
     font-size: 16px;
 }
+.hww-bl img {
+	width: auto;
+	height: 220px !important;
+}
+.days .arrow {
+	position: absolute;
+	left: 50%;
+	bottom: 100% !important;
+	margin-left: -25px;	
+	text-align: right !important;
+}
+.days .arrow img {
+	width: auto;
+	height: 90px;
+    transform: rotateY(180deg) !important;
+}
 }
 @media screen and (max-width: 575.98px) {
 /* headings */	
@@ -326,5 +342,14 @@ h6 {
 select {
     background-position-x: 95% !important;
 }
-
+.banner {
+    height: 400px;
+}
+.banner-about {
+    background-position: 55% 50%;
+}
+#backtotop {
+    right: 10px;
+    bottom: 10px;
+}
 }

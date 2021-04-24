@@ -1,3 +1,21 @@
+<?php 
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+require './vendor/phpmailer/phpmailer/src/Exception.php';
+require './vendor/phpmailer/phpmailer/src/PHPMailer.php';
+require './vendor/phpmailer/phpmailer/src/SMTP.php';
+
+$smtp_host = "mail.purplecherrytechnologies.com"; // CHANGE THIS
+$smtp_email = "mailerwebservice@gmail.com"; // CHANGE THIS
+$smtp_password = "P@ssword12345!"; // CHANGE THIS
+$smtp_port = 587; // CHANGE THIS
+
+
+$to="shweta.sim@gmail.com";
+$subject="Contact - TW Media";
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,10 +61,10 @@
   {
     //Recipient's email addreess    
     // $to="info.twmedia@gmail.com";
-    $to="info.twmedia@gmail.com";
+    
     
     //Change subject field.
-    $subject="Contact - TW Media";
+    
     $name=$_POST['name'];
     $company=$_POST['company'];
     $email=$_POST['email']; 
@@ -54,8 +72,6 @@
     $interest=$_POST['interest'];
     $yourmessage=$_POST['yourmessage'];       
 
-    //Sender's email addreess
-    $from=$_POST['email'];
               
     //Email Body
     $message = '<html><body>';
@@ -70,21 +86,37 @@
     $message .= "</table>";
     $message .= "</body></html>";     
     
-    //Headers
-    $headers = "MIME-Version: 1.0" . "\r\n";
-    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers .= "X-Mailer: PHP \r\n";
 
-    // More headers
-    $headers .= 'From: <mehrarohit1985@gmail.com>' . "\r\n";    
-    mail($to, $subject, $message, $headers);   
+	$mail = new PHPMailer();
+	$mail->IsSMTP();
+
+	$mail->SMTPDebug  = 0;  
+	$mail->SMTPAuth   = TRUE;
+	$mail->SMTPSecure = "tls";
+	$mail->Port       = $smtp_port;
+	$mail->Host       = $smtp_host;
+	$mail->Username   = $smtp_email;
+	$mail->Password   = $smtp_password;
+
+	$mail->IsHTML(true);
+	$mail->AddAddress($to);
+	$mail->SetFrom($smtp_email);
+//	$mail->AddCC("mehrarohit1985@gmail.com");
+	$mail->Subject = $subject;
+
+	$mail->MsgHTML($message); 
+	if(!$mail->Send()) {
+		print("<h2 class='heading text-center mb30 wow fadeInUp' data-wow-delay='200ms'>Sorry! Something Went Wrong. <hr></h2><p class='text-center mb30 wow fadeInUp' data-wow-delay='300ms'>Please try again later!</p><div class='wow fadeInUp' data-wow-delay='400ms'><a href='index.php' class='btn btn-primary-bordered'>Back to home</a></div>");
+		//var_dump($mail);
+	} else {
+		print("<h2 class='heading text-center mb30 wow fadeInUp' data-wow-delay='200ms'>Thank you for getting in touch. <hr></h2><p class='text-center mb30 wow fadeInUp' data-wow-delay='300ms'>Your query is important to us. Our support team will be respond as soon as possible.</p><div class='wow fadeInUp' data-wow-delay='400ms'><a href='index.php' class='btn btn-primary-bordered'>Back to home</a></div>");
+	}
+
+	// End | Send send-email-via-gmail-smtp-server-using-phpmailer.
     
   }
 ?>
-        <h2 class="heading text-center mb30 wow fadeInUp" data-wow-delay="200ms">Thank You!<hr></h2>
-        <h4 class="text-center mb30 wow fadeInUp" data-wow-delay="300ms">You are precious to us.<br>Our support team will contact you soon.</h4>
-        <div class="wow fadeInUp" data-wow-delay="400ms"><a href="index.php" class="btn btn-primary">Back to home</a></div>
-        
+      
       </div>
     </div>
   </div>
@@ -111,9 +143,6 @@
         $('.wow2').removeClass('wow');
       }
 </script>
-
-<!-- svg js --> 
-<script type="text/javascript" src="assets/plugins/svg/svg.js"></script> 
 
 <!-- preloader js -->
 <script type="text/javascript">

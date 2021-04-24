@@ -10,29 +10,29 @@
           <div class="col-md-3 d-none d-md-block">
             <h6>Get a design</h6>
             <ul class="footer-links">
-              <li><a href="#">Logos</a></li>
-              <li><a href="#">Flyers</a></li>
-              <li><a href="#">Websites</a></li>
-              <li><a href="#">Research</a></li>
-              <li><a href="#">All services</a></li>
+              <li><a href="our-work.php">Logos</a></li>
+              <li><a href="our-work.php">Flyers</a></li>
+              <li><a href="our-work.php">Websites</a></li>
+              <li><a href="our-work.php">Research</a></li>
+              <li><a href="our-work.php">All services</a></li>
             </ul>
           </div>
           <div class="col-md-3 d-none d-md-block">
             <h6>Design plans</h6>
             <ul class="footer-links">
-              <li><a href="#">Professional</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Agency</a></li>
+              <li><a href="plans.php">Professional</a></li>
+              <li><a href="plans.php">Team</a></li>
+              <li><a href="plans.php">Agency</a></li>
               <li><a href="plans.php">All plans</a></li>
             </ul>
           </div>
           <div class="col-md-2 d-none d-md-block">
             <h6>Ressources</h6>
             <ul class="footer-links">
-              <li><a href="#">About</a></li>
+              <li><a href="about.php">About</a></li>
               <li><a href="contact.php">Contact us</a></li>
               <li><a href="#">Testimonials</a></li>
-              <li><a href="#">FAQ's</a></li>
+              <li><a href="plans.php#sectionFAQ">FAQ's</a></li>
             </ul>
           </div>
         </div>

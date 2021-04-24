@@ -48,7 +48,7 @@
           <li class="nav-item"> <a class="nav-link active logos" id="pills-logos-tab" data-toggle="pill" href="#pills-logos" role="tab" aria-controls="pills-logos" aria-selected="false">Logos</a> </li>
           <li class="nav-item"> <a class="nav-link branding" id="pills-branding-tab" data-toggle="pill" href="#pills-branding" role="tab" aria-controls="pills-branding" aria-selected="false">Branding</a> </li>
           <li class="nav-item"> <a class="nav-link socialmedia" id="pills-socialmedia-tab" data-toggle="pill" href="#pills-socialmedia" role="tab" aria-controls="pills-socialmedia" aria-selected="false">Social Media</a> </li>
-          <li class="nav-item"> <a class="nav-link flyersposters" id="pills-flyersposters-tab" data-toggle="pill" href="#pills-flyersposters" role="tab" aria-controls="pills-flyersposters" aria-selected="true">Flyers &amp; Posters</a> </li>
+          <li class="nav-item"> <a class="nav-link flyersposters" id="pills-flyersposters-tab" data-toggle="pill" href="#pills-flyersposters" role="tab" aria-controls="pills-flyersposters" aria-selected="true">Leaflets &amp; Posters</a> </li>
           <li class="nav-item"> <a class="nav-link websitesapps" id="pills-websitesapps-tab" data-toggle="pill" href="#pills-websitesapps" role="tab" aria-controls="pills-websitesapps" aria-selected="false">Websites &amp; Apps</a> </li>
           <li class="nav-item"> <a class="nav-link prototypessketches" id="pills-prototypessketches-tab" data-toggle="pill" href="#pills-prototypessketches" role="tab" aria-controls="pills-prototypessketches" aria-selected="false">Prototypes &amp; Sketches</a> </li>
           <li class="nav-item"> <a class="nav-link researchdiscovery" id="pills-researchdiscovery-tab" data-toggle="pill" href="#pills-researchdiscovery" role="tab" aria-controls="pills-researchdiscovery" aria-selected="false">Research &amp; Discovery</a> </li>
@@ -61,29 +61,38 @@
           <!-- start tab pane -->
           <div class="tab-pane show active logos" id="pills-logos" role="tabpanel" aria-labelledby="pills-logos-tab">
           <div class="row">
-              <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="400ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="work-item"><a href="assets/imgs/work/logos/1-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/1.jpg" class="img-fluid" /></a>
                 </div>                  
               </div>
-              <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="500ms">
-              <div class="work-item"><a href="assets/imgs/work/logos/2-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/2.jpg" class="img-fluid" /></a></div>
-              </div>
-              <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="600ms">
-              <div class="work-item"><a href="assets/imgs/work/logos/3-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/3.jpg" class="img-fluid" /></a></div>
-              </div>
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="400ms">
-                <div class="work-item"><a href="assets/imgs/work/logos/1-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/1.jpg" class="img-fluid" /></a></div>
-              </div>
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="500ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
               <div class="work-item"><a href="assets/imgs/work/logos/2-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/2.jpg" class="img-fluid" /></a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
               <div class="work-item"><a href="assets/imgs/work/logos/3-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/3.jpg" class="img-fluid" /></a></div>
               </div>
+              <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                <div class="work-item"><a href="assets/imgs/work/logos/4-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/4.jpg" class="img-fluid" /></a></div>
+              </div> -->
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
+              <div class="work-item"><a href="assets/imgs/work/logos/5-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/5.jpg" class="img-fluid" /></a></div>
+              </div>
+              <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+              <div class="work-item"><a href="assets/imgs/work/logos/6-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/6.jpg" class="img-fluid" /></a></div>
+              </div> -->
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                <div class="work-item"><a href="assets/imgs/work/logos/7-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/7.jpg" class="img-fluid" /></a></div>
+              </div>
+              <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
+              <div class="work-item"><a href="assets/imgs/work/logos/8-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/8.jpg" class="img-fluid" /></a></div>
+              </div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+              <div class="work-item"><a href="assets/imgs/work/logos/9-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/9.jpg" class="img-fluid" /></a></div>
+              </div> -->
             </div>
 
             <div class="row">
-            <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="400ms">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
                   <h4>Hand drawn logos that capture the heart of your vision</h4>
                   <p>From £239</p>
@@ -95,11 +104,11 @@
           <!-- start tab pane -->
           <div class="tab-pane branding" id="pills-branding" role="tabpanel" aria-labelledby="pills-branding-tab">
           <div class="row">
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="400ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="work-item"><a href="assets/imgs/work/branding/1-big.jpg" class="swipebox" rel="branding"><img src="assets/imgs/work/branding/1.jpg" class="img-fluid" /></a></div>
                 
               </div>
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="500ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
               <div class="work-item"><a href="assets/imgs/work/branding/2-big.jpg" class="swipebox" rel="branding"><img src="assets/imgs/work/branding/2.jpg" class="img-fluid" /></a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
@@ -107,10 +116,10 @@
               </div>
             </div>
             <div class="row">
-            <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="400ms">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
-                  <h4>Consistency across your whole brand</h4>
-                  <p>From £239</p>
+                  <h4>Consistency across your logo, business cards, website, social media, labelling and more.</h4>
+                  <p>From £339</p>
                   </div>
                 </div>
               </div>
@@ -119,10 +128,10 @@
           <!-- start tab pane -->
           <div class="tab-pane socialmedia" id="pills-socialmedia" role="tabpanel" aria-labelledby="pills-socialmedia-tab">
           <div class="row">
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="400ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="work-item"><a href="assets/imgs/work/socialmedia/1-big.jpg" class="swipebox" rel="socialmedia"><img src="assets/imgs/work/socialmedia/1.jpg" class="img-fluid" /></a></div>
               </div>
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="500ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
               <div class="work-item"><a href="assets/imgs/work/socialmedia/2-big.jpg" class="swipebox" rel="socialmedia"><img src="assets/imgs/work/socialmedia/2.jpg" class="img-fluid" /></a></div>
               </div>
               <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
@@ -130,7 +139,7 @@
               </div> -->
             </div>
             <div class="row">
-            <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="400ms">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
                   <h4>DP’s, Banners, GIF’s, Landing pages across all your platforms</h4>
                   <p>From £239</p>
@@ -142,21 +151,24 @@
           <!-- start tab pane -->
           <div class="tab-pane flyersposters" id="pills-flyersposters" role="tabpanel" aria-labelledby="pills-flyersposters-tab">
             <div class="row">
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="400ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="work-item"><a href="assets/imgs/work/flyersposters/1-big.jpg" class="swipebox" rel="flyersposters"><img src="assets/imgs/work/flyersposters/1.jpg" class="img-fluid" /></a></div>
               </div>
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="500ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
                 <div class="work-item"><a href="assets/imgs/work/flyersposters/2-big.jpg" class="swipebox" rel="flyersposters"><img src="assets/imgs/work/flyersposters/2.jpg" class="img-fluid" /></a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
                 <div class="work-item"><a href="assets/imgs/work/flyersposters/3-big.jpg" class="swipebox" rel="flyersposters"><img src="assets/imgs/work/flyersposters/3.jpg" class="img-fluid" /></a></div>
               </div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+                <div class="work-item"><a href="assets/imgs/work/flyersposters/4-big.jpg" class="swipebox" rel="flyersposters"><img src="assets/imgs/work/flyersposters/4.jpg" class="img-fluid" /></a></div>
+              </div>
             </div>
             <div class="row">
-            <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="400ms">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
-                  <h4>Advertise your events with style</h4>
-                  <p>From £239</p>
+                  <h4>Advertise your campaigns and events with style</h4>
+                  <p>From £119</p>
                   </div>
                 </div>
               </div>
@@ -165,21 +177,21 @@
           <!-- start tab pane -->
           <div class="tab-pane websitesapps" id="pills-websitesapps" role="tabpanel" aria-labelledby="pills-websitesapps-tab">
           <div class="row">
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="400ms">
-                <div class="work-item"><a href="assets/imgs/work/websiteapps/1-big.jpg" class="swipebox" rel="websites-and-apps"><img src="assets/imgs/work/websiteapps/1.jpg" class="img-fluid" /></a></div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=A4P_cDAYHjo"><img src="assets/imgs/work/websiteapps/1.jpg" class="img-fluid" /></a></div>
               </div>
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="500ms">
-              <div class="work-item"><a href="assets/imgs/work/websiteapps/2-big.jpg" class="swipebox" rel="websites-and-apps"><img src="assets/imgs/work/websiteapps/2.jpg" class="img-fluid" /></a></div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=Vk9HdVJq8uo"><img src="assets/imgs/work/websiteapps/2.jpg" class="img-fluid" /></a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-              <div class="work-item"><a href="assets/imgs/work/websiteapps/3-big.jpg" class="swipebox" rel="websites-and-apps"><img src="assets/imgs/work/websiteapps/3.jpg" class="img-fluid" /></a></div>
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=XNieRMwtm-s"><img src="assets/imgs/work/websiteapps/3.jpg" class="img-fluid" /></a></div>
               </div>
             </div>
             <div class="row">
-            <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="400ms">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
-                  <h4>Beautifully designed digital extensions of your brand</h4>
-                  <p>From £239</p>
+                  <h4>Beautifully designed websites, apps</h4>
+                  <p>From £469</p>
                   </div>
                 </div>
               </div>
@@ -188,10 +200,10 @@
           <!-- start tab pane -->
           <div class="tab-pane prototypessketches" id="pills-prototypessketches" role="tabpanel" aria-labelledby="pills-prototypessketches-tab">
           <div class="row">
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="400ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="work-item"><a href="assets/imgs/work/prototypessketches/1-big.jpg" class="swipebox" rel="proto-sketches"><img src="assets/imgs/work/prototypessketches/1.jpg" class="img-fluid" /></a></div>
               </div>
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="500ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
               <div class="work-item"><a href="assets/imgs/work/prototypessketches/2-big.jpg" class="swipebox" rel="proto-sketches"><img src="assets/imgs/work/prototypessketches/2.jpg" class="img-fluid" /></a></div>
               </div>
               <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
@@ -199,10 +211,10 @@
               </div> -->
             </div>
             <div class="row">
-            <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="400ms">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
                   <h4>Bring concepts and ideas to life for quick and easy demos</h4>
-                  <p>From £239</p>
+                  <p>From £469</p>
                   </div>
                 </div>
               </div>
@@ -211,18 +223,18 @@
           <!-- start tab pane -->
           <div class="tab-pane researchdiscovery" id="pills-researchdiscovery" role="tabpanel" aria-labelledby="pills-researchdiscovery-tab">
           <div class="row">
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="400ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="work-item"><a href="assets/imgs/work/researchdiscovery/1-big.jpg" class="swipebox" rel="research-discovery"><img src="assets/imgs/work/researchdiscovery/1.jpg" class="img-fluid" /></a></div>
               </div>
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="500ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
               <div class="work-item"><a href="assets/imgs/work/researchdiscovery/2-big.jpg" class="swipebox" rel="research-discovery"><img src="assets/imgs/work/researchdiscovery/2.jpg" class="img-fluid" /></a></div>
               </div>
-              <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
               <div class="work-item"><a href="assets/imgs/work/researchdiscovery/3-big.jpg" class="swipebox" rel="research-discovery"><img src="assets/imgs/work/researchdiscovery/3.jpg" class="img-fluid" /></a></div>
-              </div> -->
+              </div>
             </div>
             <div class="row">
-            <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="400ms">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
                   <h4>Establish clear business goals and gain a better understanding of customer needs and the competitor landscape</h4>
                   <p>From £239</p>
@@ -234,21 +246,37 @@
           <!-- start tab pane -->
           <div class="tab-pane photography" id="pills-photography" role="tabpanel" aria-labelledby="pills-photography-tab">
           <div class="row">
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="400ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="work-item"><a href="assets/imgs/work/photography/1-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/1.jpg" class="img-fluid" /></a></div>
               </div>
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="500ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
               <div class="work-item"><a href="assets/imgs/work/photography/2-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/2.jpg" class="img-fluid" /></a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
               <div class="work-item"><a href="assets/imgs/work/photography/3-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/3.jpg" class="img-fluid" /></a></div>
               </div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                <div class="work-item"><a href="assets/imgs/work/photography/4-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/4.jpg" class="img-fluid" /></a></div>
+              </div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
+              <div class="work-item"><a href="assets/imgs/work/photography/5-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/5.jpg" class="img-fluid" /></a></div>
+              </div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+              <div class="work-item"><a href="assets/imgs/work/photography/6-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/6.jpg" class="img-fluid" /></a></div>
+              </div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                <div class="work-item"><a href="assets/imgs/work/photography/7-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/7.jpg" class="img-fluid" /></a></div>
+              </div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
+              <div class="work-item"><a href="assets/imgs/work/photography/8-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/8.jpg" class="img-fluid" /></a></div>
+              </div>
+              
             </div>
             <div class="row">
-            <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="400ms">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
                   <h4>Use our photographers and studios to create the perfect campaign</h4>
-                  <p>From £239</p>
+                  <p>From £269</p>
                   </div>
                 </div>
               </div>
@@ -257,21 +285,21 @@
           <!-- start tab pane -->
           <div class="tab-pane videos" id="pills-videos" role="tabpanel" aria-labelledby="pills-videos-tab">
           <div class="row">
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="400ms">
-                <div class="work-item"><a href="assets/imgs/work/videos/1-big.jpg" class="swipebox" rel="videos"><img src="assets/imgs/work/videos/1.jpg" class="img-fluid" /></a></div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=Vk9HdVJq8uo"><img src="assets/imgs/work/videos/1.jpg" class="img-fluid" /></a></div>
               </div>
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="500ms">
-              <div class="work-item"><a href="assets/imgs/work/videos/2-big.jpg" class="swipebox" rel="videos"><img src="assets/imgs/work/videos/2.jpg" class="img-fluid" /></a></div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=A4P_cDAYHjo"><img src="assets/imgs/work/videos/2.jpg" class="img-fluid" /></a></div>
               </div>
-              <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-              <div class="work-item"><a href="assets/imgs/work/videos/3-big.jpg" class="swipebox" rel="videos"><img src="assets/imgs/work/videos/3.jpg" class="img-fluid" /></a></div>
-              </div> -->
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=XNieRMwtm-s"><img src="assets/imgs/work/videos/3.jpg" class="img-fluid" /></a></div>
+              </div>
             </div>
             <div class="row">
-            <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="400ms">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
                   <h4>Bring your content to life</h4>
-                  <p>From £239</p>
+                  <p>From £469</p>
                   </div>
                 </div>
               </div>
@@ -280,10 +308,10 @@
           <!-- start tab pane -->
           <div class="tab-pane businesscards" id="pills-businesscards" role="tabpanel" aria-labelledby="pills-businesscards-tab">
           <div class="row">
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="400ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="work-item"><a href="assets/imgs/work/businesscards/1-big.jpg" class="swipebox" rel="business-cards"><img src="assets/imgs/work/businesscards/1.jpg" class="img-fluid" /></a></div>
               </div>
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="500ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
               <div class="work-item"><a href="assets/imgs/work/businesscards/2-big.jpg" class="swipebox" rel="business-cards"><img src="assets/imgs/work/businesscards/2.jpg" class="img-fluid" /></a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
@@ -291,10 +319,10 @@
               </div>
             </div>
             <div class="row">
-            <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="400ms">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
                   <h4>Create a snappy introduction to your business</h4>
-                  <p>From £239</p>
+                  <p>From £109</p>
                   </div>
                 </div>
               </div>
@@ -303,10 +331,10 @@
           <!-- start tab pane -->
           <div class="tab-pane pitchdecks" id="pills-pitchdecks" role="tabpanel" aria-labelledby="pills-pitchdecks-tab">
           <div class="row">
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="400ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="work-item"><a href="assets/imgs/work/pitchdecks/1-big.jpg" class="swipebox" rel="pitch-decks"><img src="assets/imgs/work/pitchdecks/1.jpg" class="img-fluid" /></a></div>
               </div>
-              <div class="col-md-4 mb30-md wow fadeInUp" data-wow-delay="500ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
               <div class="work-item"><a href="assets/imgs/work/pitchdecks/2-big.jpg" class="swipebox" rel="pitch-decks"><img src="assets/imgs/work/pitchdecks/2.jpg" class="img-fluid" /></a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
@@ -314,7 +342,7 @@
               </div>
             </div>
             <div class="row">
-            <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay="400ms">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
                   <h4>Present with style</h4>
                   <p>From £239</p>
@@ -355,6 +383,19 @@
 <!-- jquery js --> 
 <script type="text/javascript" src="assets/plugins/jquery/jquery-3.5.1.min.js"></script> 
 
+<!-- swipebox js -->
+<script type="text/javascript" src="assets/plugins/swipebox/js/jquery.swipebox.js"></script> 
+<script type="text/javascript">
+  $( document ).ready(function() {
+      /* Basic Gallery */
+      $( '.swipebox' ).swipebox();
+      
+      /* Video */
+      $( '.swipebox-video' ).swipebox();
+
+      });
+</script>
+
 <!-- bootstrap js --> 
 <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
 
@@ -365,17 +406,6 @@
       if ($(window).width() <= 767) {
         $('.wow2').removeClass('wow');
       }
-</script>
-
-<!-- svg js --> 
-<script type="text/javascript" src="assets/plugins/svg/svg.js"></script> 
-
-<!-- swipebox js -->
-<script type="text/javascript" src="assets/plugins/swipebox/js/jquery.swipebox.js"></script> 
-<script type="text/javascript">
-  $( document ).ready(function() {
-      $( '.swipebox' ).swipebox();      
-  } );
 </script>
 
 <!-- preloader js -->
