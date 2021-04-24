@@ -248,6 +248,9 @@ header .navbar-nav .nav-item:nth-child(6):hover ~ hr, header .navbar-nav li:nth-
 	height: 90px;
     transform: rotateY(180deg) !important;
 }
+.websitesapps .work-item .video, .videos .work-item .video {
+	display: none;
+}
 }
 @media screen and (max-width: 575.98px) {
 /* headings */	

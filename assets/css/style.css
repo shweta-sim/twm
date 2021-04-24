@@ -1345,6 +1345,7 @@ OUR WORK PAGE
 }
 
 .work-item {
+    position: relative;
     margin-bottom: 30px;
 }
 
@@ -1464,7 +1465,18 @@ OUR WORK PAGE
 .pitchdecks .work-text h4 {
     color: #ff6600;
 }
-
+.websitesapps .work-item .video, .videos .work-item .video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    overflow: hidden;
+    background: var(--black);
+}
 
 /* ##############################
 ---------------------------------

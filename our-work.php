@@ -178,13 +178,37 @@
           <div class="tab-pane websitesapps" id="pills-websitesapps" role="tabpanel" aria-labelledby="pills-websitesapps-tab">
           <div class="row">
               <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
-              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=A4P_cDAYHjo"><img src="assets/imgs/work/websiteapps/1.jpg" class="img-fluid" /></a></div>
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=Vk9HdVJq8uo">
+                <div class="video">
+                  <video width="100%" height="100%" data-play="hover" poster="assets/imgs/work/websiteapps/1.jpg">
+                    <source src="assets/videos/2.mp4" type="video/mp4">
+                    <source src="assets/videos/2.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img src="assets/imgs/work/websiteapps/1.jpg" class="img-fluid" /></a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
-              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=Vk9HdVJq8uo"><img src="assets/imgs/work/websiteapps/2.jpg" class="img-fluid" /></a></div>
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=A4P_cDAYHjo">
+                <div class="video">
+                  <video width="100%" height="100%" data-play="hover" poster="assets/imgs/work/websiteapps/2.jpg">
+                    <source src="assets/videos/1.mp4" type="video/mp4">
+                    <source src="assets/videos/1.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img src="assets/imgs/work/websiteapps/2.jpg" class="img-fluid" /></a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=XNieRMwtm-s"><img src="assets/imgs/work/websiteapps/3.jpg" class="img-fluid" /></a></div>
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=XNieRMwtm-s">
+                <div class="video">
+                  <video width="100%" height="100%" data-play="hover" poster="assets/imgs/work/websiteapps/3.jpg">
+                    <source src="assets/videos/3.mp4" type="video/mp4">
+                    <source src="assets/videos/3.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img src="assets/imgs/work/websiteapps/3.jpg" class="img-fluid" /></a></div>
               </div>
             </div>
             <div class="row">
@@ -282,24 +306,51 @@
               </div>
           </div>
           <!-- end tab pane --> 
-          <!-- start tab pane -->
+           <!-- start tab pane -->
           <div class="tab-pane videos" id="pills-videos" role="tabpanel" aria-labelledby="pills-videos-tab">
           <div class="row">
               <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
-                <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=Vk9HdVJq8uo"><img src="assets/imgs/work/videos/1.jpg" class="img-fluid" /></a></div>
+                <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=Vk9HdVJq8uo">
+                  <div class="video">
+                  <video width="100%" height="100%" data-play="hover" poster="assets/imgs/work/videos/1.jpg">
+                    <source src="assets/videos/1.mp4" type="video/mp4">
+                    <source src="assets/videos/1.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                  <img src="assets/imgs/work/videos/1.jpg" class="img-fluid" />
+                </a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
-              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=A4P_cDAYHjo"><img src="assets/imgs/work/videos/2.jpg" class="img-fluid" /></a></div>
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=A4P_cDAYHjo">
+                <div class="video">
+                  <video width="100%" height="100%" data-play="hover" poster="assets/imgs/work/videos/2.jpg">
+                    <source src="assets/videos/2.mp4" type="video/mp4">
+                    <source src="assets/videos/2.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                  <img src="assets/imgs/work/videos/2.jpg" class="img-fluid" />
+              </a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=XNieRMwtm-s"><img src="assets/imgs/work/videos/3.jpg" class="img-fluid" /></a></div>
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=XNieRMwtm-s">
+                <div class="video">
+                  <video width="100%" height="100%" data-play="hover" poster="assets/imgs/work/videos/3.jpg">
+                    <source src="assets/videos/3.mp4" type="video/mp4">
+                    <source src="assets/videos/3.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                  <img src="assets/imgs/work/videos/3.jpg" class="img-fluid" />
+              </a></div>
               </div>
             </div>
             <div class="row">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
                   <h4>Bring your content to life</h4>
-                  <p>From £469</p>
+                  <p>From £239</p>
                   </div>
                 </div>
               </div>
@@ -445,6 +496,63 @@ $(window).scroll(function() {
     btn.removeClass('show');
   }
 });
+</script>
+
+<!-- video on hover js -->
+<script type="text/javascript">
+  ;(function($) {
+  $.hoverPlay = {};
+  $.fn.hoverPlay = function(options) {
+    if (!this.length) { return this; }
+    var opts = $.extend(true, {}, $.hoverPlay.defaults, options);
+    this.each(function() {
+      var el = $(this),
+        video = el.get(0);
+      if (typeof video['play'] === 'function') {
+        video.controls = false;
+        video.loop = true;
+        el.on('mouseover', function() {
+          var timeout = el.data('hoverPlayTimeout');
+          if (!timeout) {
+            timeout = setTimeout(function() {
+              el.data('hoverPlayTimeout', null);
+              opts.callbacks.play(el, video);
+              el.trigger('hoverPlay');
+            }, opts.playDelay);
+            el.data('hoverPlayTimeout', timeout);
+          }
+        }).on('mouseout', function() {
+          var timeout = el.data('hoverPlayTimeout');
+          if (timeout) {
+            clearTimeout(timeout);
+            el.data('hoverPlayTimeout', null);
+          }
+          setTimeout(function() {
+            opts.callbacks.pause(el, video);
+            el.trigger('hoverPause');
+            video.load();
+          },  opts.pauseDelay);
+        });
+      }
+    });
+    return this;
+  };
+  $.hoverPlay.defaults = {
+    playDelay: 1,
+    pauseDelay: 0,
+    callbacks: {
+      play: function(el,  video) {
+        video.play();
+      },
+      pause: function(el,  video) {
+        video.pause();
+      }
+    }
+  };
+  jQuery(document).ready(function($) {
+    $('[data-play=hover]').hoverPlay();
+  });
+})(jQuery);
 </script>
 
 </body>
