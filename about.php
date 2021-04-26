@@ -363,5 +363,21 @@ $(window).scroll(function() {
   }
 });
 </script>
+
+<!-- nav pills js -->
+<script type="text/javascript">
+  window.onload = function(){  
+
+    var url = document.location.toString();
+    if (url.match('#')) {
+        $('.nav-pills a[href="#' + url.split('#')[1] + '"]').tab('show');
+    }
+
+    //Change hash for page-reload
+    $('.nav-pills a[href="#' + url.split('#')[1] + '"]').on('shown', function (e) {
+        window.location.hash = e.target.hash;
+    }); 
+} 
+</script>
 </body>
 </html>

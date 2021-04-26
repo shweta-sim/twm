@@ -51,7 +51,7 @@
           <li class="nav-item"> <a class="nav-link flyersposters" id="pills-flyersposters-tab" data-toggle="pill" href="#pills-flyersposters" role="tab" aria-controls="pills-flyersposters" aria-selected="true">Leaflets &amp; Posters</a> </li>
           <li class="nav-item"> <a class="nav-link websitesapps" id="pills-websitesapps-tab" data-toggle="pill" href="#pills-websitesapps" role="tab" aria-controls="pills-websitesapps" aria-selected="false">Websites &amp; Apps</a> </li>
           <li class="nav-item"> <a class="nav-link prototypessketches" id="pills-prototypessketches-tab" data-toggle="pill" href="#pills-prototypessketches" role="tab" aria-controls="pills-prototypessketches" aria-selected="false">Prototypes &amp; Sketches</a> </li>
-          <li class="nav-item"> <a class="nav-link researchdiscovery" id="pills-researchdiscovery-tab" data-toggle="pill" href="#pills-researchdiscovery" role="tab" aria-controls="pills-researchdiscovery" aria-selected="false">Research &amp; Discovery</a> </li>
+          <li class="nav-item"> <a class="nav-link researchdiscovery" id="pills-researchdiscovery-tab" data-toggle="pill" href="#pills-researchdiscovery" role="tab" aria-controls="pills-researchdiscovery" aria-selected="false">Design Sprints &amp; Discovery</a> </li>
           <li class="nav-item"> <a class="nav-link photography" id="pills-photography-tab" data-toggle="pill" href="#pills-photography" role="tab" aria-controls="pills-photography" aria-selected="false">Photography</a> </li>
           <li class="nav-item"> <a class="nav-link videos" id="pills-videos-tab" data-toggle="pill" href="#pills-videos" role="tab" aria-controls="pills-videos" aria-selected="false">Videos</a> </li>
           <li class="nav-item"> <a class="nav-link businesscards" id="pills-businesscards-tab" data-toggle="pill" href="#pills-businesscards" role="tab" aria-controls="pills-businesscards" aria-selected="false">Business Cards</a> </li>
@@ -214,7 +214,7 @@
             <div class="row">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
-                  <h4>Beautifully designed websites, apps</h4>
+                  <h4>Beautifully designed websites & apps</h4>
                   <p>From £469</p>
                   </div>
                 </div>
@@ -261,7 +261,7 @@
             <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
                   <h4>Establish clear business goals and gain a better understanding of customer needs and the competitor landscape</h4>
-                  <p>From £239</p>
+                  <p>From £500/day</p>
                   </div>
                 </div>
               </div>
@@ -350,7 +350,7 @@
             <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
             <div class="work-text">
                   <h4>Bring your content to life</h4>
-                  <p>From £239</p>
+                  <p>From £469</p>
                   </div>
                 </div>
               </div>
@@ -553,6 +553,23 @@ $(window).scroll(function() {
     $('[data-play=hover]').hoverPlay();
   });
 })(jQuery);
+</script>
+
+
+<!-- nav pills js -->
+<script type="text/javascript">
+  window.onload = function(){  
+
+    var url = document.location.toString();
+    if (url.match('#')) {
+        $('.nav-pills a[href="#' + url.split('#')[1] + '"]').tab('show');
+    }
+
+    //Change hash for page-reload
+    $('.nav-pills a[href="#' + url.split('#')[1] + '"]').on('shown', function (e) {
+        window.location.hash = e.target.hash;
+    }); 
+} 
 </script>
 
 </body>

@@ -52,7 +52,7 @@
               <div class="pricing-bl wow fadeInUp" data-wow-delay="300ms">
               <ul class="checklist">
                   <li>
-                    <p>Designs: Logo, flyer, posters</p>
+                    <p>Designs: logo, flyer, posters</p>
                   </li>
                   <li>
                     <p>Print: banners, leaflets, business cards</p>
@@ -76,19 +76,19 @@
                     <p>Source files</p>
                   </li>
                   <li>
-                    <p>Sketches & Wireframes</p>
+                    <p>Sketches & wireframes</p>
                   </li>
                   <li>
-                    <p>Prototype & sketches</p>
+                    <p>Prototype</p>
                   </li>
                   <li>
-                    <p>Dedicated Video Team</p>
+                    <p>Dedicated video team</p>
                   </li>
                   <li>
-                    <p>Discovery:<br>Customer research, Competitor analysis, Audit</p>                    
+                    <p>Discovery:<br>customer research, competitor analysis, audit</p>                    
                   </li>
                   <li>
-                    <p>Digital / Strategic advice</p>
+                    <p>Digital / strategic advice</p>
                   </li>
                   <li>
                     <p>Dedicated designer</p>
@@ -340,8 +340,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="heading text-center mb10 wow wow2 fadeInUp" data-wow-delay="200ms">Need a bespoke plan?
-          <hr />
+        <h2 class="heading text-center mb10 wow wow2 fadeInUp" data-wow-delay="200ms">Book a call<hr />
         </h2>
         <a href="contact.php" class="btn btn-primary-bordered wow wow2 fadeInUp" data-wow-delay="300ms">Contact us<span>></span></a></div>
     </div>
@@ -508,6 +507,22 @@ $(window).scroll(function() {
     btn.removeClass('show');
   }
 });
+</script>
+
+<!-- nav pills js -->
+<script type="text/javascript">
+  window.onload = function(){  
+
+    var url = document.location.toString();
+    if (url.match('#')) {
+        $('.nav-pills a[href="#' + url.split('#')[1] + '"]').tab('show');
+    }
+
+    //Change hash for page-reload
+    $('.nav-pills a[href="#' + url.split('#')[1] + '"]').on('shown', function (e) {
+        window.location.hash = e.target.hash;
+    }); 
+} 
 </script>
 </body>
 </html>

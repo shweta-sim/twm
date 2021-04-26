@@ -10,10 +10,10 @@
           <div class="col-md-3 d-none d-md-block">
             <h6>Get a design</h6>
             <ul class="footer-links">
-              <li><a href="our-work.php">Logos</a></li>
-              <li><a href="our-work.php">Flyers</a></li>
-              <li><a href="our-work.php">Websites</a></li>
-              <li><a href="our-work.php">Research</a></li>
+              <li><a href="our-work.php#pills-logos">Logos</a></li>
+              <li><a href="our-work.php#pills-flyersposters">Flyers</a></li>
+              <li><a href="our-work.php#pills-websitesapps">Websites</a></li>
+              <li><a href="our-work.php#pills-researchdiscovery">Research</a></li>
               <li><a href="our-work.php">All services</a></li>
             </ul>
           </div>

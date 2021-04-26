@@ -95,8 +95,7 @@ a {
     -o-transition: all 0.3s ease-in-out;
 }
 
-a:hover,
-a:focus {
+a:hover {
     color: var(--primary);
     text-decoration: none;
     outline: none !important;
@@ -269,6 +268,9 @@ h6 {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     box-shadow: none !important;
     vertical-align: middle;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
 }
 
 .form-control:focus {
@@ -304,6 +306,7 @@ h6 {
 
 textarea.form-control {
     min-height: 135px;
+
 }
 
 select {
@@ -323,6 +326,9 @@ select {
     background: url("../imgs/arrow-dropdown.png") no-repeat right var(--white) !important;
     -webkit-appearance: none !important;
     background-position-x: 98% !important;
+     -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
 }
 
 select:focus {
@@ -1465,7 +1471,9 @@ OUR WORK PAGE
 .pitchdecks .work-text h4 {
     color: #ff6600;
 }
-.websitesapps .work-item .video, .videos .work-item .video {
+
+.websitesapps .work-item .video,
+.videos .work-item .video {
     position: absolute;
     left: 0;
     top: 0;
@@ -1477,6 +1485,7 @@ OUR WORK PAGE
     overflow: hidden;
     background: var(--black);
 }
+
 
 /* ##############################
 ---------------------------------
@@ -1580,6 +1589,10 @@ ABOUT PAGE
     display: flex;
     align-items: center;
 }
+.hww-bl img {
+    width: 173px;
+    height: auto;
+}
 
 .days {
     position: relative !important;
@@ -1631,18 +1644,5 @@ ABOUT PAGE
 }
 
 .get-started .heading hr {
-    background: var(--black) !important;
-}
-
-.get-started .btn-primary-bordered {
-    color: var(--black) !important;
-    background: var(--white) !important;
-    border: 2px solid var(--black) !important;
-}
-
-.get-started .btn-primary-bordered:hover,
-.get-started .btn-primary-bordered:focus,
-.get-started .btn-primary-bordered.focus {
-    color: var(--white) !important;
-    background: var(--black) !important;
+    background: var(--primary) !important;
 }
