@@ -823,10 +823,10 @@ HOMEPAGE
 }
 
 .featured-brands img {
-    filter: gray;
-    /* IE6-9 */
+    /* filter: gray;
+    IE6-9 
     -webkit-filter: grayscale(100%);
-    opacity: .5;
+    opacity: .5;*/
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -834,11 +834,13 @@ HOMEPAGE
     -o-transition: all 0.3s ease-in-out;
 }
 
+
+/*
 .featured-brands img:hover {
     filter: none;
     -webkit-filter: none;
     opacity: 1;
-}
+}*/
 
 
 /* --- membership benefits --- */
@@ -977,7 +979,7 @@ HOMEPAGE
 
 .Selfridges {
     color: var(--white);
-    var(--black);
+    background: #4ca836;
 }
 
 .testimonial-Selfridges .swiper-text {

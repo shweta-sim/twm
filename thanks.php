@@ -6,10 +6,10 @@ require './vendor/phpmailer/phpmailer/src/Exception.php';
 require './vendor/phpmailer/phpmailer/src/PHPMailer.php';
 require './vendor/phpmailer/phpmailer/src/SMTP.php';
 
-$smtp_host = "mail.purplecherrytechnologies.com"; // CHANGE THIS
-$smtp_email = "mailerwebservice@gmail.com"; // CHANGE THIS
-$smtp_password = "P@ssword12345!"; // CHANGE THIS
-$smtp_port = 587; // CHANGE THIS
+$smtp_host = "smtp.123-reg.co.uk"; // CHANGE THIS
+$smtp_email = "support@twmediagroup.co.uk"; // CHANGE THIS
+$smtp_password = "Supp0rT@9867"; // CHANGE THIS
+$smtp_port = 465; // CHANGE THIS
 
 
 $to="shweta.sim@gmail.com";

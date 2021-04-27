@@ -10,11 +10,11 @@
           <div class="col-md-3 d-none d-md-block">
             <h6>Get a design</h6>
             <ul class="footer-links">
-              <li><a href="our-work.php#pills-logos">Logos</a></li>
-              <li><a href="our-work.php#pills-flyersposters">Flyers</a></li>
-              <li><a href="our-work.php#pills-websitesapps">Websites</a></li>
-              <li><a href="our-work.php#pills-researchdiscovery">Design sprints</a></li>
-              <li><a href="our-work.php">All services</a></li>
+              <li><a href="our-work-logos.php">Logos</a></li>
+              <li><a href="our-work-flyers-posters.php">Flyers</a></li>
+              <li><a href="our-work-websites-apps.php">Websites</a></li>
+              <li><a href="our-work-design-sprints.php">Design sprints</a></li>
+              <li><a href="our-work-logos.php">All services</a></li>
             </ul>
           </div>
           <div class="col-md-3 d-none d-md-block">
@@ -31,7 +31,7 @@
             <ul class="footer-links">
               <li><a href="about.php">About</a></li>
               <li><a href="contact.php">Contact us</a></li>
-              <li><a href="#">Testimonials</a></li>
+              <li><a href="index.php#testimonials">Testimonials</a></li>
               <li><a href="plans.php#sectionFAQ">FAQ's</a></li>
             </ul>
           </div>
@@ -41,19 +41,19 @@
           <div class="row">
             <div class="col-md-8">
               <ul>
-            <li class="d-block d-md-inline">TW © 2021. All rights reserved</li>
-            <li class="d-none d-md-inline">|</li>
-            <li><a href="#">Privacy policy</a></li>
-            <li>|</li>
-            <li><a href="#">Terms of service</a></li>
-          </ul>
+                <li class="d-block d-md-inline">TW © 2021. All rights reserved</li>
+                <li class="d-none d-md-inline">|</li>
+                <li><a href="#">Privacy policy</a></li>
+                <li>|</li>
+                <li><a href="#">Terms of service</a></li>
+              </ul>
             </div>
             <div class="col-md-4 order-first order-md-last">
               <ul class="text-center text-md-right mb10-sm">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-          </ul>
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+              </ul>
             </div>
           </div>
         </div>
