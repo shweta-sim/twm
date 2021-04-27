@@ -13,7 +13,7 @@
               <li><a href="our-work.php#pills-logos">Logos</a></li>
               <li><a href="our-work.php#pills-flyersposters">Flyers</a></li>
               <li><a href="our-work.php#pills-websitesapps">Websites</a></li>
-              <li><a href="our-work.php#pills-researchdiscovery">Research</a></li>
+              <li><a href="our-work.php#pills-researchdiscovery">Design sprints</a></li>
               <li><a href="our-work.php">All services</a></li>
             </ul>
           </div>
@@ -27,7 +27,7 @@
             </ul>
           </div>
           <div class="col-md-2 d-none d-md-block">
-            <h6>Ressources</h6>
+            <h6>Resources</h6>
             <ul class="footer-links">
               <li><a href="about.php">About</a></li>
               <li><a href="contact.php">Contact us</a></li>

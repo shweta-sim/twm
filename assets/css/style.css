@@ -306,7 +306,6 @@ h6 {
 
 textarea.form-control {
     min-height: 135px;
-
 }
 
 select {
@@ -326,7 +325,7 @@ select {
     background: url("../imgs/arrow-dropdown.png") no-repeat right var(--white) !important;
     -webkit-appearance: none !important;
     background-position-x: 98% !important;
-     -webkit-appearance: none !important;
+    -webkit-appearance: none !important;
     -moz-appearance: none !important;
     appearance: none !important;
 }
@@ -912,7 +911,7 @@ HOMEPAGE
     font-size: 30px;
     line-height: 30px;
     font-family: 'Cooper Hewitt Medium', 'Open Sans', Arial, Helvetica, sans-serif !important;
-    background: #123b63;
+    background: var(--black);
     border: none;
     border-radius: 10px;
     -moz-border-radius: 10px;
@@ -973,12 +972,12 @@ HOMEPAGE
 }
 
 .testimonial-Selfridges .swiper-text h5 {
-    color: #4ca836;
+    var(--black);
 }
 
 .Selfridges {
     color: var(--white);
-    background: #4ca836;
+    var(--black);
 }
 
 .testimonial-Selfridges .swiper-text {
@@ -1054,6 +1053,12 @@ HOMEPAGE
     position: relative;
     bottom: 0;
     margin-top: 20px;
+}
+
+.pricing-plans a:hover {
+    text-decoration: none;
+    color: var(--black);
+    outline: none !important;
 }
 
 
@@ -1206,7 +1211,7 @@ OUR WORK PAGE
     white-space: normal;
     color: var(--black) !important;
     background: var(--white) !important;
-    border: 2px solid var(--grey) !important;
+    border: 2px solid var(--grey-light4) !important;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1220,7 +1225,7 @@ OUR WORK PAGE
 .nav-pills .nav-link:hover {
     color: var(--white) !important;
     background: var(--primary) !important;
-    border-color: var(--grey) !important;
+    border-color: var(--grey-light4) !important;
 }
 
 .nav-pills .nav-link.active {
@@ -1589,6 +1594,7 @@ ABOUT PAGE
     display: flex;
     align-items: center;
 }
+
 .hww-bl img {
     width: 173px;
     height: auto;

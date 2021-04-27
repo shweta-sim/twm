@@ -71,24 +71,24 @@
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
               <div class="work-item"><a href="assets/imgs/work/logos/3-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/3.jpg" class="img-fluid" /></a></div>
               </div>
-              <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="work-item"><a href="assets/imgs/work/logos/4-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/4.jpg" class="img-fluid" /></a></div>
-              </div> -->
+              </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
               <div class="work-item"><a href="assets/imgs/work/logos/5-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/5.jpg" class="img-fluid" /></a></div>
               </div>
-              <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
               <div class="work-item"><a href="assets/imgs/work/logos/6-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/6.jpg" class="img-fluid" /></a></div>
-              </div> -->
+              </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="work-item"><a href="assets/imgs/work/logos/7-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/7.jpg" class="img-fluid" /></a></div>
               </div>
-              <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
               <div class="work-item"><a href="assets/imgs/work/logos/8-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/8.jpg" class="img-fluid" /></a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
               <div class="work-item"><a href="assets/imgs/work/logos/9-big.jpg" class="swipebox" rel="logos"><img src="assets/imgs/work/logos/9.jpg" class="img-fluid" /></a></div>
-              </div> -->
+              </div>
             </div>
 
             <div class="row">
@@ -134,9 +134,9 @@
               <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
               <div class="work-item"><a href="assets/imgs/work/socialmedia/2-big.jpg" class="swipebox" rel="socialmedia"><img src="assets/imgs/work/socialmedia/2.jpg" class="img-fluid" /></a></div>
               </div>
-              <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
               <div class="work-item"><a href="assets/imgs/work/socialmedia/3-big.jpg" class="swipebox" rel="socialmedia"><img src="assets/imgs/work/socialmedia/3.jpg" class="img-fluid" /></a></div>
-              </div> -->
+              </div>
             </div>
             <div class="row">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
@@ -154,15 +154,27 @@
               <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="work-item"><a href="assets/imgs/work/flyersposters/1-big.jpg" class="swipebox" rel="flyersposters"><img src="assets/imgs/work/flyersposters/1.jpg" class="img-fluid" /></a></div>
               </div>
+
               <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
                 <div class="work-item"><a href="assets/imgs/work/flyersposters/2-big.jpg" class="swipebox" rel="flyersposters"><img src="assets/imgs/work/flyersposters/2.jpg" class="img-fluid" /></a></div>
               </div>
+
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
                 <div class="work-item"><a href="assets/imgs/work/flyersposters/3-big.jpg" class="swipebox" rel="flyersposters"><img src="assets/imgs/work/flyersposters/3.jpg" class="img-fluid" /></a></div>
               </div>
+
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
                 <div class="work-item"><a href="assets/imgs/work/flyersposters/4-big.jpg" class="swipebox" rel="flyersposters"><img src="assets/imgs/work/flyersposters/4.jpg" class="img-fluid" /></a></div>
               </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+                <div class="work-item"><a href="assets/imgs/work/flyersposters/5-big.jpg" class="swipebox" rel="flyersposters"><img src="assets/imgs/work/flyersposters/5.jpg" class="img-fluid" /></a></div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+                <div class="work-item"><a href="assets/imgs/work/flyersposters/6-big.jpg" class="swipebox" rel="flyersposters"><img src="assets/imgs/work/flyersposters/6.jpg" class="img-fluid" /></a></div>
+              </div>
+
             </div>
             <div class="row">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
@@ -178,36 +190,15 @@
           <div class="tab-pane websitesapps" id="pills-websitesapps" role="tabpanel" aria-labelledby="pills-websitesapps-tab">
           <div class="row">
               <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
-              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=Vk9HdVJq8uo">
-                <div class="video">
-                  <video width="100%" height="100%" data-play="hover" poster="assets/imgs/work/websiteapps/1.jpg">
-                    <source src="assets/videos/2.mp4" type="video/mp4">
-                    <source src="assets/videos/2.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=bYpHp2e4U3E">
                 <img src="assets/imgs/work/websiteapps/1.jpg" class="img-fluid" /></a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
-              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=A4P_cDAYHjo">
-                <div class="video">
-                  <video width="100%" height="100%" data-play="hover" poster="assets/imgs/work/websiteapps/2.jpg">
-                    <source src="assets/videos/1.mp4" type="video/mp4">
-                    <source src="assets/videos/1.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=iEIuRvPbZ64">
                 <img src="assets/imgs/work/websiteapps/2.jpg" class="img-fluid" /></a></div>
               </div>
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=XNieRMwtm-s">
-                <div class="video">
-                  <video width="100%" height="100%" data-play="hover" poster="assets/imgs/work/websiteapps/3.jpg">
-                    <source src="assets/videos/3.mp4" type="video/mp4">
-                    <source src="assets/videos/3.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=CfhwXGLotaM">
                 <img src="assets/imgs/work/websiteapps/3.jpg" class="img-fluid" /></a></div>
               </div>
             </div>
@@ -230,9 +221,9 @@
               <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
               <div class="work-item"><a href="assets/imgs/work/prototypessketches/2-big.jpg" class="swipebox" rel="proto-sketches"><img src="assets/imgs/work/prototypessketches/2.jpg" class="img-fluid" /></a></div>
               </div>
-              <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
               <div class="work-item"><a href="assets/imgs/work/prototypessketches/3-big.jpg" class="swipebox" rel="proto-sketches"><img src="assets/imgs/work/prototypessketches/3.jpg" class="img-fluid" /></a></div>
-              </div> -->
+              </div>
             </div>
             <div class="row">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
@@ -310,41 +301,42 @@
           <div class="tab-pane videos" id="pills-videos" role="tabpanel" aria-labelledby="pills-videos-tab">
           <div class="row">
               <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
-                <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=Vk9HdVJq8uo">
-                  <div class="video">
-                  <video width="100%" height="100%" data-play="hover" poster="assets/imgs/work/videos/1.jpg">
-                    <source src="assets/videos/1.mp4" type="video/mp4">
-                    <source src="assets/videos/1.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-                  <img src="assets/imgs/work/videos/1.jpg" class="img-fluid" />
+                <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=iEIuRvPbZ64">
+                 <img src="assets/imgs/work/videos/1.jpg" class="img-fluid" />
                 </a></div>
               </div>
+
               <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
-              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=A4P_cDAYHjo">
-                <div class="video">
-                  <video width="100%" height="100%" data-play="hover" poster="assets/imgs/work/videos/2.jpg">
-                    <source src="assets/videos/2.mp4" type="video/mp4">
-                    <source src="assets/videos/2.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-                  <img src="assets/imgs/work/videos/2.jpg" class="img-fluid" />
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=bYpHp2e4U3E">
+                <img src="assets/imgs/work/videos/2.jpg" class="img-fluid" />
               </a></div>
               </div>
+
               <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=XNieRMwtm-s">
-                <div class="video">
-                  <video width="100%" height="100%" data-play="hover" poster="assets/imgs/work/videos/3.jpg">
-                    <source src="assets/videos/3.mp4" type="video/mp4">
-                    <source src="assets/videos/3.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-                  <img src="assets/imgs/work/videos/3.jpg" class="img-fluid" />
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=CfhwXGLotaM">
+                <img src="assets/imgs/work/videos/3.jpg" class="img-fluid" />
               </a></div>
               </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=mQILs57xiTU">
+                <img src="assets/imgs/work/videos/4.jpg" class="img-fluid" />
+              </a></div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=tVRLQGRifmw">
+                <img src="assets/imgs/work/videos/5.jpg" class="img-fluid" />
+              </a></div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+              <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=uFnM7KB30hg">
+                <img src="assets/imgs/work/videos/6.jpg" class="img-fluid" />
+              </a></div>
+              </div>
+
+
             </div>
             <div class="row">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
@@ -445,6 +437,8 @@
       $( '.swipebox-video' ).swipebox();
 
       });
+
+      
 </script>
 
 <!-- bootstrap js --> 
@@ -497,64 +491,6 @@ $(window).scroll(function() {
   }
 });
 </script>
-
-<!-- video on hover js -->
-<script type="text/javascript">
-  ;(function($) {
-  $.hoverPlay = {};
-  $.fn.hoverPlay = function(options) {
-    if (!this.length) { return this; }
-    var opts = $.extend(true, {}, $.hoverPlay.defaults, options);
-    this.each(function() {
-      var el = $(this),
-        video = el.get(0);
-      if (typeof video['play'] === 'function') {
-        video.controls = false;
-        video.loop = true;
-        el.on('mouseover', function() {
-          var timeout = el.data('hoverPlayTimeout');
-          if (!timeout) {
-            timeout = setTimeout(function() {
-              el.data('hoverPlayTimeout', null);
-              opts.callbacks.play(el, video);
-              el.trigger('hoverPlay');
-            }, opts.playDelay);
-            el.data('hoverPlayTimeout', timeout);
-          }
-        }).on('mouseout', function() {
-          var timeout = el.data('hoverPlayTimeout');
-          if (timeout) {
-            clearTimeout(timeout);
-            el.data('hoverPlayTimeout', null);
-          }
-          setTimeout(function() {
-            opts.callbacks.pause(el, video);
-            el.trigger('hoverPause');
-            video.load();
-          },  opts.pauseDelay);
-        });
-      }
-    });
-    return this;
-  };
-  $.hoverPlay.defaults = {
-    playDelay: 1,
-    pauseDelay: 0,
-    callbacks: {
-      play: function(el,  video) {
-        video.play();
-      },
-      pause: function(el,  video) {
-        video.pause();
-      }
-    }
-  };
-  jQuery(document).ready(function($) {
-    $('[data-play=hover]').hoverPlay();
-  });
-})(jQuery);
-</script>
-
 
 <!-- nav pills js -->
 <script type="text/javascript">

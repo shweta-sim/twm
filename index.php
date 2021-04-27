@@ -313,6 +313,50 @@
         <div class="swiper-container swiper-testimonials">
           <div class="swiper-wrapper"> 
             <!-- start slide 1 -->
+            <div class="swiper-slide testimonial-Selfridges">
+              <div class="row align-items-center">
+                <div
+                      class="col-md-6 col-lg-5 offset-lg-1 col-xl-6 offset-xl-1 mb20-md wow wow2 fadeInLeft"
+                      data-wow-delay="400ms"
+                    > <img
+                        src="assets/imgs/testimonial_3-design.jpg"
+                        class="img-fluid img"
+                        alt=""
+                      /> </div>
+                <div
+                      class="col-md-6 col-lg-5 offset-lg-0 col-xl-4 offset-xl-0 wow wow2 fadeInRight"
+                      data-wow-delay="400ms"
+                    >
+                  <div class="swiper-text">
+                    <h5 class="mb20">TW came on board to help us with our digital transformation to a Product led structure and more agile ways of working.</h5>
+                    <p class="mb20">TW brought a huge amount of experience and has
+been able to not only help us with strategic thinking
+but also with the practical implementation of things like
+Product discoveries as we are still delivering a full
+and challenging roadmap of initiatives.
+I have personally found TW’s approach and stakeholder
+management skills a huge help and it has enabled me
+to successfully embed new ways of working which have
+seen our productivity increase by 60%.</p>
+                    <div class="d-flex align-items-center">
+                      <div class="img mr-3"> <img
+                              src="assets/imgs/testimonial3-client.jpg"
+                              class="img-fluid"
+                              alt=""
+                            /> </div>
+                      <i class="text-sm"
+                            >Andy Jayes,<br />
+                      Head of Product</i
+                          > </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+            <!-- end slide 1 --> 
+            <!-- start slide 2 -->
+            
             <div class="swiper-slide testimonial-pHenchTalk">
               <div class="row align-items-center">
                 <div
@@ -350,8 +394,9 @@
                 </div>
               </div>
             </div>
-            <!-- end slide 1 --> 
-            <!-- start slide 2 -->
+            
+            <!-- end slide 2 -->
+            <!-- start slide 3 -->
             <div class="swiper-slide testimonial-pSummitTea">
               <div class="row align-items-center">
                 <div
@@ -385,47 +430,6 @@
                       <i class="text-sm"
                             >Sam Lee & Steven Kim,<br />
                       Founders of Summit Tea</i
-                          > </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- end slide 2 -->
-            <!-- start slide 3 -->
-            <div class="swiper-slide testimonial-Selfridges">
-              <div class="row align-items-center">
-                <div
-                      class="col-md-6 col-lg-5 offset-lg-1 col-xl-6 offset-xl-1 mb20-md wow wow2 fadeInLeft"
-                      data-wow-delay="400ms"
-                    > <img
-                        src="assets/imgs/testimonial_3-design.jpg"
-                        class="img-fluid img"
-                        alt=""
-                      /> </div>
-                <div
-                      class="col-md-6 col-lg-5 offset-lg-0 col-xl-4 offset-xl-0 wow wow2 fadeInRight"
-                      data-wow-delay="400ms"
-                    >
-                  <div class="swiper-text">
-                    <h5 class="mb20">TW came on board to help us with our digital transformation to a Product led structure and more agile ways of working.</h5>
-                    <p class="mb20">TW brought a huge amount of experience and has
-been able to not only help us with strategic thinking
-but also with the practical implementation of things like
-Product discoveries as we are still delivering a full
-and challenging roadmap of initiatives.
-I have personally found TW’s approach and stakeholder
-management skills a huge help and it has enabled me
-to successfully embed new ways of working which have
-seen our productivity increase by 60%.</p>
-                    <div class="d-flex align-items-center">
-                      <div class="img mr-3"> <img
-                              src="assets/imgs/testimonial3-client.jpg"
-                              class="img-fluid"
-                              alt=""
-                            /> </div>
-                      <i class="text-sm"
-                            >Andy Jayes,<br />
-                      Head of Product</i
                           > </div>
                   </div>
                 </div>
@@ -632,7 +636,7 @@ seen our productivity increase by 60%.</p>
           clickable: true,
         },
       });
-      var cssClasses = ['pHenchTalk', 'pSummitTea', 'Selfridges'];
+      var cssClasses = ['Selfridges', 'pHenchTalk', 'pSummitTea'];
       swiper1.on('slideChange', function () {
         changeColor();
       });
