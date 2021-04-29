@@ -73,6 +73,15 @@
               <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
                 <div class="work-item"><a href="assets/imgs/work/photography/8-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/8.jpg" class="img-fluid" /></a></div>
               </div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
+                <div class="work-item"><a href="assets/imgs/work/photography/9-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/9.jpg" class="img-fluid" /></a></div>
+              </div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
+                <div class="work-item"><a href="assets/imgs/work/photography/10-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/10.jpg" class="img-fluid" /></a></div>
+              </div>
+              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
+                <div class="work-item"><a href="assets/imgs/work/photography/11-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/11.jpg" class="img-fluid" /></a></div>
+              </div>
 
             </div>
             <div class="row">

@@ -124,8 +124,8 @@
         float: left;
         margin: 0 10px 0 0;
     }
-    .pricing-bl {
-        width: 100%;
+    .pricing-plans .pricing-text {
+        min-height: 170px;
     }
 }
 
@@ -342,18 +342,11 @@
         width: auto;
         height: 128px;
     }
-    .swiper-text,
-    .benefit-bl {
+    .swiper-text, .benefit-bl {
         padding: 0 15px !important;
     }
     .swiper-pricing .swiper-slide {
         width: 220px;
-    }
-    .pricing-bl {
-        width: 100%;
-    }
-    .pricing-bl-inner {
-        padding: 20px 30px 0 30px;
     }
     .featured-brands {
         margin: 0 !important;

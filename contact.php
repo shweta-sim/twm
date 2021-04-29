@@ -70,7 +70,7 @@
             </div>
             <div class="col-md-12">
               <div class="form-group">
-                <select type="select" name="interest" id="interest" class="required">
+                <select type="select" name="interest" id="interest" class="form-control required">
                   <option value="" selected="selected">I'm interested in...</option>
                   <option value="Raising a general query">Raising a general query</option>
                   <option value="Booking a 1-2-1 call">Booking a 1-2-1 call</option>

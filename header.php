@@ -16,7 +16,7 @@ function selected($filename)
             <ul class="navbar-nav ml-auto">
               <li <?php selected('index.php') ?> class="nav-item"> <a class="nav-link" href="index.php">Home</a>
               </li>
-              <li id="our-work" <?php selected('our-work-logos.php') ?> class="nav-item"> <a class="nav-link" href="our-work-logos.php">Our Work</a>
+              <li id="our-work" <?php selected('our-work.php') ?> class="nav-item"> <a class="nav-link" href="our-work.php">Our Work</a>
               </li>
               <li <?php selected('plans.php') ?> class="nav-item"> <a class="nav-link" href="plans.php">Plans</a>
               </li>

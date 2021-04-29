@@ -43,7 +43,7 @@
       <div class="row">
         <div class="col-12 col-md-6"></div>
         <div class="col-12 col-md-5">
-          <h3 class="heading text-left wow fadeInRight" data-wow-delay="200ms">Our mission is to make graphic design fast, simple, and affordable.<br>
+          <h3 class="heading text-left wow fadeInRight" data-wow-delay="200ms">Our mission is to make excellent design that is fast and cost effective.<br>
             The way it should be.
             <hr>
           </h3>
@@ -61,22 +61,7 @@
           <h2 class="heading text-left mb30 wow fadeInLeft" data-wow-delay="200ms">Our Story
             <hr>
           </h2>
-          <p class="wow fadeInLeft" data-wow-delay="200ms">The team behind TW+RL started to help smaller
-            organisation stand up and stand out online with their
-            digital business. Overtime we realised that as we
-            partnered with our clients by providing excellent design,
-            digital strategy backed up by customer research, our
-            clients' businesses also started to grow.<br>
-            Many of them went from requesting 1 job, to 1 package
-            and now to requesting a monthly subscription.
-            Launched in early 2016, TW+RL o!ers professional
-            design, research and digital strategy for a flat fee,
-            with the goal of helping our clients design better and
-            scale better. We’re also equally passionate about
-            creating employment opportunities for designers
-            and aspiring designers. We believe that design has
-            the power to transform lives. And we want to keep
-            paying that forward.</p>
+          <p class="wow fadeInLeft" data-wow-delay="200ms">TW started by helping smaller organisations to stand out online. Overtime we realised that as we provided great design backed up by strategy and customer insight, our clients' businesses also started to grow. Many of them went from requesting 1 job, 1 package to requesting monthly subscriptions. Launched in early 2016, TW offers unlimited design, research and digital strategy for a flat fee.</p>
         </div>
         <div class="col-lg-6 offset-lg-1 order-first order-lg-last mb30-lg">
           <div class="wow fadeInRight" data-wow-delay="200ms"><img src="assets/imgs/img-our-story.svg" class="img-fluid" alt="" /> </div>
@@ -90,16 +75,7 @@
           <h2 class="heading text-left mb30 wow wow2 fadeInRight" data-wow-delay="200ms">Our team & clients
             <hr>
           </h2>
-          <p class="wow wow2 fadeInRight" data-wow-delay="200ms">TW+RL is made up of over 20 team members,
-            working together to help support our clients around
-            the world. We are Designers, Product Managers,
-            Scrum Masers, Project Managers, Client Support Team
-            Members, and more! We work remotely, and always
-            stay connected to our mission to help clients design
-            better, and scale faster.<br>
-            Our clients span North America, Europe, Africa,
-            Asia, and Australia. And our team members hail from
-            across North America and the Asia-Pacific Region.</p>
+          <p class="wow wow2 fadeInRight" data-wow-delay="200ms">TW is made up of over 20 team members, working together to help support our clients around the world. We are Designers, Product Managers, Client Support Team Members, and more! We work remotely, and always stay connected to provide unlimited design for an affordable fixed fee.</p>
         </div>
       </div>
     </div>
@@ -124,7 +100,7 @@
               <h2 class="heading text-left mb20">Understand
                 <hr>
               </h2>
-              <p>Dig deep into the design problem through research, competitive review and strategy exercises</p>
+              <p>We dig deep into the design problem. We research, conduct adits, competitor analysis and other exercises</p>
             </div>
           </div>
         </div>
@@ -138,9 +114,7 @@
               <h2 class="heading text-left mb20">Diverge
                 <hr>
               </h2>
-              <p>Dig deep into the design problem
-                through research, competitive
-                review and strategy exercises</p>
+              <p>We start brainstorming & sketching to produce ideas that might address the problems we want to solve</p>
             </div>
           </div>
         </div>
@@ -156,10 +130,7 @@
               <h2 class="heading text-left mb20">Decide
                 <hr>
               </h2>
-              <p>Select the ideas we think are worth
-                showing to the users, combine
-                some of them and create one or
-                more journey to validate</p>
+              <p>We work with you to identify which ideas, sketches or solutions to take forward</p>
             </div>
           </div>
         </div>
@@ -175,10 +146,7 @@
               <h2 class="heading text-left mb20">Prototype
                 <hr>
               </h2>
-              <p>Build prototypes as the quickest
-                way of implementing selected
-                ideas, to answer questions
-                and validate assumptions</p>
+              <p>We build prototypes to show you what the experience could look like.</p>
             </div>
           </div>
         </div>
@@ -194,11 +162,7 @@
               <h2 class="heading text-left mb20">Validate
                 <hr>
               </h2>
-              <p>Present the prototypes to real users.
-                Collate their feedback and extract
-                key insights about what worked,
-                what didn’t work and what needs
-                deeper exploration</p>
+              <p>We present prototypes to real customers to understand if your designs will work in the real world.</p>
             </div>
           </div>
         </div>
@@ -222,31 +186,22 @@
         <div class="col-md-4 mb40-md">
           <div class="values-bl text-center wow wow2 fadeInUp" data-wow-delay="400ms">
             <div class="mb20"> <img src="assets/imgs/img-values1.svg" class="img-fluid" alt="We Are Friendly" /> </div>
-            <h4 class="text-center">We Are Friendly</h4>
-            <p>We aim for Mister-Rogers-Level
-              friendliness; every interaction comes
-              from a place of inclusion, empathy,
-              kindness, and respect.</p>
+            <h4 class="text-center mb10">We Place Customer First</h4>
+            <p>We deliver every design with an understanding of you customer.</p>
           </div>
         </div>
         <div class="col-md-4 mb40-md">
           <div class="values-bl text-center wow wow2 fadeInUp" data-wow-delay="600ms">
             <div class="mb20"> <img src="assets/imgs/img-values2.svg" class="img-fluid" alt="We Are Smart-Working" /> </div>
-            <h4 class="text-center">We Are Smart-Working</h4>
-            <p>We are resourceful, efficient,
-              and committed to constant improvement
-              by leveraging our time, technology,
-              and resources.</p>
+            <h4 class="text-center mb10">We Are Experienced</h4>
+            <p>We deliver every design as though it were our first.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="values-bl text-center wow wow2 fadeInUp" data-wow-delay="800ms">
             <div class="mb20"> <img src="assets/imgs/img-values3.svg" class="img-fluid" alt="We Are Trustworthy" /> </div>
-            <h4 class="text-center">We Are Trustworthy</h4>
-            <p>We speak from the heart, operate
-              with integrity, and guide every decision,
-              conversation, and action with honesty
-              (even when no one is looking).</p>
+            <h4 class="text-center mb10">We Are Trustworthy</h4>
+            <p>We deliver design as though it were our own.</p>
           </div>
         </div>
       </div>
@@ -264,7 +219,7 @@
           </h2>
           <p class="mb20 wow wow2 fadeInUp" data-wow-delay="300ms">Whether you're starting out or an established business, we
             can advise and support you every step of the way</p>
-          <div class="text-center wow wow2 fadeInUp" data-wow-delay="400ms"> <a href="our-work-logos.php" class="btn btn-primary-bordered mr-sm-4 mr-2 mb10-sm">View our work<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm ml-sm-0 ml-2">View plans<span>></span></a> </div>
+          <div class="text-center wow wow2 fadeInUp" data-wow-delay="400ms"> <a href="our-work.php" class="btn btn-primary-bordered mr-sm-4 mr-2 mb10-sm">View our work<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm ml-sm-0 ml-2">View plans<span>></span></a> </div>
         </div>
       </div>
     </div>

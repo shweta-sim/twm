@@ -10,11 +10,19 @@
           <div class="col-md-3 d-none d-md-block">
             <h6>Get a design</h6>
             <ul class="footer-links">
-              <li><a href="our-work-logos.php">Logos</a></li>
+              <!-- <li><a href="our-work.php">Logos</a></li>
               <li><a href="our-work-flyers-posters.php">Flyers</a></li>
               <li><a href="our-work-websites-apps.php">Websites</a></li>
               <li><a href="our-work-design-sprints.php">Design sprints</a></li>
-              <li><a href="our-work-logos.php">All services</a></li>
+              <li><a href="our-work.php">All services</a></li> -->
+
+              <li><a href="our-work.php#pills-logos">Logos</a></li>
+              <li><a href="our-work.php#pills-flyersposters">Flyers</a></li>
+              <li><a href="our-work.php#pills-websitesapps">Websites</a></li>
+              <li><a href="our-work.php#pills-researchdiscovery">Design sprints</a></li>
+              <li><a href="our-work.php">All services</a></li>
+
+
             </ul>
           </div>
           <div class="col-md-3 d-none d-md-block">
@@ -30,7 +38,7 @@
             <h6>Resources</h6>
             <ul class="footer-links">
               <li><a href="about.php">About</a></li>
-              <li><a href="contact.php">Contact us</a></li>
+              <li><a href="contact.php">Contact</a></li>
               <li><a href="index.php#testimonials">Testimonials</a></li>
               <li><a href="plans.php#sectionFAQ">FAQ's</a></li>
             </ul>

@@ -66,7 +66,7 @@
                         we know making an impact online can be challenging. TW
                         provides excellent design, digital strategy to support
                         your vision at every step of your journey. </p>
-                      <div class="mb30 mb0-sm"> <a href="our-work-logos.php" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm">View plans<span>></span></a> </div>
+                      <div class="mb30 mb0-sm"> <a href="our-work.php" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm">View plans<span>></span></a> </div>
                     </div>
                   </div>
                 </div>
@@ -87,7 +87,7 @@
                         we know making an impact online can be challenging. TW
                         provides excellent design, digital strategy to support
                         your vision at every step of your journey. </p>
-                      <div class="mb30 mb0-sm"> <a href="our-work-logos.php" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm">View plans<span>></span></a> </div>
+                      <div class="mb30 mb0-sm"> <a href="our-work.php" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm">View plans<span>></span></a> </div>
                     </div>
                   </div>
                 </div>
@@ -109,7 +109,7 @@
                         we know making an impact online can be challenging. TW
                         provides excellent design, digital strategy to support
                         your vision at every step of your journey. </p>
-                      <div class="mb30 mb0-sm"> <a href="our-work-logos.php" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm">View plans<span>></span></a> </div>
+                      <div class="mb30 mb0-sm"> <a href="our-work.php" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm">View plans<span>></span></a> </div>
                     </div>
                   </div>
                 </div>
@@ -162,7 +162,7 @@
         <div class="col-md-4 mb40-md">
           <div class="benefit-bl text-center wow wow2 fadeInUp" data-wow-delay="400ms">
             <div class="mb20"> <img src="assets/imgs/img-benefit1.svg" class="img-fluid" alt="Dedicated Teams" /> </div>
-            <h4 class="text-center">Dedicated Teams</h4>
+            <h4 class="text-center mb10">Dedicated Teams</h4>
             <p> We work in collaboration with you to deliver your design needs.
               Just see us as extension of your team </p>
           </div>
@@ -170,7 +170,7 @@
         <div class="col-md-4 mb40-md">
           <div class="benefit-bl text-center wow wow2 fadeInUp" data-wow-delay="600ms">
             <div class="mb20"> <img src="assets/imgs/img-benefit2.svg" class="img-fluid" alt="Dedicated Teams" /> </div>
-            <h4 class="text-center">Unlimited requests & revisions</h4>
+            <h4 class="text-center mb10">Unlimited requests & revisions</h4>
             <p> Get unlimited requests and unlimited revisions. We want both you
               and your customers to be happy with the final version </p>
           </div>
@@ -178,9 +178,8 @@
         <div class="col-md-4">
           <div class="benefit-bl text-center wow wow2 fadeInUp" data-wow-delay="800ms">
             <div class="mb20"> <img src="assets/imgs/img-benefit3.svg" class="img-fluid" alt="Dedicated Teams" /> </div>
-            <h4 class="text-center">Research & discovery</h4>
-            <p> We help you understand your customer, competitor and industry
-              for excellent designs aligned with your vision </p>
+            <h4 class="text-center mb10">Research & discovery</h4>
+            <p> We help to better understand your customer, competitor & industry in order to produce designs aligned with your vision </p>
           </div>
         </div>
       </div>
@@ -196,7 +195,7 @@
           <h2 class="heading text-center mb10 wow wow2 fadeInUp" data-wow-delay="200ms"> What are clients saying?
             <hr />
           </h2>
-          <div class="text-center wow wow2 fadeInUp" data-wow-delay="300ms"> <a href="our-work-logos.php" class="btn btn-primary-bordered">View our work<span>></span></a> </div>
+          <div class="text-center wow wow2 fadeInUp" data-wow-delay="300ms"> <a href="our-work.php" class="btn btn-primary-bordered">View our work<span>></span></a> </div>
         </div>
       </div>
       <div class="row">
@@ -320,7 +319,7 @@
                   <div class="pricing-bl wow wow2 fadeInUp" data-wow-delay="300ms">
                     <div class="pricing-bl-inner">
                       <h4 class="text-center text-uppercase text-primary mb10"> Professional </h4>
-                      <div class="text-center pricing-text">"I need logos, leaflets, posters and social media assets on a regular basis."<br><br></div>
+                      <div class="text-center pricing-text">"I would like logos, leaflets, posters and social media assets designed on a regular basis."<br><br><br></div>
                       <h2 class="heading text-center">
                         <hr />
                         £389/month
@@ -338,7 +337,7 @@
                   <div class="pricing-bl wow wow2 fadeInUp" data-wow-delay="400ms">
                     <div class="pricing-bl-inner">
                       <h4 class="text-center text-uppercase text-primary mb10"> Team </h4>
-                      <div class="text-center pricing-text">"I need a website or an app. Additional types of output such as wireframes, designs, prototypes and video are essential."</div>
+                      <div class="text-center pricing-text">"I would like help building my website / app, I will need things like wireframes, designs, prototypes and videos."<br><br></div>
                       <h2 class="heading text-center">
                         <hr />
                         £689/month
@@ -356,7 +355,7 @@
                   <div class="pricing-bl wow wow2 fadeInUp" data-wow-delay="500ms">
                     <div class="pricing-bl-inner">
                       <h4 class="text-center text-uppercase text-primary mb10"> Agency </h4>
-                      <div class="text-center pricing-text">"I need strategic thinking, customer research and a better understanding of the competitor landscape."</div>
+                      <div class="text-center pricing-text">"I would like help shaping my proposition, strategic thinking, customer research and a better understanding of the competitor landscape."</div>
                       <h2 class="heading text-center">
                         <hr />
                         £989/month

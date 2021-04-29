@@ -5,7 +5,7 @@
 <!-- start tabs -->
 
 <ul class="nav nav-pills wow fadeInUp" data-wow-delay="300ms" id="pills-tab" role="tablist">
-    <li class="nav-item"> <a class="nav-link logos" id="pills-logos-tab" href="our-work-logos.php">Logos</a> </li>
+    <li class="nav-item"> <a class="nav-link logos" id="pills-logos-tab" href="our-work.php">Logos</a> </li>
     <li class="nav-item"> <a class="nav-link branding" id="pills-branding-tab" href="our-work-branding.php">Branding</a> </li>
     <li class="nav-item"> <a class="nav-link socialmedia" id="pills-socialmedia-tab" href="our-work-social-media.php">Social Media</a> </li>
     <li class="nav-item"> <a class="nav-link flyersposters" id="pills-flyersposters-tab" href="our-work-flyers-posters.php">Leaflets &amp; Posters</a> </li>

@@ -308,7 +308,7 @@ textarea.form-control {
     min-height: 135px;
 }
 
-select {
+select.form-control {
     display: block;
     width: 100%;
     height: auto !important;
@@ -322,7 +322,9 @@ select {
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    background: url("../imgs/arrow-dropdown.png") no-repeat right var(--white) !important;
+    background-image: url("../imgs/arrow-dropdown.png") !important; 
+    background-repeat: no-repeat !important; 
+    background-position: right !important;
     -webkit-appearance: none !important;
     background-position-x: 98% !important;
     -webkit-appearance: none !important;
@@ -330,7 +332,7 @@ select {
     appearance: none !important;
 }
 
-select:focus {
+select.form-control:focus {
     border-color: var(--black) !important;
 }
 
@@ -988,17 +990,14 @@ HOMEPAGE
 
 
 /* --- pricing plans --- */
-
 .pricing-bl {
     position: relative;
-    /*width: 230px;*/
     margin: 0 auto;
     text-align: center;
 }
-
 .pricing-bl-inner {
     margin: 0 auto 20px auto;
-    padding: 20px 20px 0 20px;
+    padding: 20px;
     background: var(--grey-light1);
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -1009,91 +1008,58 @@ HOMEPAGE
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
-
 .pricing-bl:hover .pricing-bl-inner {
     background: var(--grey-light4);
 }
-
 .pricing-text {
-    min-height: 100px;
+    min-height: 150px;
     margin-bottom: 20px;
 }
-
 .pricing-bl img {
     position: relative;
-    top: 10px;
+    top: 30px;
     margin-top: -10px;
 }
-
-.pricing-bl ul.features {
-    min-height: 110px;
-}
-
-.pricing-bl ul.features li {
-    margin-bottom: 5px;
-}
-
-.pricing-bl ul.features li h6 {
-    font-weight: 600;
-}
-
-.pricing-bl ul.features li:last-child {
-    margin-bottom: 0;
-}
-
 .pricing-bl .heading hr {
     margin: 0 auto 5px auto !important;
 }
-
 .pricing-bl .btn {
     position: relative;
     top: 20px;
     margin-top: -30px;
 }
-
 .pricing-plans .swiper-pagination {
     position: relative;
     bottom: 0;
     margin-top: 20px;
 }
-
 .pricing-plans a:hover {
     text-decoration: none;
     color: var(--black);
     outline: none !important;
 }
 
-
 /* ##############################
 ---------------------------------
 PLANS PAGE
 ---------------------------------
 ############################## */
-
 .plans {
     padding: 80px 0 !important;
     padding-bottom: 0 !important;
 }
-
-.plans .pricing-bl {
-    width: 100%;
+.plans .pricing-bl img {
+    top: 10px;
 }
-
-.plans .pricing-text {
-    min-height: 120px;
-}
-
 .plans ul.checklist {
     padding: 30px 0;
 }
-
 .plans ul.checklist li {
     height: 80px;
     margin-bottom: 2px;
     display: flex;
     align-items: center;
     text-align: center;
-    margin-bottom: 2px;
 }
 
 .plans ul.checklist li .ml-auto {
@@ -1105,7 +1071,7 @@ PLANS PAGE
 }
 
 .slide1 ul.checklist {
-    margin-top: 360px;
+    margin-top: 330px;
 }
 
 .slide1 ul.checklist li {
@@ -1492,6 +1458,64 @@ OUR WORK PAGE
     overflow: hidden;
     background: var(--black);
 }
+video {
+    background: var(--black) !important;
+}
+.modal-fullscreen {
+    background: rgba(0,0,0,.7);
+    align-items: center;
+    justify-content: center;
+}
+.modal .close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+    opacity: 1 !important;
+    font-size: 36px !important;
+    outline: none !important;
+    color: var(--white) !important;
+    transition: all 0.3s ease-in;
+    z-index: 999;
+}
+.modal .close:hover {
+    opacity: 1 !important;
+    color: var(--primary) !important;
+    transform: rotate(90deg);
+}
+.modal .modal-body {
+    padding: 0;
+}
+.modal .modal-dialog {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    max-width: 100% !important;
+    margin: 0;
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.modal .modal-content {
+    background: none !important;
+    border: none !important;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+.modal .modal-body {
+    position: relative;
+    padding: 0;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* ##############################
@@ -1654,3 +1678,5 @@ ABOUT PAGE
 .get-started .heading hr {
     background: var(--primary) !important;
 }
+
+

@@ -192,15 +192,15 @@
             <div class="tab-pane websitesapps" id="pills-websitesapps" role="tabpanel" aria-labelledby="pills-websitesapps-tab">
               <div class="row">
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
-                  <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=bYpHp2e4U3E">
+                  <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video1">
                       <img src="assets/imgs/work/websiteapps/1.jpg" class="img-fluid" /></a></div>
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
-                  <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=iEIuRvPbZ64">
+                  <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video2">
                       <img src="assets/imgs/work/websiteapps/2.jpg" class="img-fluid" /></a></div>
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-                  <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=CfhwXGLotaM">
+                  <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video3">
                       <img src="assets/imgs/work/websiteapps/3.jpg" class="img-fluid" /></a></div>
                 </div>
               </div>
@@ -304,19 +304,19 @@
               <div class="row">
 
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-                  <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=tVRLQGRifmw">
+                  <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video4">
                       <img src="assets/imgs/work/videos/5.jpg" class="img-fluid" />
                     </a></div>
                 </div>
 
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-                  <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=mQILs57xiTU">
+                  <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video5">
                       <img src="assets/imgs/work/videos/4.jpg" class="img-fluid" />
                     </a></div>
                 </div>
 
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-                  <div class="work-item"><a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=uFnM7KB30hg">
+                  <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video6">
                       <img src="assets/imgs/work/videos/6.jpg" class="img-fluid" />
                     </a></div>
                 </div>
@@ -397,6 +397,160 @@
   <!-- end footer -->
 
   <a href="#home" id="backtotop" class="smoothscroll"><img src="assets/imgs/icon-arrow-up-primary.png"></a>
+
+  <!-- start modal website & apps video1 -->
+  <div class="modal fade modal-fullscreen" id="modal-video1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="video">
+                  <video width="100%" height="100%" controls autoplay muted>
+                    <source src="assets/videos/website-apps/video1.mp4" type="video/mp4">
+                    <source src="assets/videos/website-apps/video1.webm" type="video/webm">
+                    <source src="assets/videos/website-apps/video1.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal website & apps video1 -->
+  <!-- start modal website & apps video2 -->
+  <div class="modal fade modal-fullscreen" id="modal-video2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="video">
+                  <video width="100%" height="600" controls autoplay muted>
+                    <source src="assets/videos/website-apps/video2.mp4" type="video/mp4">
+                    <source src="assets/videos/website-apps/video2.webm" type="video/webm">
+                    <source src="assets/videos/website-apps/video2.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal website & apps video2 -->
+  <!-- start modal website & apps video3 -->
+  <div class="modal fade modal-fullscreen" id="modal-video3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="video">
+                  <video width="100%" height="100%" controls autoplay muted>
+                    <source src="assets/videos/website-apps/video3.mp4" type="video/mp4">
+                    <source src="assets/videos/website-apps/video3.webm" type="video/webm">
+                    <source src="assets/videos/website-apps/video3.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal website & apps video3 -->
+
+  <!-- start modal videos tab video1 -->
+  <div class="modal fade modal-fullscreen" id="modal-video4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="video">
+                  <video width="100%" height="100%" controls autoplay muted>
+                    <source src="assets/videos/videos/video1.mp4" type="video/mp4">
+                    <source src="assets/videos/videos/video1.webm" type="video/webm">
+                    <source src="assets/videos/videos/video1.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal videos tab video1 -->
+  <!-- start modal videos tab video2 -->
+  <div class="modal fade modal-fullscreen" id="modal-video5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="video">
+                  <video width="100%" height="600" controls autoplay muted>
+                    <source src="assets/videos/videos/video2.mp4" type="video/mp4">
+                    <source src="assets/videos/videos/video2.webm" type="video/webm">
+                    <source src="assets/videos/videos/video2.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal videos tab video2 -->
+  <!-- start modal videos tab video3 -->
+  <div class="modal fade modal-fullscreen" id="modal-video6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="video">
+                  <video width="100%" height="100%" controls autoplay muted>
+                    <source src="assets/videos/videos/video3.mp4" type="video/mp4">
+                    <source src="assets/videos/videos/video3.webm" type="video/webm">
+                    <source src="assets/videos/videos/video3.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal videos tab video3 -->
+
+
 
   <!-- jquery js -->
   <script type="text/javascript" src="assets/plugins/jquery/jquery-3.5.1.min.js"></script>
