@@ -264,7 +264,7 @@
                     <div class="text-center pricing-text">"I would like help shaping my proposition, strategic thinking, customer research and a better understanding of the competitor landscape."</div>
                     <h2 class="heading text-center">
                       <hr />
-                      £989/month
+                      from £700/day
                     </h2>
                     <ul class="checklist">
                       <li>
@@ -341,18 +341,18 @@
   <!-- end plans -->
 
   <!-- start cta -->
-  <section class="cta">
+  <!-- <section class="cta">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="heading text-center mb10 wow wow2 fadeInUp" data-wow-delay="200ms">Book a call
+          <h2 class="heading text-center mb10 wow wow2 fadeInUp" data-wow-delay="200ms">If you would like to discuss this further, why not book a call
             <hr />
           </h2>
           <a href="contact.php" class="btn btn-primary-bordered wow wow2 fadeInUp" data-wow-delay="300ms">Contact us<span>></span></a>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- end cta -->
 
   <!-- start faqs -->
@@ -412,7 +412,7 @@
               </div>
               <div id="c1-5" class="collapse" aria-labelledby="h1-5" data-parent="#accordion">
                 <div class="card-body">
-                  <p>Easy! We're here to support you and to help enable your vision so just book an appointment.</p>
+                  <p>Easy! We're here to support you and to help enable your vision so just <a href="contact.php" class="text-primary">book an appointment</a>.</p>
                 </div>
               </div>
             </div>

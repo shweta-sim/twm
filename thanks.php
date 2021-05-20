@@ -1,4 +1,4 @@
-<?php 
+<?php  
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -12,7 +12,7 @@ $smtp_password = "Supp0rT@9867"; // CHANGE THIS
 $smtp_port = 465; // CHANGE THIS
 
 
-$to="shweta.sim@gmail.com";
+$to="support@twmediagroup.co.uk";
 $subject="Contact - TW Media";
 
 ?>

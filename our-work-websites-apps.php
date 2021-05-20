@@ -11,6 +11,9 @@
   <link rel="icon" href="assets/imgs/favicon-32x32.png" sizes="32x32" type="image/png" />
   <link rel="icon" href="assets/imgs/favicon-16x16.png" sizes="16x16" type="image/png" />
 
+  <!-- light gallery CSS -->
+  <link href="assets/plugins/lightgallery/css/lightgallery.css" rel="stylesheet">
+
   <!-- Swipebox CSS -->
   <link href="assets/plugins/swipebox/css/swipebox.css" rel="stylesheet">
 
@@ -25,7 +28,6 @@
 
   <!-- responsive css -->
   <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 <body class="preload" id="work-websites">
@@ -48,20 +50,39 @@
 
           <!-- start tab pane -->
           <div class="tab-pane websitesapps" id="pills-websitesapps" role="tabpanel" aria-labelledby="pills-websitesapps-tab">
-            <div class="row">
-              <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
-                <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video1">
-                    <img src="assets/imgs/work/websiteapps/1.jpg" class="img-fluid" /></a></div>
-              </div>
-              <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
-                <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video2">
-                    <img src="assets/imgs/work/websiteapps/2.jpg" class="img-fluid" /></a></div>
-              </div>
-              <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-                <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video3">
-                    <img src="assets/imgs/work/websiteapps/3.jpg" class="img-fluid" /></a></div>
-              </div>
-            </div>
+            <!-- videos -->
+<div style="display:none;" id="website-apps-video1">
+<video class="lg-video-object lg-html5" controls preload="none">
+<source src="assets/videos/website-apps/video1.mp4" type="video/mp4">
+<source src="assets/videos/website-apps/video1.mp4" type="video/ogv">
+<source src="assets/videos/website-apps/video1.mp4" type="video/webm">
+Your browser does not support HTML5 video. </video>
+</div>
+<div style="display:none;" id="website-apps-video2">
+<video class="lg-video-object lg-html5" controls preload="none">
+<source src="assets/videos/website-apps/video2.mp4" type="video/mp4">
+<source src="assets/videos/website-apps/video2.mp4" type="video/ogv">
+<source src="assets/videos/website-apps/video2.mp4" type="video/webm">
+Your browser does not support HTML5 video. </video>
+</div>
+<div style="display:none;" id="website-apps-video3">
+<video class="lg-video-object lg-html5" controls preload="none">
+<source src="assets/videos/website-apps/video3.mp4" type="video/mp4">
+<source src="assets/videos/website-apps/video3.mp4" type="video/ogv">
+<source src="assets/videos/website-apps/video3.mp4" type="video/webm">
+Your browser does not support HTML5 video. </video>
+</div>
+<div class="row" id="lightgallery-website-apps">
+<div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#website-apps-video1" data-poster="assets/imgs/work/websiteapps/1-big.jpg">
+<div class="work-item"><a href=""> <img src="assets/imgs/work/websiteapps/1.jpg" class="img-fluid" /> </a></div>
+</div>
+<div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#website-apps-video2" data-poster="assets/imgs/work/websiteapps/2-big.jpg">
+<div class="work-item"> <a href=""> <img src="assets/imgs/work/websiteapps/2.jpg" class="img-fluid" /> </a></div>
+</div>
+<div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#website-apps-video3" data-poster="assets/imgs/work/websiteapps/3-big.jpg">
+<div class="work-item"> <a href=""> <img src="assets/imgs/work/websiteapps/3.jpg" class="img-fluid" /> </a></div>
+</div>
+</div>
             <div class="row">
               <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                 <div class="work-text">
@@ -223,6 +244,23 @@
       }
     });
   </script>
+
+  <!-- light gallery js --> 
+<script type="text/javascript">
+    $(document).ready(function() {
+  $("#lightgallery-website-apps").lightGallery({
+    share: false,
+    download: false,
+    zoom: false,
+    autoplayControls: false,
+    autoplay: false,
+    thumbnail: false,
+    mousewheel: false
+  });
+});
+  </script> 
+<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script> 
+<script src="assets/plugins/lightgallery/js/lightgallery-all.min.js"></script>
 </body>
 
 </html>

@@ -11,6 +11,9 @@
   <link rel="icon" href="assets/imgs/favicon-32x32.png" sizes="32x32" type="image/png" />
   <link rel="icon" href="assets/imgs/favicon-16x16.png" sizes="16x16" type="image/png" />
 
+  <!-- light gallery CSS -->
+  <link href="assets/plugins/lightgallery/css/lightgallery.css" rel="stylesheet">
+
   <!-- Swipebox CSS -->
   <link href="assets/plugins/swipebox/css/swipebox.css" rel="stylesheet">
 
@@ -190,18 +193,40 @@
             <!-- end tab pane -->
             <!-- start tab pane -->
             <div class="tab-pane websitesapps" id="pills-websitesapps" role="tabpanel" aria-labelledby="pills-websitesapps-tab">
-              <div class="row">
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
-                  <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video1">
-                      <img src="assets/imgs/work/websiteapps/1.jpg" class="img-fluid" /></a></div>
+              <!-- videos -->
+              <div style="display:none;" id="website-apps-video1">
+                <video class="lg-video-object lg-html5" controls preload="none">
+                  <source src="assets/videos/website-apps/video1.mp4" type="video/mp4">
+                  <source src="assets/videos/website-apps/video1.mp4" type="video/ogv">
+                  <source src="assets/videos/website-apps/video1.mp4" type="video/webm">
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+              <div style="display:none;" id="website-apps-video2">
+                <video class="lg-video-object lg-html5" controls preload="none">
+                  <source src="assets/videos/website-apps/video2.mp4" type="video/mp4">
+                  <source src="assets/videos/website-apps/video2.mp4" type="video/ogv">
+                  <source src="assets/videos/website-apps/video2.mp4" type="video/webm">
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+              <div style="display:none;" id="website-apps-video3">
+                <video class="lg-video-object lg-html5" controls preload="none">
+                  <source src="assets/videos/website-apps/video3.mp4" type="video/mp4">
+                  <source src="assets/videos/website-apps/video3.mp4" type="video/ogv">
+                  <source src="assets/videos/website-apps/video3.mp4" type="video/webm">
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+              <div class="row" id="lightgallery-website-apps">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#website-apps-video1" data-poster="assets/imgs/work/websiteapps/1-big.jpg">
+                  <div class="work-item"><a href=""> <img src="assets/imgs/work/websiteapps/1.jpg" class="img-fluid" /> </a></div>
                 </div>
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
-                  <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video2">
-                      <img src="assets/imgs/work/websiteapps/2.jpg" class="img-fluid" /></a></div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#website-apps-video2" data-poster="assets/imgs/work/websiteapps/2-big.jpg">
+                  <div class="work-item"> <a href=""> <img src="assets/imgs/work/websiteapps/2.jpg" class="img-fluid" /> </a></div>
                 </div>
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-                  <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video3">
-                      <img src="assets/imgs/work/websiteapps/3.jpg" class="img-fluid" /></a></div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#website-apps-video3" data-poster="assets/imgs/work/websiteapps/3-big.jpg">
+                  <div class="work-item"> <a href=""> <img src="assets/imgs/work/websiteapps/3.jpg" class="img-fluid" /> </a></div>
                 </div>
               </div>
               <div class="row">
@@ -254,7 +279,7 @@
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                   <div class="work-text">
                     <h4>Establish clear business goals and gain a better understanding of customer needs and the competitor landscape</h4>
-                    <p>From £500/day</p>
+                    <p>From £700/day</p>
                   </div>
                 </div>
               </div>
@@ -272,21 +297,38 @@
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
                   <div class="work-item"><a href="assets/imgs/work/photography/3-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/3.jpg" class="img-fluid" /></a></div>
                 </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/10-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/10.jpg" class="img-fluid" /></a></div>
+                </div>
+
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                   <div class="work-item"><a href="assets/imgs/work/photography/4-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/4.jpg" class="img-fluid" /></a></div>
                 </div>
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
-                  <div class="work-item"><a href="assets/imgs/work/photography/5-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/5.jpg" class="img-fluid" /></a></div>
-                </div>
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-                  <div class="work-item"><a href="assets/imgs/work/photography/6-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/6.jpg" class="img-fluid" /></a></div>
-                </div>
+
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                   <div class="work-item"><a href="assets/imgs/work/photography/7-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/7.jpg" class="img-fluid" /></a></div>
                 </div>
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
-                  <div class="work-item"><a href="assets/imgs/work/photography/8-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/8.jpg" class="img-fluid" /></a></div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/9-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/9.jpg" class="img-fluid" /></a></div>
                 </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/11-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/11.jpg" class="img-fluid" /></a></div>
+                </div>
+
+                <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/5-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/5.jpg" class="img-fluid" /></a></div>
+                </div> -->
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/6-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/6.jpg" class="img-fluid" /></a></div>
+                </div>
+
+                <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/8-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/8.jpg" class="img-fluid" /></a></div>
+                </div> -->
+
 
               </div>
               <div class="row">
@@ -301,27 +343,41 @@
             <!-- end tab pane -->
             <!-- start tab pane -->
             <div class="tab-pane videos" id="pills-videos" role="tabpanel" aria-labelledby="pills-videos-tab">
-              <div class="row">
-
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-                  <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video4">
-                      <img src="assets/imgs/work/videos/5.jpg" class="img-fluid" />
-                    </a></div>
+              <!-- videos -->
+              <div style="display:none;" id="videos1">
+                <video class="lg-video-object lg-html5" controls preload="none">
+                  <source src="assets/videos/videos/video1.mp4" type="video/mp4">
+                  <source src="assets/videos/videos/video1.mp4" type="video/ogv">
+                  <source src="assets/videos/videos/video1.mp4" type="video/webm">
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+              <div style="display:none;" id="videos2">
+                <video class="lg-video-object lg-html5" controls preload="none">
+                  <source src="assets/videos/videos/video2.mp4" type="video/mp4">
+                  <source src="assets/videos/videos/video2.mp4" type="video/ogv">
+                  <source src="assets/videos/videos/video2.mp4" type="video/webm">
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+              <div style="display:none;" id="videos3">
+                <video class="lg-video-object lg-html5" controls preload="none">
+                  <source src="assets/videos/videos/video3.mp4" type="video/mp4">
+                  <source src="assets/videos/videos/video3.mp4" type="video/ogv">
+                  <source src="assets/videos/videos/video3.mp4" type="video/webm">
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+              <div class="row" id="lightgallery-videos">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#videos1" data-poster="assets/imgs/work/videos/5-big.jpg">
+                  <div class="work-item"><a href=""> <img src="assets/imgs/work/videos/5.jpg" class="img-fluid" /> </a></div>
                 </div>
-
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-                  <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video5">
-                      <img src="assets/imgs/work/videos/4.jpg" class="img-fluid" />
-                    </a></div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#videos2" data-poster="assets/imgs/work/videos/4-big.jpg">
+                  <div class="work-item"> <a href=""> <img src="assets/imgs/work/videos/4.jpg" class="img-fluid" /> </a></div>
                 </div>
-
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-                  <div class="work-item"><a href="#" data-toggle="modal" data-target="#modal-video6">
-                      <img src="assets/imgs/work/videos/6.jpg" class="img-fluid" />
-                    </a></div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#videos3" data-poster="assets/imgs/work/videos/6-big.jpg">
+                  <div class="work-item"> <a href=""> <img src="assets/imgs/work/videos/6.jpg" class="img-fluid" /> </a></div>
                 </div>
-
-
               </div>
               <div class="row">
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
@@ -388,9 +444,22 @@
   </section>
   <!-- end section -->
 
-  <!-- start cta -->
-  <?php include("questions.php"); ?>
-  <!-- end cta -->
+  <!-- start get started -->
+  <section class="get-started">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 offset-md-3 text-center">
+          <h2 class="heading text-center mb20 wow wow2 fadeInUp" data-wow-delay="200ms">Ready to get started?
+            <hr />
+          </h2>
+          <p class="mb20 wow wow2 fadeInUp" data-wow-delay="300ms">Whether you're starting out or an established business, we
+            can advise and support you every step of the way</p>
+          <div class="text-center wow wow2 fadeInUp" data-wow-delay="400ms"> <a href="contact.php" class="btn btn-primary-bordered mr-sm-4 mr-2 mb10-sm">Contact us<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm ml-sm-0 ml-2">View plans<span>></span></a> </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end get started -->
 
   <!-- start footer -->
   <?php include("footer.php"); ?>
@@ -636,6 +705,33 @@
       });
     }
   </script>
+
+  <!-- light gallery js -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#lightgallery-website-apps").lightGallery({
+        share: false,
+        download: false,
+        zoom: false,
+        autoplayControls: false,
+        autoplay: false,
+        thumbnail: false,
+        mousewheel: false
+      });
+
+      $("#lightgallery-videos").lightGallery({
+        share: false,
+        download: false,
+        zoom: false,
+        autoplayControls: false,
+        autoplay: false,
+        thumbnail: false,
+        mousewheel: false
+      });
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+  <script src="assets/plugins/lightgallery/js/lightgallery-all.min.js"></script>
 
 </body>
 

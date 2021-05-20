@@ -127,6 +127,12 @@
     .pricing-plans .pricing-text {
         min-height: 170px;
     }
+    .payment ul.steps {
+        margin-bottom: 60px;
+    }
+    .payment ul.steps li {
+        margin-right: 40px;
+    }
 }
 
 @media screen and (max-width: 767.98px) {
@@ -171,8 +177,8 @@
         margin-bottom: 100px;
     }
     header .navbar-nav {
-        padding: 20px 0 10px 0;
-        /*border-bottom: 1px solid var(--grey);*/
+        padding: 20px 0 30px 0;
+        border-bottom: 1px solid var(--grey-light3);        
     }
     header .navbar-nav .nav-item {
         margin: 0;
@@ -264,6 +270,36 @@
     .websitesapps .work-item .video,
     .videos .work-item .video {
         display: none;
+    }
+
+    .booking-bl {
+        border-radius: 0;
+        border: none;
+    }
+    .booking-bl-info.left {
+        background: none;
+        border: none;        
+    }
+    .booking-bl-info, .booking-bl-info.right {
+        min-height: auto;
+        padding-left: 0; 
+        padding-right: 0; 
+    }
+    .payment ul.steps {
+        margin-bottom: 30px;
+    }
+    .payment ul.steps li {
+        margin-right: 20px;
+    }
+    .payment ul.steps li h1 {
+        font-size: 48px;
+    }
+    .payment ul.steps li h1 span {
+        display: none;
+        font-size: 16px;
+    }
+    .payment ul.steps li.active h1 span {
+        display: block;
     }
 }
 
@@ -363,5 +399,13 @@
     #backtotop {
         right: 10px;
         bottom: 10px;
+    }
+    .hero-home .heading hr {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
     }
 }

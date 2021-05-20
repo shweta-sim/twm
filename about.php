@@ -61,7 +61,7 @@
           <h2 class="heading text-left mb30 wow fadeInLeft" data-wow-delay="200ms">Our Story
             <hr>
           </h2>
-          <p class="wow fadeInLeft" data-wow-delay="200ms">TW started by helping smaller organisations to stand out online. Overtime we realised that as we provided great design backed up by strategy and customer insight, our clients' businesses also started to grow. Many of them went from requesting 1 job, 1 package to requesting monthly subscriptions. Launched in early 2016, TW offers unlimited design, research and digital strategy for a flat fee.</p>
+          <p class="wow fadeInLeft" data-wow-delay="200ms">Working with sister company Roaring Lion, TW offer excellent design at an affordable price. TW partner with a number of educational institutions to offer internships and placements. TW give 10% of all proceeds to charity and help smaller businesses at a subsidised cost.</p>
         </div>
         <div class="col-lg-6 offset-lg-1 order-first order-lg-last mb30-lg">
           <div class="wow fadeInRight" data-wow-delay="200ms"><img src="assets/imgs/img-our-story.svg" class="img-fluid" alt="" /> </div>

@@ -1,11 +1,11 @@
 <footer>
-  <div class="container">
+  <div class="container"> 
     <div class="row text-center text-md-left">
       <div class="col-lg-10 offset-lg-1">
         <div class="row mb30 mb20-sm">
           <div class="col-md-4">
             <div class="mb20 logo"><img src="assets/imgs/logo.png" class="img-fluid" alt="TW Media" /></div>
-            <div><a href="mailto:info.twmedia@gmail.com"><i class="fas fa-envelope mr-2"></i>info.twmedia@gmail.com</a></div>
+            <div><a href="mailto:support@twmediagroup.co.uk"><i class="fas fa-envelope mr-2"></i>support@twmediagroup.co.uk</a></div>
           </div>
           <div class="col-md-3 d-none d-md-block">
             <h6>Get a design</h6>
@@ -53,7 +53,7 @@
                 <li class="d-none d-md-inline">|</li>
                 <li><a href="#">Privacy policy</a></li>
                 <li>|</li>
-                <li><a href="#">Terms of service</a></li>
+                <li><a href="terms.php">Terms of service</a></li>
               </ul>
             </div>
             <div class="col-md-4 order-first order-md-last">

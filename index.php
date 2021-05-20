@@ -53,19 +53,21 @@
             <div class="swiper-wrapper">
               <!-- start slide1 -->
               <div class="swiper-slide designs design1">
-                <div class="row align-items-center">
-                  <div class="col-md-6 col-lg-5 offset-md-0 offset-lg-1 mb60-md text-center"> <img src="assets/imgs/img-design3.jpg" class="img-fluid img" alt="" />
+                <div class="row align-items-center text-center text-sm-left">
+                  <div class="col-md-6 col-lg-5 offset-md-0 offset-lg-1 text-center mb60-md">
+                    <h3 class="heading mb20 d-block d-md-none text-center text-sm-left"> Unlimited design for a fixed price.
+                      <hr />
+                    </h3>
+
+                    <img src="assets/imgs/img-design3.jpg" class="img-fluid img" alt="" />
                     <div class="swiper-pagination"></div>
                   </div>
                   <div class="col-md-6 col-lg-5">
                     <div class="swiper-text">
-                      <h3 class="heading mb20"> Unlimited design for a fixed price.
+                      <h3 class="heading mb20 d-none d-md-block"> Unlimited design for a fixed price.
                         <hr />
                       </h3>
-                      <p class="mb40"> Whether you're a start up or an established business,
-                        we know making an impact online can be challenging. TW
-                        provides excellent design, digital strategy to support
-                        your vision at every step of your journey. </p>
+                      <p class="mb40">Whether you need a Logo, Leaflet, Website or help with Branding. TW provides excellent design and digital strategy to support your vision at every step. </p>
                       <div class="mb30 mb0-sm"> <a href="our-work.php" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm">View plans<span>></span></a> </div>
                     </div>
                   </div>
@@ -74,19 +76,20 @@
               <!-- end slide1 -->
               <!-- start slide2 -->
               <div class="swiper-slide designs design2">
-                <div class="row align-items-center">
-                  <div class="col-md-6 col-lg-5 offset-md-0 offset-lg-1 mb60-md text-center"> <img src="assets/imgs/img-design2.jpg" class="img-fluid img" alt="" />
+                <div class="row align-items-center text-center text-sm-left">
+                  <div class="col-md-6 col-lg-5 offset-md-0 offset-lg-1 text-center mb60-md">
+                    <h3 class="heading mb20 d-block d-md-none text-center text-sm-left"> Unlimited design for a fixed price.
+                      <hr />
+                    </h3>
+                    <img src="assets/imgs/img-design2.jpg" class="img-fluid img" alt="" />
                     <div class="swiper-pagination"></div>
                   </div>
                   <div class="col-md-6 col-lg-5">
                     <div class="swiper-text">
-                      <h3 class="heading mb20"> Unlimited design for a fixed price.
+                      <h3 class="heading mb20 d-none d-md-block"> Unlimited design for a fixed price.
                         <hr />
                       </h3>
-                      <p class="mb40"> Whether you're a start up or an established business,
-                        we know making an impact online can be challenging. TW
-                        provides excellent design, digital strategy to support
-                        your vision at every step of your journey. </p>
+                      <p class="mb40">Whether you need a Logo, Leaflet, Website or help with Branding. TW provides excellent design and digital strategy to support your vision at every step. </p>
                       <div class="mb30 mb0-sm"> <a href="our-work.php" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm">View plans<span>></span></a> </div>
                     </div>
                   </div>
@@ -96,19 +99,20 @@
 
               <!-- start slide3 -->
               <div class="swiper-slide designs design4">
-                <div class="row align-items-center">
-                  <div class="col-md-6 col-lg-5 offset-md-0 offset-lg-1 mb60-md text-center"> <img src="assets/imgs/img-design4.jpg" class="img-fluid img" alt="" />
+                <div class="row align-items-center text-center text-sm-left">
+                  <div class="col-md-6 col-lg-5 offset-md-0 offset-lg-1 text-center mb60-md">
+                    <h3 class="heading mb20 d-block d-md-none text-center text-sm-left"> Unlimited design for a fixed price.
+                      <hr />
+                    </h3>
+                    <img src="assets/imgs/img-design4.jpg" class="img-fluid img" alt="" />
                     <div class="swiper-pagination"></div>
                   </div>
                   <div class="col-md-6 col-lg-5">
                     <div class="swiper-text">
-                      <h3 class="heading mb20"> Unlimited design for a fixed price.
+                      <h3 class="heading mb20 d-none d-md-block"> Unlimited design for a fixed price.
                         <hr />
                       </h3>
-                      <p class="mb40"> Whether you're a start up or an established business,
-                        we know making an impact online can be challenging. TW
-                        provides excellent design, digital strategy to support
-                        your vision at every step of your journey. </p>
+                      <p class="mb40">Whether you need a Logo, Leaflet, Website or help with Branding. TW provides excellent design and digital strategy to support your vision at every step. </p>
                       <div class="mb30 mb0-sm"> <a href="our-work.php" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm">View plans<span>></span></a> </div>
                     </div>
                   </div>
@@ -265,15 +269,8 @@
                   <div class="col-md-6 col-lg-5 offset-lg-1 col-xl-5 offset-xl-2 mb20-md wow wow2 fadeInLeft" data-wow-delay="400ms"> <img src="assets/imgs/testimonial_1-design.jpg" class="img-fluid img" alt="" /> </div>
                   <div class="col-md-6 col-lg-5 offset-lg-0 col-xl-4 offset-xl-0 wow wow2 fadeInRight" data-wow-delay="400ms">
                     <div class="swiper-text">
-                      <h5 class="mb20"> “TW pay excellent attention to vision, design and
-                        service“ </h5>
-                      <p class="mb20"> We were mesmerised by the freshness and incredible
-                        flavour of the teas grown in the Himalayan region and
-                        our passion has been to bring this incredible flavour
-                        to the cups of many tea lovers around the world! The
-                        website TW created showed they'd taken the time to
-                        understand our vision and helped us bring it to life
-                        online in a spectacular way. </p>
+                      <h5 class="mb20">“TW give great advice & recommendations“ </h5>
+                      <p class="mb20">TW spent a lot of time conducting research our my behalf. They ran competitor analysis, site audits and customer research to help us make the right decisions. </p>
                       <div class="d-flex align-items-center">
                         <div class="img mr-3"> <img src="assets/imgs/testimonial1-client.jpg" class="img-fluid" alt="" /> </div>
                         <i class="text-sm">Ademola Adeyeba,<br />
@@ -358,7 +355,7 @@
                       <div class="text-center pricing-text">"I would like help shaping my proposition, strategic thinking, customer research and a better understanding of the competitor landscape."</div>
                       <h2 class="heading text-center">
                         <hr />
-                        £989/month
+                        £700/day
                       </h2>
                       <img src="assets/imgs/img-pricing3.svg" class="img-fluid img" alt="Agency" />
                     </div>
