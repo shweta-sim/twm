@@ -61,9 +61,10 @@
               <hr>
             </h2>
             <div class="mb30">
+              <div class="mb10"><a href="payment-step1-2.php" class="btn btn-grey-bordered btn-bl d-flex">Sign up with email</a></div>
               <div class="mb10"><a href="#" class="btn btn-grey-bordered btn-bl d-flex">Continue with <img src="assets/imgs/logo-fb.png"></a></div>
-              <div class="mb10"><a href="#" class="btn btn-grey-bordered btn-bl d-flex">Continue with <img src="assets/imgs/logo-google.png"></a></div>
-              <div><a href="payment-step1-2.php" class="btn btn-grey-bordered btn-bl d-flex">Or sign up with email</a></div>
+              <div><a href="#" class="btn btn-grey-bordered btn-bl d-flex">Continue with <img src="assets/imgs/logo-google.png"></a></div>
+              
             </div>
             <div class="text-md">Already have an account? <a href="payment-step1-3.php" class="text-bold">Log in</a></div>
           </div>

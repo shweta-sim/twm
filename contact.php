@@ -37,11 +37,11 @@
   <div class="container">
     <div class="row mb40">
       <div class="col-12 text-center">
-        <h2 class="heading text-center mb30 wow fadeInUp" data-wow-delay="200ms">Contact
+        <h2 class="heading text-center wow fadeInUp" data-wow-delay="200ms">Contact
           <hr>
         </h2>
-        <h4 class="text-center wow fadeInUp" data-wow-delay="300ms">Ready to learn more about how TW + RL can help you save time, and money on your designs? </h4>
-        <p class="wow fadeInUp" data-wow-delay="400ms">Book a 1:1 call or send an email; you'll be designing better and scaling faster, in no time.</p>
+        <!-- <h4 class="text-center wow fadeInUp" data-wow-delay="300ms">Ready to learn more about how TW + RL can help you save time, and money on your designs? </h4>
+        <p class="wow fadeInUp" data-wow-delay="400ms">Book a 1:1 call or send an email; you'll be designing better and scaling faster, in no time.</p> -->
       </div>
     </div>
     <div class="row">

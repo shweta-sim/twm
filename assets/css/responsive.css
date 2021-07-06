@@ -1,7 +1,7 @@
 @media screen and (max-width: 1199.98px) {
     /* margins/paddings */
     .m0-lg {
-        margin: 0;
+        margin: 0; 
     }
     .p0-lg {
         padding: 0;
@@ -300,6 +300,9 @@
     }
     .payment ul.steps li.active h1 span {
         display: block;
+    }
+    .login {
+        min-height: 600px;
     }
 }
 

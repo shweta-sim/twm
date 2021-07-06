@@ -60,10 +60,10 @@
             <h2 class="heading text-left mb20">Create your account
               <hr>
             </h2>
-            <div class="mb30">
+            <!-- <div class="mb30">
               <div class="mb10"><a href="#" class="btn btn-grey-bordered btn-bl d-flex">Continue with <img src="assets/imgs/logo-fb.png"></a></div>
               <div class="mb10"><a href="#" class="btn btn-grey-bordered btn-bl d-flex">Continue with <img src="assets/imgs/logo-google.png"></a></div>
-            </div>
+            </div> -->
             <div class="mb30">
               <form action="payment-step1-3.php" method="POST" name="" id="">
                 <div class="form-group mb10">

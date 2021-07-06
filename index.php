@@ -209,7 +209,7 @@
             <div class="swiper-wrapper">
               <!-- start slide 1 -->
 
-              <div class="swiper-slide testimonial-Selfridges">
+              <!-- <div class="swiper-slide testimonial-Selfridges">
                 <div class="row align-items-center">
                   <div class="col-md-6 col-lg-5 offset-lg-1 col-xl-6 offset-xl-1 mb20-md wow wow2 fadeInLeft" data-wow-delay="400ms"> <img src="assets/imgs/testimonial_3-design.jpg" class="img-fluid img" alt="" /> </div>
                   <div class="col-md-6 col-lg-5 offset-lg-0 col-xl-4 offset-xl-0 wow wow2 fadeInRight" data-wow-delay="400ms">
@@ -232,7 +232,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
 
               <!-- end slide 1 -->
@@ -269,8 +269,10 @@
                   <div class="col-md-6 col-lg-5 offset-lg-1 col-xl-5 offset-xl-2 mb20-md wow wow2 fadeInLeft" data-wow-delay="400ms"> <img src="assets/imgs/testimonial_1-design.jpg" class="img-fluid img" alt="" /> </div>
                   <div class="col-md-6 col-lg-5 offset-lg-0 col-xl-4 offset-xl-0 wow wow2 fadeInRight" data-wow-delay="400ms">
                     <div class="swiper-text">
-                      <h5 class="mb20">“TW give great advice & recommendations“ </h5>
-                      <p class="mb20">TW spent a lot of time conducting research our my behalf. They ran competitor analysis, site audits and customer research to help us make the right decisions. </p>
+                      <h5 class="mb20">“Having TW as our design partner has allowed me to focus on growing our business.“ </h5>
+                      <p class="mb20">
+                        We commissioned TW to design our logo, website, bio, flyers and social media assets for our new offering, they SMASHED IT!<br><br>
+                        We wanted partners that were not only creative but pragmatic. And after an initial conversation, I left with a sense of “yes they really get us”. I’ve been over the moon with the work they done.</p>
                       <div class="d-flex align-items-center">
                         <div class="img mr-3"> <img src="assets/imgs/testimonial1-client.jpg" class="img-fluid" alt="" /> </div>
                         <i class="text-sm">Ademola Adeyeba,<br />
@@ -355,7 +357,7 @@
                       <div class="text-center pricing-text">"I would like help shaping my proposition, strategic thinking, customer research and a better understanding of the competitor landscape."</div>
                       <h2 class="heading text-center">
                         <hr />
-                        £700/day
+                        £989/month
                       </h2>
                       <img src="assets/imgs/img-pricing3.svg" class="img-fluid img" alt="Agency" />
                     </div>

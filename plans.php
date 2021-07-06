@@ -95,6 +95,9 @@
                     <li>
                       <p>Dedicated designer</p>
                     </li>
+                    <li>
+                      <p>Website/App Designs</p>
+                    </li> 
                   </ul>
                 </div>
               </div>
@@ -107,10 +110,10 @@
 
                     <h4 class="text-center text-uppercase text-primary mb10"> Professional </h4>
                     <div class="text-center pricing-text">"I would like logos, leaflets, posters and social media assets designed on a regular basis."<br><br></div>
-                    <h2 class="heading text-center">
+                    <h4 class="heading text-center">
                       <hr />
                       £389/month
-                    </h2>
+                    </h4>
                     <ul class="checklist">
                       <li>
                         <p>Designs: logos, flyers, posters</p>
@@ -168,6 +171,11 @@
                         <p>Dedicated designer</p>
                         <i class="fas fa-minus ml-auto"></i>
                       </li>
+                      <li>
+                        <p>Website/App Designs</p>
+                        <i class="fas fa-minus ml-auto"></i>
+                      </li>
+
                     </ul>
 
                   </div>
@@ -183,10 +191,10 @@
 
                     <h4 class="text-center text-uppercase text-primary mb10"> Team </h4>
                     <div class="text-center pricing-text">"I would like help building my website / app, I will need things like wireframes, designs, prototypes and videos."</div>
-                    <h2 class="heading text-center">
+                    <h4 class="heading text-center">
                       <hr />
                       £689/month
-                    </h2>
+                    </h4>
                     <ul class="checklist">
                       <li>
                         <p>Designs: logos, flyers, posters</p>
@@ -243,6 +251,10 @@
                       <li>
                         <p>Dedicated designer</p>
                         <i class="fas fa-minus ml-auto"></i>
+                      </li>
+                      <li>
+                        <p>Website/App Designs</p>
+                        <i class="fas fa-check ml-auto"></i>
                       </li>
                     </ul>
 
@@ -262,10 +274,10 @@
 
                     <h4 class="text-center text-uppercase text-primary mb10"> Agency </h4>
                     <div class="text-center pricing-text">"I would like help shaping my proposition, strategic thinking, customer research and a better understanding of the competitor landscape."</div>
-                    <h2 class="heading text-center">
+                    <h4 class="heading text-center">
                       <hr />
-                      from £700/day
-                    </h2>
+                      from £989/month
+                    </h4>
                     <ul class="checklist">
                       <li>
                         <p>Designs: logos, flyers, posters</p>
@@ -321,6 +333,10 @@
                       </li>
                       <li>
                         <p>Dedicated designer</p>
+                        <i class="fas fa-check ml-auto"></i>
+                      </li>
+                      <li>
+                        <p>Website/App Designs</p>
                         <i class="fas fa-check ml-auto"></i>
                       </li>
                     </ul>

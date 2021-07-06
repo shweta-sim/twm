@@ -51,16 +51,16 @@
               <ul>
                 <li class="d-block d-md-inline">TW © 2021. All rights reserved</li>
                 <li class="d-none d-md-inline">|</li>
-                <li><a href="#">Privacy policy</a></li>
+                <li><a href="privacy-policy.php">Privacy policy</a></li>
                 <li>|</li>
                 <li><a href="terms.php">Terms of service</a></li>
               </ul>
             </div>
             <div class="col-md-4 order-first order-md-last">
               <ul class="text-center text-md-right mb10-sm">
-                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.facebook.com/TWMEDIAPRODUCTIONS/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="www.instagram.com/twmedia_" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="www.youtube.com/channel/UCPpNS090rkT4JH2BPowyJ9A" target="_blank"><i class="fab fa-youtube"></i></a></li>
               </ul>
             </div>
           </div>

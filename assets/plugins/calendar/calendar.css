@@ -1,5 +1,8 @@
 /* classes attached to <body> */
 
+#calendar {
+  padding: 0 30px;
+}
 .fc-not-allowed,
 .fc-not-allowed .fc-event { /* override events' custom cursors */
   cursor: not-allowed;
@@ -74,8 +77,8 @@
 .fc-icon {
   /* added for fc */
   display: inline-block;
-  width: 1em;
-  height: 1em;
+  width: auto;
+  height: .625em;
   text-align: center;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -88,7 +91,7 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
+  line-height: .5em;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -150,7 +153,7 @@
   user-select: none;
   background-color: transparent;
   border: 2px solid transparent;
-  padding: 5px 10px;
+  padding: 5px 5px;
   font-size: 16px;
   line-height: 16px;
   border-radius: 10px;
@@ -171,28 +174,31 @@
 
 }
 .fc .fc-button-primary {
-  color: var(--primary);
+  color: var(--black);
   background-color: var(--white);
-  border-color: var(--primary);
+  border-color: var(--black);
 }
 .fc .fc-button-primary:hover {
   color: #fff;
-  background-color: var(--primary);
-  border-color: var(--primary);
+  background-color: var(--black);
+  border-color: var(--black);
 }
 .fc .fc-button-primary:disabled { /* not DRY */
   color: #fff;
-  background-color: var(--primary);
-  border-color: var(--primary);
+  background-color: var(--black);
+  border-color: var(--black);
 }
 .fc .fc-button-primary:focus {
   box-shadow: none;
+  color: #fff;
+  background-color: var(--black);
+  border-color: var(--black);
 }
 .fc .fc-button-primary:not(:disabled):active,
  .fc .fc-button-primary:not(:disabled).fc-button-active {
   color: #fff;
-  background-color: var(--primary);
-  border-color: var(--primary);
+  background-color: var(--black);
+  border-color: var(--black);
 }
 .fc .fc-button-primary:not(:disabled):active:focus,
  .fc .fc-button-primary:not(:disabled).fc-button-active:focus {
@@ -651,10 +657,16 @@ A HORIZONTAL event
 }
 .fc .fc-daygrid-body { 
   position: relative;
-  z-index: 1; 
+  z-index: 1;   
+}
+.fc .fc-daygrid-day {
+  vertical-align: middle;
+  text-align: center;
 }
 .fc .fc-daygrid-day.fc-day-today {
   background: var(--primary);
+  border-radius: 10px;
+  
 }
 .fc .fc-daygrid-day-frame {
   position: relative;
@@ -674,7 +686,7 @@ A HORIZONTAL event
 .fc .fc-daygrid-day-number {
   position: relative;
   z-index: 4;
-  padding: 8px;
+  padding: 10px 15px;
 }
 .fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-number {
   color: var(--white);
@@ -1294,4 +1306,12 @@ A VERTICAL event
 }
 .fc-today-button {
   display: none !important;
+}
+@media screen and (max-width: 767px) {
+#calendar {
+  padding: 0;
+}
+.fc .fc-daygrid-day-number {
+  padding: 0 8px;
+}
 }
