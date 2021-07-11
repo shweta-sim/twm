@@ -448,7 +448,7 @@ select.form-control:focus {
 .btn-primary-bordered {
     padding: 10px 20px;
     color: var(--primary) !important;
-    background: var(--white) !important;
+    background: none !important;
     border: 2px solid var(--primary) !important;
 }
 .btn-primary-bordered:hover,
@@ -812,6 +812,8 @@ HOMEPAGE
     background: var(--grey-lighter);
 }
 .featured-brands img {
+    width: auto;
+    height: 80px;
     /* filter: gray;
     IE6-9 
     -webkit-filter: grayscale(100%);
@@ -1737,4 +1739,66 @@ LOGIN PAGE
 .login {
     min-height: 700px;
     padding: 80px 0 !important;
+}
+
+/* ##############################
+---------------------------------
+ACCOUNT PAGE
+---------------------------------
+############################## */
+
+.account {
+    padding: 80px 0 !important;
+}
+.content-bl {
+    padding: 20px;
+    background: var(--grey-light2);
+    border-radius: 10px;
+    border: 2px solid var(--grey-light3);
+}
+.account ul.steps {
+    text-align: center;
+    margin-bottom: 90px;
+}
+.account ul.steps li {
+    margin-bottom: 20px;
+}
+.account ul.steps li:last-child {
+    margin-bottom: 0;
+}
+.account ul.steps li h5 {
+    display: flex;
+    align-items: center;
+}
+.account ul.steps li.active h5 {
+    color: var(--primary);
+}
+.account ul.steps li .img {
+    display: block !important;
+    margin-right: 15px;
+}
+.account ul.steps li .img img {
+    width: 80px;
+    height: auto;
+}
+ul.subscriptions-list {}
+ul.subscriptions-list li {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--grey-light3);
+}
+ul.subscriptions-list li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+ul.subscriptions-list li.expired {
+    color: var(--grey);
+}
+ul.renewal-history {}
+ul.renewal-history li {
+    margin-bottom: 30px;
+}
+ul.renewal-history li:last-child {
+    margin-bottom: 0;
 }

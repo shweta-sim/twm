@@ -133,6 +133,12 @@
     .payment ul.steps li {
         margin-right: 40px;
     }
+     .account ul.steps {
+        margin-bottom: 30px;
+    }
+    .account ul.steps li {
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 767.98px) {
@@ -374,7 +380,7 @@
     }
     .featured-brands img {
         width: auto;
-        height: 35px;
+        height: 60px;
         opacity: 1;
     }
     .membership-benefits .benefit-bl img {
@@ -411,4 +417,32 @@
         padding-right: 30px;
         padding-left: 30px;
     }
+.account ul.steps li {
+    display: block;
+    float: left;
+    width: 33%;
+    margin-bottom: 0;
+}
+.account ul.steps li:last-child {
+    margin-bottom: 20px;
+}
+.account ul.steps li h5 {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+.account ul.steps li.active h5 {
+    color: var(--primary);
+}
+.account ul.steps li .img {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin-right: 0;
+}
+.account ul.steps li .img img {
+    width: auto;
+    height: 50px;
+}
 }
