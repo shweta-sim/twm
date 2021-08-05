@@ -1,5 +1,5 @@
 <footer>
-  <div class="container"> 
+  <div class="container">
     <div class="row text-center text-md-left">
       <div class="col-lg-10 offset-lg-1">
         <div class="row mb30 mb20-sm">
@@ -59,8 +59,8 @@
             <div class="col-md-4 order-first order-md-last">
               <ul class="text-center text-md-right mb10-sm">
                 <li><a href="https://www.facebook.com/TWMEDIAPRODUCTIONS/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="www.instagram.com/twmedia_" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="www.youtube.com/channel/UCPpNS090rkT4JH2BPowyJ9A" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com/twmedia_" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCPpNS090rkT4JH2BPowyJ9A" target="_blank"><i class="fab fa-youtube"></i></a></li>
               </ul>
             </div>
           </div>

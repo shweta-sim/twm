@@ -84,7 +84,10 @@
                       <p>Prototypes</p>
                     </li>
                     <li>
-                      <p>Dedicated video team</p>
+                      <p>Website/App Designs</p>
+                    </li>
+                    <li>
+                      <p>Videos (up to 1:30s)</p>
                     </li>
                     <li>
                       <p>Discovery:<br>customer research & competitor analysis</p>
@@ -95,9 +98,7 @@
                     <li>
                       <p>Dedicated designer</p>
                     </li>
-                    <li>
-                      <p>Website/App Designs</p>
-                    </li> 
+
                   </ul>
                 </div>
               </div>
@@ -156,7 +157,11 @@
                         <i class="fas fa-minus ml-auto"></i>
                       </li>
                       <li>
-                        <p>Dedicated video team</p>
+                        <p>Website/App Designs</p>
+                        <i class="fas fa-minus ml-auto"></i>
+                      </li>
+                      <li>
+                        <p>Videos (up to 1:30s)</p>
                         <i class="fas fa-minus ml-auto"></i>
                       </li>
                       <li>
@@ -171,10 +176,7 @@
                         <p>Dedicated designer</p>
                         <i class="fas fa-minus ml-auto"></i>
                       </li>
-                      <li>
-                        <p>Website/App Designs</p>
-                        <i class="fas fa-minus ml-auto"></i>
-                      </li>
+
 
                     </ul>
 
@@ -237,8 +239,12 @@
                         <i class="fas fa-check ml-auto"></i>
                       </li>
                       <li>
-                        <p>Dedicated video team</p>
-                        <i class="fas fa-minus ml-auto"></i>
+                        <p>Website/App Designs</p>
+                        <i class="fas fa-check ml-auto"></i>
+                      </li>
+                      <li>
+                        <p>Videos (up to 1:30s)</p>
+                        <i class="fas fa-check ml-auto"></i>
                       </li>
                       <li>
                         <p>Discovery:<br>customer research & competitor analysis</p>
@@ -252,10 +258,7 @@
                         <p>Dedicated designer</p>
                         <i class="fas fa-minus ml-auto"></i>
                       </li>
-                      <li>
-                        <p>Website/App Designs</p>
-                        <i class="fas fa-check ml-auto"></i>
-                      </li>
+
                     </ul>
 
                   </div>
@@ -320,7 +323,11 @@
                         <i class="fas fa-check ml-auto"></i>
                       </li>
                       <li>
-                        <p>Dedicated video team</p>
+                        <p>Website/App Designs</p>
+                        <i class="fas fa-check ml-auto"></i>
+                      </li>
+                      <li>
+                        <p>Videos (up to 1:30s)</p>
                         <i class="fas fa-check ml-auto"></i>
                       </li>
                       <li>
@@ -335,10 +342,7 @@
                         <p>Dedicated designer</p>
                         <i class="fas fa-check ml-auto"></i>
                       </li>
-                      <li>
-                        <p>Website/App Designs</p>
-                        <i class="fas fa-check ml-auto"></i>
-                      </li>
+
                     </ul>
 
                   </div>

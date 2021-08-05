@@ -165,15 +165,15 @@
         </div>
         <div class="col-md-4 mb40-md">
           <div class="benefit-bl text-center wow wow2 fadeInUp" data-wow-delay="400ms">
-            <div class="mb20"> <img src="assets/imgs/img-benefit1.svg" class="img-fluid" alt="Dedicated Teams" /> </div>
-            <h4 class="text-center mb10">Dedicated Teams</h4>
+            <div class="mb20"> <img src="assets/imgs/img-benefit1.svg" class="img-fluid" /> </div>
+            <h4 class="text-center mb10">Dedicated teams</h4>
             <p> We work in collaboration with you to deliver your design needs.
               Just see us as extension of your team </p>
           </div>
         </div>
         <div class="col-md-4 mb40-md">
           <div class="benefit-bl text-center wow wow2 fadeInUp" data-wow-delay="600ms">
-            <div class="mb20"> <img src="assets/imgs/img-benefit2.svg" class="img-fluid" alt="Dedicated Teams" /> </div>
+            <div class="mb20"> <img src="assets/imgs/img-benefit2.svg" class="img-fluid" /> </div>
             <h4 class="text-center mb10">Unlimited requests & revisions</h4>
             <p> Get unlimited requests and unlimited revisions. We want both you
               and your customers to be happy with the final version </p>
@@ -181,7 +181,7 @@
         </div>
         <div class="col-md-4">
           <div class="benefit-bl text-center wow wow2 fadeInUp" data-wow-delay="800ms">
-            <div class="mb20"> <img src="assets/imgs/img-benefit3.svg" class="img-fluid" alt="Dedicated Teams" /> </div>
+            <div class="mb20"> <img src="assets/imgs/img-benefit3.svg" class="img-fluid" /> </div>
             <h4 class="text-center mb10">Research & discovery</h4>
             <p> We help to better understand your customer, competitor & industry in order to produce designs aligned with your vision </p>
           </div>

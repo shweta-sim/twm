@@ -100,7 +100,7 @@
               <h2 class="heading text-left mb20">Understand
                 <hr>
               </h2>
-              <p>We dig deep into the design problem. We research, conduct adits, competitor analysis and other exercises</p>
+              <p>We dig deep into the design problem. We research, conduct audits, competitor analysis and other exercises</p>
             </div>
           </div>
         </div>
@@ -187,7 +187,7 @@
           <div class="values-bl text-center wow wow2 fadeInUp" data-wow-delay="400ms">
             <div class="mb20"> <img src="assets/imgs/img-values1.svg" class="img-fluid" alt="We Are Friendly" /> </div>
             <h4 class="text-center mb10">We Place Customer First</h4>
-            <p>We deliver every design with an understanding of you customer.</p>
+            <p>We deliver every design with an understanding of your customer.</p>
           </div>
         </div>
         <div class="col-md-4 mb40-md">
