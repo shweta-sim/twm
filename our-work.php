@@ -194,6 +194,33 @@
             <!-- start tab pane -->
             <div class="tab-pane websitesapps" id="pills-websitesapps" role="tabpanel" aria-labelledby="pills-websitesapps-tab">
               <!-- videos -->
+              <div style="display:none;" id="website-apps-video4">
+                <video class="lg-video-object lg-html5" controls preload="none">
+                  <source src="assets/videos/website-apps/video4.mp4" type="video/mp4">
+                  <source src="assets/videos/website-apps/video4.mp4" type="video/ogv">
+                  <source src="assets/videos/website-apps/video4.mp4" type="video/webm">
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+
+              <div style="display:none;" id="website-apps-video5">
+                <video class="lg-video-object lg-html5" controls preload="none">
+                  <source src="assets/videos/website-apps/video5.mp4" type="video/mp4">
+                  <source src="assets/videos/website-apps/video5.mp4" type="video/ogv">
+                  <source src="assets/videos/website-apps/video5.mp4" type="video/webm">
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+
+              <div style="display:none;" id="website-apps-video6">
+                <video class="lg-video-object lg-html5" controls preload="none">
+                  <source src="assets/videos/website-apps/video6.mp4" type="video/mp4">
+                  <source src="assets/videos/website-apps/video6.mp4" type="video/ogv">
+                  <source src="assets/videos/website-apps/video6.mp4" type="video/webm">
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+
               <div style="display:none;" id="website-apps-video1">
                 <video class="lg-video-object lg-html5" controls preload="none">
                   <source src="assets/videos/website-apps/video1.mp4" type="video/mp4">
@@ -219,12 +246,26 @@
                 </video>
               </div>
               <div class="row" id="lightgallery-website-apps">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#website-apps-video4" data-poster="assets/imgs/work/websiteapps/4-big.jpg">
+                  <div class="work-item"><a href=""> <img src="assets/imgs/work/websiteapps/4.jpg" class="img-fluid" /> </a></div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#website-apps-video5" data-poster="assets/imgs/work/websiteapps/5-big.jpg">
+                  <div class="work-item"><a href=""> <img src="assets/imgs/work/websiteapps/5.jpg" class="img-fluid" /> </a></div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#website-apps-video6" data-poster="assets/imgs/work/websiteapps/6-big.jpg">
+                  <div class="work-item"><a href=""> <img src="assets/imgs/work/websiteapps/6.jpg" class="img-fluid" /> </a></div>
+                </div>
+
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#website-apps-video1" data-poster="assets/imgs/work/websiteapps/1-big.jpg">
                   <div class="work-item"><a href=""> <img src="assets/imgs/work/websiteapps/1.jpg" class="img-fluid" /> </a></div>
                 </div>
+
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#website-apps-video2" data-poster="assets/imgs/work/websiteapps/2-big.jpg">
                   <div class="work-item"> <a href=""> <img src="assets/imgs/work/websiteapps/2.jpg" class="img-fluid" /> </a></div>
                 </div>
+
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms" data-html="#website-apps-video3" data-poster="assets/imgs/work/websiteapps/3-big.jpg">
                   <div class="work-item"> <a href=""> <img src="assets/imgs/work/websiteapps/3.jpg" class="img-fluid" /> </a></div>
                 </div>
@@ -444,27 +485,27 @@
               <div class="row">
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                   <div class="work-item"><a href="assets/imgs/work/pitchdecks/4-big.jpg" class="swipebox" rel="pitch-decks">
-                  <img src="assets/imgs/work/pitchdecks/4.jpg" class="img-fluid" /></a></div>
+                      <img src="assets/imgs/work/pitchdecks/4.jpg" class="img-fluid" /></a></div>
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
                   <div class="work-item"><a href="assets/imgs/work/pitchdecks/5-big.jpg" class="swipebox" rel="pitch-decks">
-                  <img src="assets/imgs/work/pitchdecks/5.jpg" class="img-fluid" /></a></div>
+                      <img src="assets/imgs/work/pitchdecks/5.jpg" class="img-fluid" /></a></div>
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
                   <div class="work-item"><a href="assets/imgs/work/pitchdecks/6-big.jpg" class="swipebox" rel="pitch-decks">
-                  <img src="assets/imgs/work/pitchdecks/6.jpg" class="img-fluid" /></a></div>
+                      <img src="assets/imgs/work/pitchdecks/6.jpg" class="img-fluid" /></a></div>
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="700ms">
                   <div class="work-item"><a href="assets/imgs/work/pitchdecks/7-big.jpg" class="swipebox" rel="pitch-decks">
-                  <img src="assets/imgs/work/pitchdecks/7.jpg" class="img-fluid" /></a></div>
+                      <img src="assets/imgs/work/pitchdecks/7.jpg" class="img-fluid" /></a></div>
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="800ms">
                   <div class="work-item"><a href="assets/imgs/work/pitchdecks/8-big.jpg" class="swipebox" rel="pitch-decks">
-                  <img src="assets/imgs/work/pitchdecks/8.jpg" class="img-fluid" /></a></div>
+                      <img src="assets/imgs/work/pitchdecks/8.jpg" class="img-fluid" /></a></div>
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="900ms">
                   <div class="work-item"><a href="assets/imgs/work/pitchdecks/9-big.jpg" class="swipebox" rel="pitch-decks">
-                  <img src="assets/imgs/work/pitchdecks/9.jpg" class="img-fluid" /></a></div>
+                      <img src="assets/imgs/work/pitchdecks/9.jpg" class="img-fluid" /></a></div>
                 </div>
               </div>
               <div class="row">
