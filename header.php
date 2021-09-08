@@ -22,6 +22,8 @@ function selected($filename)
               </li>
               <li <?php selected('about.php'); ?> class="nav-item"> <a class="nav-link" href="about.php">About</a>
               </li>
+              <li class="nav-item"><a class="nav-link" href="index.php#testimonials">Testimonials</a>
+              </li>
               <li <?php selected('contact.php');
                   selected('book-call-step1.php');
                   selected('book-call-step2.php');

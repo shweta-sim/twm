@@ -542,12 +542,12 @@ header .navbar-nav li:nth-child(4).active~hr {
 }
 header .navbar-nav .nav-item:nth-child(5):hover~hr,
 header .navbar-nav li:nth-child(5).active~hr {
-    margin-left: 340px;
+    margin-left: 354px;
     width: 80px;
 }
 header .navbar-nav .nav-item:nth-child(6):hover~hr,
 header .navbar-nav li:nth-child(6).active~hr {
-    margin-left: 421px;
+    margin-left: 459px;
     width: 80px;
 }
 header .navbar-toggler {
@@ -804,6 +804,19 @@ HOMEPAGE
     color: var(--white) !important;
     border: 2px solid #bdbfc2 !important;
     background: #bdbfc2 !important;
+}
+
+.design5 .btn-primary-bordered {
+    color: #bdbec2 !important;
+    background: var(--white) !important;
+    border: 2px solid #f8b8b0 !important;
+}
+.design5 .btn-primary-bordered:hover,
+.design5 .btn-primary-bordered:focus,
+.design5 .btn-primary-bordered.focus {
+    color: var(--white) !important;
+    border: 2px solid #bdbec2 !important;
+    background: #bdbec2 !important;
 }
 /* --- featured brands --- */
 
@@ -1801,4 +1814,10 @@ ul.renewal-history li {
 }
 ul.renewal-history li:last-child {
     margin-bottom: 0;
+}
+
+/**/
+.displayFlex{
+    display: flex;
+    align-items: center;
 }

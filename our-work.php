@@ -314,13 +314,10 @@
                   <div class="work-item"><a href="assets/imgs/work/photography/9-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/9.jpg" class="img-fluid" /></a></div>
                 </div>
 
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
-                  <div class="work-item"><a href="assets/imgs/work/photography/11-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/11.jpg" class="img-fluid" /></a></div>
-                </div>
-
                 <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
                   <div class="work-item"><a href="assets/imgs/work/photography/5-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/5.jpg" class="img-fluid" /></a></div>
                 </div> -->
+
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
                   <div class="work-item"><a href="assets/imgs/work/photography/6-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/6.jpg" class="img-fluid" /></a></div>
                 </div>
@@ -328,7 +325,37 @@
                 <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
                   <div class="work-item"><a href="assets/imgs/work/photography/8-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/8.jpg" class="img-fluid" /></a></div>
                 </div> -->
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/11-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/11.jpg" class="img-fluid" /></a></div>
+                </div>
 
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/12-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/12.jpg" class="img-fluid" /></a></div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/13-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/13.jpg" class="img-fluid" /></a></div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/14-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/14.jpg" class="img-fluid" /></a></div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/15-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/15.jpg" class="img-fluid" /></a></div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/16-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/16.jpg" class="img-fluid" /></a></div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/17-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/17.jpg" class="img-fluid" /></a></div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                  <div class="work-item"><a href="assets/imgs/work/photography/18-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/18.jpg" class="img-fluid" /></a></div>
+                </div>
 
               </div>
               <div class="row">
@@ -416,13 +443,28 @@
             <div class="tab-pane pitchdecks" id="pills-pitchdecks" role="tabpanel" aria-labelledby="pills-pitchdecks-tab">
               <div class="row">
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
-                  <div class="work-item"><a href="assets/imgs/work/pitchdecks/1-big.jpg" class="swipebox" rel="pitch-decks"><img src="assets/imgs/work/pitchdecks/1.jpg" class="img-fluid" /></a></div>
+                  <div class="work-item"><a href="assets/imgs/work/pitchdecks/4-big.jpg" class="swipebox" rel="pitch-decks">
+                  <img src="assets/imgs/work/pitchdecks/4.jpg" class="img-fluid" /></a></div>
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="500ms">
-                  <div class="work-item"><a href="assets/imgs/work/pitchdecks/2-big.jpg" class="swipebox" rel="pitch-decks"><img src="assets/imgs/work/pitchdecks/2.jpg" class="img-fluid" /></a></div>
+                  <div class="work-item"><a href="assets/imgs/work/pitchdecks/5-big.jpg" class="swipebox" rel="pitch-decks">
+                  <img src="assets/imgs/work/pitchdecks/5.jpg" class="img-fluid" /></a></div>
                 </div>
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
-                  <div class="work-item"><a href="assets/imgs/work/pitchdecks/3-big.jpg" class="swipebox" rel="pitch-decks"><img src="assets/imgs/work/pitchdecks/3.jpg" class="img-fluid" /></a></div>
+                  <div class="work-item"><a href="assets/imgs/work/pitchdecks/6-big.jpg" class="swipebox" rel="pitch-decks">
+                  <img src="assets/imgs/work/pitchdecks/6.jpg" class="img-fluid" /></a></div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="700ms">
+                  <div class="work-item"><a href="assets/imgs/work/pitchdecks/7-big.jpg" class="swipebox" rel="pitch-decks">
+                  <img src="assets/imgs/work/pitchdecks/7.jpg" class="img-fluid" /></a></div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="800ms">
+                  <div class="work-item"><a href="assets/imgs/work/pitchdecks/8-big.jpg" class="swipebox" rel="pitch-decks">
+                  <img src="assets/imgs/work/pitchdecks/8.jpg" class="img-fluid" /></a></div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="900ms">
+                  <div class="work-item"><a href="assets/imgs/work/pitchdecks/9-big.jpg" class="swipebox" rel="pitch-decks">
+                  <img src="assets/imgs/work/pitchdecks/9.jpg" class="img-fluid" /></a></div>
                 </div>
               </div>
               <div class="row">
