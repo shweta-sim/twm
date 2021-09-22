@@ -121,29 +121,29 @@
               <!-- end slide3 -->
 
               <!-- start slide4 -->
-            <div class="swiper-slide designs design5">
-              <div class="row align-items-center text-center text-sm-left">
-                <div class="col-md-6 col-lg-5 offset-md-0 offset-lg-1 text-center mb60-md">
-                  <h3 class="heading mb20 d-block d-md-none text-center text-sm-left"> Unlimited design for a fixed price.
-                    <hr />
-                  </h3>
-                  <div class="img displayFlex">
-                    <img src="assets/imgs/img-design5.jpg" class="img-fluid" alt="" />
-                  </div>
-                  <div class="swiper-pagination"></div>
-                </div>
-                <div class="col-md-6 col-lg-5">
-                  <div class="swiper-text">
-                    <h3 class="heading mb20 d-none d-md-block"> Unlimited design for a fixed price.
+              <div class="swiper-slide designs design5">
+                <div class="row align-items-center text-center text-sm-left">
+                  <div class="col-md-6 col-lg-5 offset-md-0 offset-lg-1 text-center mb60-md">
+                    <h3 class="heading mb20 d-block d-md-none text-center text-sm-left"> Unlimited design for a fixed price.
                       <hr />
                     </h3>
-                    <p class="mb40">Whether you need a Logo, Leaflet, Website or help with Branding. TW provides excellent design and digital strategy to support your vision at every step. </p>
-                    <div class="mb30 mb0-sm"> <a href="our-work.php" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm">View plans<span>></span></a> </div>
+                    <div class="img displayFlex">
+                      <img src="assets/imgs/img-design5.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="col-md-6 col-lg-5">
+                    <div class="swiper-text">
+                      <h3 class="heading mb20 d-none d-md-block"> Unlimited design for a fixed price.
+                        <hr />
+                      </h3>
+                      <p class="mb40">Whether you need a Logo, Leaflet, Website or help with Branding. TW provides excellent design and digital strategy to support your vision at every step. </p>
+                      <div class="mb30 mb0-sm"> <a href="our-work.php" class="btn btn-primary-bordered mr-4 mb10-sm">View our work<span>></span></a><a href="plans.php" class="btn btn-primary-bordered mb10-sm">View plans<span>></span></a> </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- end slide4 -->
+              <!-- end slide4 -->
             </div>
             <div class="row">
               <div class="col-md-10 offset-md-1">
@@ -232,37 +232,26 @@
           <!-- swiper start -->
           <div class="swiper-container swiper-testimonials">
             <div class="swiper-wrapper">
-              <!-- start slide 1 -->
-
-              <!-- <div class="swiper-slide testimonial-Selfridges">
+              <!-- start slide 4 -->
+              <div class="swiper-slide testimonial-pUnveiling">
                 <div class="row align-items-center">
-                  <div class="col-md-6 col-lg-5 offset-lg-1 col-xl-6 offset-xl-1 mb20-md wow wow2 fadeInLeft" data-wow-delay="400ms"> <img src="assets/imgs/testimonial_3-design.jpg" class="img-fluid img" alt="" /> </div>
+                  <div class="col-md-6 col-lg-5 offset-lg-1 col-xl-5 offset-xl-2 mb20-md wow wow2 fadeInLeft" data-wow-delay="400ms"><img src="assets/imgs/testimonial_4-design.jpg" class="img-fluid img" alt="" /> </div>
                   <div class="col-md-6 col-lg-5 offset-lg-0 col-xl-4 offset-xl-0 wow wow2 fadeInRight" data-wow-delay="400ms">
                     <div class="swiper-text">
-                      <h5 class="mb20">TW came on board to help us with our digital transformation to a Product led structure and more agile ways of working.</h5>
-                      <p class="mb20">TW brought a huge amount of experience and has
-                        been able to not only help us with strategic thinking
-                        but also with the practical implementation of things like
-                        Product discoveries as we are still delivering a full
-                        and challenging roadmap of initiatives.
-                        I have personally found TW’s approach and stakeholder
-                        management skills a huge help and it has enabled me
-                        to successfully embed new ways of working which have
-                        seen our productivity increase by 60%.</p>
+                      <h5 class="mb20">“TW Media truly got my vision.“ </h5>
+                      <p class="mb20">TW Media went over and above to deliver on a big project. They were very detailed and thorough in their research, approach and provided regular support and feedback on its progress. During the process I got clarity on the direction I wanted to take my businesses in. TW Media truly got my vision, which was conveyed perfectly in all the digital assets they put together..</p>
                       <div class="d-flex align-items-center">
-                        <div class="img mr-3"> <img src="assets/imgs/testimonial3-client.jpg" class="img-fluid" alt="" /> </div>
-                        <i class="text-sm">Andy Jayes,<br />
-                          Head of Product</i>
+                        <div class="img mr-3"> <img src="assets/imgs/testimonial4-client.jpg" class="img-fluid" alt="" /> </div>
+                        <i class="text-sm">Pamela Adeyeba,<br />
+                          Founder, Unveiling Beauty </i>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div> -->
+              </div>
+              <!-- end slide 4 -->
 
-
-              <!-- end slide 1 -->
               <!-- start slide 2 -->
-
               <div class="swiper-slide testimonial-pSummitTea">
                 <div class="row align-items-center">
                   <div class="col-md-6 col-lg-5 offset-lg-1 col-xl-6 offset-xl-1 mb20-md wow wow2 fadeInLeft" data-wow-delay="400ms"> <img src="assets/imgs/testimonial_2-design.jpg" class="img-fluid img" alt="" /> </div>
@@ -286,8 +275,8 @@
                   </div>
                 </div>
               </div>
-
               <!-- end slide 2 -->
+
               <!-- start slide 3 -->
               <div class="swiper-slide testimonial-pHenchTalk">
                 <div class="row align-items-center">
@@ -307,28 +296,9 @@
                   </div>
                 </div>
               </div>
-
               <!-- end slide 3 -->
-              <!-- start slide 4 -->
-              <div class="swiper-slide testimonial-pHenchTalk">
-                <div class="row align-items-center">
-                  <div class="col-md-6 col-lg-5 offset-lg-1 col-xl-5 offset-xl-2 mb20-md wow wow2 fadeInLeft" data-wow-delay="400ms"><img src="assets/imgs/testimonial_4-design.jpg" class="img-fluid img" alt="" /> </div>
-                  <div class="col-md-6 col-lg-5 offset-lg-0 col-xl-4 offset-xl-0 wow wow2 fadeInRight" data-wow-delay="400ms">
-                    <div class="swiper-text">
-                      <h5 class="mb20">“TW Media truly got my vision.“ </h5>
-                      <p class="mb20">TW Media went over and above to deliver on a big project. They were very detailed and thorough in their research, approach and provided regular support and feedback on its progress. During the process I got clarity on the direction I wanted to take my businesses in. TW Media truly got my vision, which was conveyed perfectly in all the digital assets they put together..</p>
-                      <div class="d-flex align-items-center">
-                        <div class="img mr-3"> <img src="assets/imgs/testimonial4-client.jpg" class="img-fluid" alt="" /> </div>
-                        <i class="text-sm">Pamela Adeyeba,<br />
-                          Founder, Unveiling Beauty </i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- end slide 4 -->
 
-              </div>
+            </div>
             <div class="swiper-button-next"><span>></span></div>
             <div class="swiper-button-prev"><span>></span></div>
             <div class="swiper-pagination d-block d-lg-none"></div>
@@ -479,7 +449,7 @@
         clickable: true,
       },
     });
-    var cssClasses = ['Selfridges', 'pSummitTea', 'pHenchTalk'];
+    var cssClasses = ['pUnveiling', 'pSummitTea', 'pHenchTalk'];
     swiper1.on('slideChange', function() {
       changeColor();
     });

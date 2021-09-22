@@ -390,9 +390,9 @@
                   <div class="work-item"><a href="assets/imgs/work/photography/16-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/16.jpg" class="img-fluid" /></a></div>
                 </div>
 
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
+                <!-- <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                   <div class="work-item"><a href="assets/imgs/work/photography/17-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/17.jpg" class="img-fluid" /></a></div>
-                </div>
+                </div> -->
 
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
                   <div class="work-item"><a href="assets/imgs/work/photography/18-big.jpg" class="swipebox" rel="photography"><img src="assets/imgs/work/photography/18.jpg" class="img-fluid" /></a></div>
