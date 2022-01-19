@@ -664,6 +664,7 @@ header .navbar-toggler {
     cursor: pointer !important;
     font-size: 30px;
     padding: 0;
+    color: var(--black);
 }
 
 header .navbar-toggler:focus,
@@ -2102,8 +2103,16 @@ TERMS PAGE
 .terms {
     padding: 80px 0 !important;
 }
-
-
+.terms a,
+.privacy-policy a{
+    color: var(--primary) !important;
+    transition: .3s ease;
+}
+.terms a:hover,
+.privacy-policy a:hover{
+    color: #000000  !important;
+    transition: .3s ease;
+}
 /* ##############################
 ---------------------------------
 LOGIN PAGE
